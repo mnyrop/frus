@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:frus="http://history.state.gov/frus/ns/1.0"
-    xml:id="frus1964-68v29p2">
+    xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frus1964-68v29p2">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -35,6 +35,9 @@
                     </p>
                 </correction>
             </editorialDecl>
+            <classDecl>
+                <xi:include href="../shared/frus-dates.xml" xpointer="frus-dates"/>
+            </classDecl>
         </encodingDesc>
         <revisionDesc>
             <change>2008-11-06 PA/HO JW:Created volume shell for HCL</change>
@@ -2643,7 +2646,7 @@
             <div type="compilation" xml:id="comp1">
                 <pb n="1" xml:id="pg_1" facs="0037"/>
                 <head>Japan</head>
-                <div type="document" n="1" xml:id="d1">
+                <div type="document" n="1" xml:id="d1" subtype="editorial-note">
                     <head>1. Editorial Note</head>
                     <p>In the 1958–1968 decade, the U.S. Government approved four covert programs to
                         try to influence the direction of Japanese political life. Concerned that
@@ -2676,8 +2679,9 @@
                         be funded at moderate levels—$450,000 for 1964, for example—throughout the
                             <persName>Johnson</persName> administration.</p>
                 </div>
-                <div type="document" n="2" xml:id="d2" frus:doc-dateTime-min="1964-01-10T00:00:00Z"
-                    frus:doc-dateTime-max="1964-01-10T23:59:59Z">
+                <div type="document" n="2" xml:id="d2" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-01-10T23:59:59-05:00">
                     <pb n="2" xml:id="pg_2" facs="0038"/>
                     <head>2. Letter From the Assistant Secretary of State for Far Eastern Affairs
                             (<persName corresp="#p_HRJ1" type="from">Hilsman</persName>) to the
@@ -2691,8 +2695,9 @@
                         Official–Informal; <persName corresp="#p_HRJ1">Roger</persName> Channel. 2
                         pages of source text not declassified.]</p>
                 </div>
-                <div type="document" n="3" xml:id="d3" frus:doc-dateTime-min="1964-01-11T00:00:00Z"
-                    frus:doc-dateTime-max="1964-01-11T23:59:59Z">
+                <div type="document" n="3" xml:id="d3" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-01-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-01-11T23:59:59-05:00">
                     <head>3. Memorandum Prepared for the Special Group</head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1964-01-11">January 11,
@@ -2701,8 +2706,9 @@
                         Historical Files, East Asia Country Files, Japan, 1964, 1965. Secret; Eyes
                         Only. Excerpt—6 pages of source text not declassified.]</p>
                 </div>
-                <div type="document" n="4" xml:id="d4" frus:doc-dateTime-min="1964-01-16T00:00:00Z"
-                    frus:doc-dateTime-max="1964-01-16T23:59:59Z">
+                <div type="document" n="4" xml:id="d4" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-01-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-01-16T23:59:59-05:00">
                     <head>4. Letter From the Ambassador to Japan (<persName corresp="#p_REO1"
                             type="from">Reischauer</persName>) to the Special Assistant to the
                         President (<persName corresp="#p_SAMJ1" type="to"
@@ -2714,8 +2720,9 @@
                         of <persName corresp="#p_KRW2">Robert Komer</persName>, Japan, January 1964
                         to March 1966. Secret. 3 pages of source text not declassified.]</p>
                 </div>
-                <div type="document" n="5" xml:id="d5" frus:doc-dateTime-min="1964-01-22T00:00:00Z"
-                    frus:doc-dateTime-max="1964-01-22T23:59:59Z">
+                <div type="document" n="5" xml:id="d5" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-01-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-01-22T23:59:59-05:00">
                     <pb n="3" xml:id="pg_3" facs="0039"/>
                     <head>5. Letter From Secretary of Defense <persName corresp="#p_MNRS1"
                             type="from">McNamara</persName> to Secretary of State <persName
@@ -2765,8 +2772,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="6" xml:id="d6" frus:doc-dateTime-min="1964-01-22T00:00:00Z"
-                    frus:doc-dateTime-max="1964-01-22T23:59:59Z">
+                <div type="document" n="6" xml:id="d6" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-01-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-01-22T23:59:59-05:00">
                     <pb n="4" xml:id="pg_4" facs="0040"/>
                     <head>6. Letter From Secretary of the Treasury <persName corresp="#p_DCD1"
                             type="from">Dillon</persName> to Secretary of State <persName
@@ -2839,7 +2847,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="7" xml:id="d7">
+                <div type="document" n="7" xml:id="d7" subtype="editorial-note">
                     <head>7. Editorial Note</head>
                     <p>The Third Meeting of the Joint United States-Japan Cabinet Committee on Trade
                         and Economic Affairs was held in Tokyo January 27 and 28, 1964. The United
@@ -2869,8 +2877,9 @@
                         close of the meeting is printed in <hi rend="italic">American Foreign
                             Policy: Current Documents, 1964</hi>, pages 910–914.</p>
                 </div>
-                <div type="document" n="8" xml:id="d8" frus:doc-dateTime-min="1964-01-28T00:00:00Z"
-                    frus:doc-dateTime-max="1964-01-28T23:59:59Z">
+                <div type="document" n="8" xml:id="d8" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-01-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-01-28T23:59:59-05:00">
                     <pb n="6" xml:id="pg_6" facs="0042"/>
                     <head>8. Memorandum From the Executive Secretary of the National Security
                         Council (<persName corresp="#p_SBK1" type="from">Smith</persName>) to
@@ -2936,8 +2945,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="9" xml:id="d9" frus:doc-dateTime-min="1964-02-14T00:00:00Z"
-                    frus:doc-dateTime-max="1964-02-14T23:59:59Z">
+                <div type="document" n="9" xml:id="d9" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-02-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-02-14T23:59:59-05:00">
                     <pb n="7" xml:id="pg_7" facs="0043"/>
                     <head>9. Letter From the Ambassador to Japan (<persName corresp="#p_REO1"
                             type="from">Reischauer</persName>) to the Assistant Secretary of State
@@ -2951,9 +2961,9 @@
                         Official–Informal; <persName corresp="#p_HRJ1">Roger</persName> Channel. 2
                         pages of source text not declassified.]</p>
                 </div>
-                <div type="document" n="10" xml:id="d10"
-                    frus:doc-dateTime-min="1964-02-27T17:00:00Z"
-                    frus:doc-dateTime-max="1964-02-27T17:00:00Z">
+                <div type="document" n="10" xml:id="d10" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-02-27T12:00:00-05:00"
+                    frus:doc-dateTime-max="1964-02-27T12:00:00-05:00">
                     <head>10. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d10fn1" type="source">Source: National Archives and
@@ -3058,9 +3068,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="11" xml:id="d11"
-                    frus:doc-dateTime-min="1964-03-04T19:52:00Z"
-                    frus:doc-dateTime-max="1964-03-04T19:52:00Z">
+                <div type="document" n="11" xml:id="d11" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-03-04T14:52:00-05:00"
+                    frus:doc-dateTime-max="1964-03-04T14:52:00-05:00">
                     <pb n="9" xml:id="pg_9" facs="0045"/>
                     <head>11. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in Japan</gloss>
@@ -3157,9 +3167,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="12" xml:id="d12"
-                    frus:doc-dateTime-min="1964-04-12T00:00:00Z"
-                    frus:doc-dateTime-max="1964-04-12T23:59:59Z">
+                <div type="document" n="12" xml:id="d12" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-04-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-04-12T23:59:59-05:00">
                     <head>12. Letter From the Under Secretary of State for Political Affairs
                             (<persName corresp="#p_JUA1" type="from">Johnson</persName>) to the
                         Ambassador to Japan (<persName corresp="#p_REO1" type="to"
@@ -3253,9 +3263,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="13" xml:id="d13"
-                    frus:doc-dateTime-min="1964-05-06T00:00:00Z"
-                    frus:doc-dateTime-max="1964-05-06T23:59:59Z">
+                <div type="document" n="13" xml:id="d13" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-05-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-05-06T23:59:59-05:00">
                     <head>13. Memorandum for the Record<note n="1" xml:id="d13fn1" type="source"
                             >Source: National Defense University, Taylor Papers, Box 25, Chairman's
                             Staff Group, May 1964. Secret; Eyes Only. Prepared by <persName>William
@@ -3324,9 +3334,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="14" xml:id="d14"
-                    frus:doc-dateTime-min="1964-06-04T00:00:00Z"
-                    frus:doc-dateTime-max="1964-06-04T23:59:59Z">
+                <div type="document" n="14" xml:id="d14" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-06-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-06-04T23:59:59-05:00">
                     <head>14. Memorandum of Conversation<note n="1" xml:id="d14fn1" type="source"
                             >Source: National Archives and Records Administration, RG 59, Central
                             Files 1964–66, <gloss target="#t_POL1">POL</gloss> 19 RYU IS.
@@ -3334,8 +3344,8 @@
                             and approved by <gloss target="#t_G1">G</gloss> on June 16.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1964-06-04">June 4,
-                            1964</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1964-06-04"
+                            type="conversation-or-meeting-date">June 4, 1964</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>U.S. Policy toward the Ryukyu Islands</item>
@@ -3467,9 +3477,9 @@
                             corresp="#p_WMGAII1">Watson</persName> may have an adequate budget with
                         which to work.</p>
                 </div>
-                <div type="document" n="15" xml:id="d15"
-                    frus:doc-dateTime-min="1964-06-26T00:00:00Z"
-                    frus:doc-dateTime-max="1964-06-26T23:59:59Z">
+                <div type="document" n="15" xml:id="d15" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-06-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-06-26T23:59:59-05:00">
                     <head>15. Department of State Policy Paper<note n="1" xml:id="d15fn1"
                             type="source">Source: National Archives and Records Administration, RG
                             59, Central Files 1964–66, <gloss target="#t_POL1">POL</gloss> 1
@@ -3575,9 +3585,9 @@
                         U.S. Policy Tasks.]</p>
                 </div>
                 <pb n="19" xml:id="pg_19" facs="0055"/>
-                <div type="document" n="16" xml:id="d16"
-                    frus:doc-dateTime-min="1964-06-30T09:45:00Z"
-                    frus:doc-dateTime-max="1964-06-30T10:15:00Z">
+                <div type="document" n="16" xml:id="d16" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-06-30T09:45:00-05:00"
+                    frus:doc-dateTime-max="1964-06-30T10:15:00-05:00">
                     <head>16. Memorandum of Conversation<note n="1" xml:id="d16fn1" type="source"
                             >Source: Washington National Records Center, RG 330, <gloss
                                 target="#t_OSD1">OSD</gloss>/OASD/<gloss target="#t_ISA1"
@@ -3589,7 +3599,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1964-06-30T09:45:00"
-                            to="1964-06-30T10:15:00">June 30, 1964, 9:45–10:15 a.m.</date>
+                            to="1964-06-30T10:15:00" type="conversation-or-meeting-date">June 30,
+                            1964, 9:45–10:15 a.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -3788,9 +3799,9 @@
                             <persName>Fukuda</persName>.</item>
                     </list>
                 </div>
-                <div type="document" n="17" xml:id="d17"
-                    frus:doc-dateTime-min="1964-07-07T19:00:00Z"
-                    frus:doc-dateTime-max="1964-07-07T19:00:00Z">
+                <div type="document" n="17" xml:id="d17" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-07-07T14:00:00-05:00"
+                    frus:doc-dateTime-max="1964-07-07T14:00:00-05:00">
                     <head>17. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d17fn1" type="source">Source: National Archives and
@@ -3870,9 +3881,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="18" xml:id="d18"
-                    frus:doc-dateTime-min="1964-07-25T00:00:00Z"
-                    frus:doc-dateTime-max="1964-07-25T23:59:59Z">
+                <div type="document" n="18" xml:id="d18" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-07-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-07-25T23:59:59-05:00">
                     <head>18. Memorandum From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName>
@@ -3971,9 +3982,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="19" xml:id="d19"
-                    frus:doc-dateTime-min="1964-07-28T20:00:00Z"
-                    frus:doc-dateTime-max="1964-07-28T20:00:00Z">
+                <div type="document" n="19" xml:id="d19" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-07-28T20:00:00-05:00"
+                    frus:doc-dateTime-max="1964-07-28T20:00:00-05:00">
                     <head>19. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d19fn1" type="source">Source: National Archives and
@@ -4052,9 +4063,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="20" xml:id="d20"
-                    frus:doc-dateTime-min="1964-07-31T00:00:00Z"
-                    frus:doc-dateTime-max="1964-07-31T23:59:59Z">
+                <div type="document" n="20" xml:id="d20" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-07-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-07-31T23:59:59-05:00">
                     <pb n="27" xml:id="pg_27" facs="0063"/>
                     <head>20. Letter From the Ambassador to Japan (<persName corresp="#p_REO1"
                             type="from">Reischauer</persName>) to the Assistant Secretary of State
@@ -4160,9 +4171,9 @@
                             reassuring to <persName corresp="#p_WMGAII1">Watson</persName>.</p>
                     </postscript>
                 </div>
-                <div type="document" n="21" xml:id="d21"
-                    frus:doc-dateTime-min="1964-08-07T00:00:00Z"
-                    frus:doc-dateTime-max="1964-08-07T23:59:59Z">
+                <div type="document" n="21" xml:id="d21" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-08-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-08-07T23:59:59-05:00">
                     <pb n="29" xml:id="pg_29" facs="0065"/>
                     <head>21. Memorandum for the Record</head>
                     <dateline>
@@ -4172,9 +4183,9 @@
                         Historical Files, <gloss target="#t_EAP1">EAP</gloss> General Files, 1964 FE
                         Weekly Staff Meetings. Secret. 1 page of source text not declassified.]</p>
                 </div>
-                <div type="document" n="22" xml:id="d22"
-                    frus:doc-dateTime-min="1964-08-20T14:00:00Z"
-                    frus:doc-dateTime-max="1964-08-20T14:00:00Z">
+                <div type="document" n="22" xml:id="d22" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-08-20T14:00:00-05:00"
+                    frus:doc-dateTime-max="1964-08-20T14:00:00-05:00">
                     <head>22. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d22fn1" type="source">Source: National Archives and
@@ -4346,9 +4357,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="23" xml:id="d23"
-                    frus:doc-dateTime-min="1964-08-21T00:00:00Z"
-                    frus:doc-dateTime-max="1964-08-21T23:59:59Z">
+                <div type="document" n="23" xml:id="d23" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-08-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-08-21T23:59:59-05:00">
                     <head>23. Memorandum From <persName type="from">James C. Thomson</persName>,
                         Jr., of the National Security Council Staff to the President's Special
                         Assistant for National Security Affairs (<persName corresp="#p_BMG2"
@@ -4544,13 +4555,13 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="24" xml:id="d24">
+                <div type="document" n="24" xml:id="d24" subtype="editorial-note">
                     <head>24. Editorial Note</head>
                     <p>[<hi rend="italic">text not declassified</hi>]</p>
                 </div>
-                <div type="document" n="25" xml:id="d25"
-                    frus:doc-dateTime-min="1964-09-03T21:39:00Z"
-                    frus:doc-dateTime-max="1964-09-03T21:39:00Z">
+                <div type="document" n="25" xml:id="d25" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-09-03T21:39:00-05:00"
+                    frus:doc-dateTime-max="1964-09-03T21:39:00-05:00">
                     <head>25. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in Japan</gloss>
                     </head>
@@ -4563,9 +4574,9 @@
                         declassified.]</p>
                 </div>
                 <pb n="36" xml:id="pg_36" facs="0072"/>
-                <div type="document" n="26" xml:id="d26"
-                    frus:doc-dateTime-min="1964-09-04T18:00:00Z"
-                    frus:doc-dateTime-max="1964-09-04T18:00:00Z">
+                <div type="document" n="26" xml:id="d26" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-09-04T18:00:00-05:00"
+                    frus:doc-dateTime-max="1964-09-04T18:00:00-05:00">
                     <head>26. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                     </head>
@@ -4577,9 +4588,9 @@
                         1964–66, DEF 7 JAPAN–US. Secret; Priority; Limdis. 8 pages of source text
                         not declassified.]</p>
                 </div>
-                <div type="document" n="27" xml:id="d27"
-                    frus:doc-dateTime-min="1964-09-11T17:21:00Z"
-                    frus:doc-dateTime-max="1964-09-11T17:21:00Z">
+                <div type="document" n="27" xml:id="d27" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-09-11T17:21:00-05:00"
+                    frus:doc-dateTime-max="1964-09-11T17:21:00-05:00">
                     <head>27. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in Japan</gloss>
                     </head>
@@ -4591,7 +4602,7 @@
                         1964–66, DEF 7 JAPAN–US. Secret; Priority; Limdis. 3 pages of source text
                         not declassified.]</p>
                 </div>
-                <div type="document" n="28" xml:id="d28">
+                <div type="document" n="28" xml:id="d28" subtype="editorial-note">
                     <head>28. Editorial Note</head>
                     <p>The first Japanese-United States Policy Planning Consultation meeting took
                         place in Washington from September 21–24, 1964. The meeting was attended by
@@ -4615,9 +4626,9 @@
                             target="#t_POL1">POL</gloss> 1 JAPAN–US and <gloss target="#t_POL1"
                             >POL</gloss> 1–1 JAPAN–US.</p>
                 </div>
-                <div type="document" n="29" xml:id="d29"
-                    frus:doc-dateTime-min="1964-10-04T00:00:00Z"
-                    frus:doc-dateTime-max="1964-10-04T23:59:59Z">
+                <div type="document" n="29" xml:id="d29" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-10-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-10-04T23:59:59-05:00">
                     <head>29. Memorandum From the President's Special Assistant for National
                         Security Affairs (<persName corresp="#p_BMG2" type="from">Bundy</persName>)
                         to President <persName corresp="#p_JLB1" type="to">Johnson</persName>
@@ -4671,9 +4682,9 @@
                     </closer>
                     <pb n="38" xml:id="pg_38" facs="0074"/>
                 </div>
-                <div type="document" n="30" xml:id="d30"
-                    frus:doc-dateTime-min="1964-10-23T00:00:00Z"
-                    frus:doc-dateTime-max="1964-10-23T23:59:59Z">
+                <div type="document" n="30" xml:id="d30" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-10-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-10-23T23:59:59-05:00">
                     <head>30. Letter From the Director of Central Intelligence (<persName
                             corresp="#p_MCJA1" type="from">McCone</persName>) to the President's
                         Special Assistant for National Security Affairs (<persName corresp="#p_BMG2"
@@ -4720,9 +4731,9 @@
                         <p>[<hi rend="italic">1 page of source text not declassified</hi>]</p>
                     </frus:attachment>
                 </div>
-                <div type="document" n="31" xml:id="d31"
-                    frus:doc-dateTime-min="1964-10-24T00:00:00Z"
-                    frus:doc-dateTime-max="1964-10-24T23:59:59Z">
+                <div type="document" n="31" xml:id="d31" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-10-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-10-24T23:59:59-05:00">
                     <head>31. Memorandum From Secretary of Defense <persName corresp="#p_MNRS1"
                             type="from">McNamara</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName>
@@ -4799,9 +4810,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="32" xml:id="d32"
-                    frus:doc-dateTime-min="1964-10-29T00:00:00Z"
-                    frus:doc-dateTime-max="1964-10-29T23:59:59Z">
+                <div type="document" n="32" xml:id="d32" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-10-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-10-29T23:59:59-05:00">
                     <pb n="40" xml:id="pg_40" facs="0076"/>
                     <head>32. Memorandum From <persName type="from">James C. Thomson,
                         Jr.</persName>, of the National Security Council Staff to <persName
@@ -4907,9 +4918,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="33" xml:id="d33"
-                    frus:doc-dateTime-min="1964-11-09T00:00:00Z"
-                    frus:doc-dateTime-max="1964-11-09T23:59:59Z">
+                <div type="document" n="33" xml:id="d33" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-11-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-11-09T23:59:59-05:00">
                     <head>33. Action Memorandum From the Assistant Secretary of State for Far
                         Eastern Affairs (<persName corresp="#p_BWP1" type="from">Bundy</persName>)
                         to the Under Secretary of State (<persName corresp="#p_BGW1" type="to"
@@ -5048,9 +5059,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="34" xml:id="d34"
-                    frus:doc-dateTime-min="1964-11-14T13:00:00Z"
-                    frus:doc-dateTime-max="1964-11-14T13:00:00Z">
+                <div type="document" n="34" xml:id="d34" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-11-14T13:00:00-05:00"
+                    frus:doc-dateTime-max="1964-11-14T13:00:00-05:00">
                     <head>34. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d34fn1" type="source">Source: National Archives and
@@ -5181,9 +5192,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="35" xml:id="d35"
-                    frus:doc-dateTime-min="1964-12-04T00:00:00Z"
-                    frus:doc-dateTime-max="1964-12-04T23:59:59Z">
+                <div type="document" n="35" xml:id="d35" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-12-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1964-12-04T23:59:59-05:00">
                     <head>35. Airgram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d35fn1" type="source">Source: National Archives and
@@ -5457,9 +5468,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="36" xml:id="d36"
-                    frus:doc-dateTime-min="1964-12-05T16:00:00Z"
-                    frus:doc-dateTime-max="1964-12-05T16:00:00Z">
+                <div type="document" n="36" xml:id="d36" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-12-05T16:00:00-05:00"
+                    frus:doc-dateTime-max="1964-12-05T16:00:00-05:00">
                     <head>36. Telegram From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to the <gloss type="to">Department of
                             State</gloss>
@@ -5656,9 +5667,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="37" xml:id="d37"
-                    frus:doc-dateTime-min="1964-12-29T18:00:00Z"
-                    frus:doc-dateTime-max="1964-12-29T18:00:00Z">
+                <div type="document" n="37" xml:id="d37" subtype="historical-document"
+                    frus:doc-dateTime-min="1964-12-29T18:00:00-05:00"
+                    frus:doc-dateTime-max="1964-12-29T18:00:00-05:00">
                     <head>37. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d37fn1" type="source">Source: National Archives and
@@ -5805,7 +5816,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="38" xml:id="d38">
+                <div type="document" n="38" xml:id="d38" subtype="historical-document">
                     <head>38. Paper Prepared by the 303 Committee</head>
                     <dateline>
                         <placeName>Washington</placeName>, <date>undated</date>.</dateline>
@@ -5814,9 +5825,9 @@
                             target="#t_EA1">EA</gloss> Reviews, 1964 to 1966. Secret; Sensitive. 1
                         page of source text not declassified.]</p>
                 </div>
-                <div type="document" n="39" xml:id="d39"
-                    frus:doc-dateTime-min="1965-01-06T00:00:00Z"
-                    frus:doc-dateTime-max="1965-01-06T23:59:59Z">
+                <div type="document" n="39" xml:id="d39" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-01-06T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-01-06T23:59:59-05:00">
                     <pb n="58" xml:id="pg_58" facs="0094"/>
                     <head>39. Action Memorandum From the Assistant Secretary of State for Far
                         Eastern Affairs (<persName corresp="#p_BWP1" type="from">Bundy</persName>)
@@ -6219,9 +6230,9 @@
                         </list>
                     </frus:attachment>
                 </div>
-                <div type="document" n="40" xml:id="d40"
-                    frus:doc-dateTime-min="1965-01-11T00:00:00Z"
-                    frus:doc-dateTime-max="1965-01-11T23:59:59Z">
+                <div type="document" n="40" xml:id="d40" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-01-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-01-11T23:59:59-05:00">
                     <pb n="63" xml:id="pg_63" facs="0099"/>
                     <head>40. Memorandum From the President's Special Assistant for National
                         Security Affairs (<persName corresp="#p_BMG2" type="from">Bundy</persName>)
@@ -6414,9 +6425,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="66" xml:id="pg_66" facs="0102"/>
-                <div type="document" n="41" xml:id="d41"
-                    frus:doc-dateTime-min="1965-01-12T11:30:00Z"
-                    frus:doc-dateTime-max="1965-01-12T11:30:00Z">
+                <div type="document" n="41" xml:id="d41" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-01-12T11:30:00-05:00"
+                    frus:doc-dateTime-max="1965-01-12T11:30:00-05:00">
                     <head>41. Memorandum of Conversation<note n="1" xml:id="d41fn1" type="source"
                             >Source: National Archives and Records Administration, RG59, Central
                             Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US. Secret.
@@ -6428,8 +6439,8 @@
                             Memos and Cables, January 11–14, 1965.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1965-01-12T11:30:00">January
-                            12, 1965, 11:30 a.m.</date>
+                        <placeName>Washington</placeName>, <date when="1965-01-12T11:30:00"
+                            type="conversation-or-meeting-date">January 12, 1965, 11:30 a.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -6819,9 +6830,9 @@
                         Cabinet Room.</p>
                 </div>
                 <pb n="75" xml:id="pg_75" facs="0111"/>
-                <div type="document" n="42" xml:id="d42"
-                    frus:doc-dateTime-min="1965-01-12T12:15:00Z"
-                    frus:doc-dateTime-max="1965-01-12T12:15:00Z">
+                <div type="document" n="42" xml:id="d42" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-01-12T12:15:00-05:00"
+                    frus:doc-dateTime-max="1965-01-12T12:15:00-05:00">
                     <head>42. Memorandum of Conversation<note n="1" xml:id="d42fn1" type="source"
                             >Source: National Archives and Records Administration, RG59, Central
                             Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US. Secret.
@@ -6839,8 +6850,8 @@
                                 <persName corresp="#p_SE3">Sato</persName>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1965-01-12T12:15:00">January
-                            12, 1965, 12:15 p.m.</date>
+                        <placeName>Washington</placeName>, <date when="1965-01-12T12:15:00"
+                            type="conversation-or-meeting-date">January 12, 1965, 12:15 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -7042,7 +7053,7 @@
                             >Johnson</persName> said that as one with long experience in dealing
                         with the press, he wished to offer the Prime Minister his sympathy.</p>
                 </div>
-                <div type="document" n="43" xml:id="d43">
+                <div type="document" n="43" xml:id="d43" subtype="editorial-note">
                     <head>43. Editorial Note</head>
                     <p>At 3:30 p.m. on January 12, 1965, Prime Minister <persName corresp="#p_SE3"
                             >Sato</persName> and Secretary <persName corresp="#p_RD3"
@@ -7087,9 +7098,9 @@
                         1965.</p>
                 </div>
                 <pb n="80" xml:id="pg_80" facs="0116"/>
-                <div type="document" n="44" xml:id="d44"
-                    frus:doc-dateTime-min="1965-01-13T11:30:00Z"
-                    frus:doc-dateTime-max="1965-01-13T11:30:00Z">
+                <div type="document" n="44" xml:id="d44" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-01-13T11:30:00-05:00"
+                    frus:doc-dateTime-max="1965-01-13T11:30:00-05:00">
                     <head>44. Memorandum of Conversation<note n="1" xml:id="d44fn1" type="source"
                             >Source: National Archives and Records Administration, RG 59, Central
                             Files 1964–66, <gloss target="#t_POL1">POL</gloss> JAPAN–US.
@@ -7101,8 +7112,8 @@
                             Visit, Memos and Cables, January 11–14, 1965.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1965-01-13T11:30:00">January
-                            13, 1965, 11:30 a.m.</date>
+                        <placeName>Washington</placeName>, <date when="1965-01-13T11:30:00"
+                            type="conversation-or-meeting-date">January 13, 1965, 11:30 a.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -7391,9 +7402,9 @@
                         to Japan and in particular after the visit of observation made by Sir Norman
                         Kipping.</p>
                 </div>
-                <div type="document" n="45" xml:id="d45"
-                    frus:doc-dateTime-min="1965-04-06T19:00:00Z"
-                    frus:doc-dateTime-max="1965-04-06T19:00:00Z">
+                <div type="document" n="45" xml:id="d45" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-04-06T19:00:00-05:00"
+                    frus:doc-dateTime-max="1965-04-06T19:00:00-05:00">
                     <head>45. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d45fn1" type="source">Source: National Archives and
@@ -7483,9 +7494,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="46" xml:id="d46"
-                    frus:doc-dateTime-min="1965-05-19T09:27:00Z"
-                    frus:doc-dateTime-max="1965-05-19T09:27:00Z">
+                <div type="document" n="46" xml:id="d46" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-05-19T04:27:00-05:00"
+                    frus:doc-dateTime-max="1965-05-19T04:27:00-05:00">
                     <head>46. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d46fn1" type="source">Source: National Archives and
@@ -7673,9 +7684,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="47" xml:id="d47"
-                    frus:doc-dateTime-min="1965-05-25T10:39:00Z"
-                    frus:doc-dateTime-max="1965-05-25T10:39:00Z">
+                <div type="document" n="47" xml:id="d47" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-05-25T05:39:00-05:00"
+                    frus:doc-dateTime-max="1965-05-25T05:39:00-05:00">
                     <head>47. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d47fn1" type="source">Source, National Archives and
@@ -7763,9 +7774,9 @@
                     </closer>
                 </div>
                 <pb n="92" xml:id="pg_92" facs="0128"/>
-                <div type="document" n="48" xml:id="d48"
-                    frus:doc-dateTime-min="1965-05-25T10:38:00Z"
-                    frus:doc-dateTime-max="1965-05-25T10:38:00Z">
+                <div type="document" n="48" xml:id="d48" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-05-25T05:38:00-05:00"
+                    frus:doc-dateTime-max="1965-05-25T05:38:00-05:00">
                     <head>48. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d48fn1" type="source">Source: National Archives and
@@ -7875,9 +7886,9 @@
                     </closer>
                 </div>
                 <pb n="94" xml:id="pg_94" facs="0130"/>
-                <div type="document" n="49" xml:id="d49"
-                    frus:doc-dateTime-min="1965-05-29T00:00:00Z"
-                    frus:doc-dateTime-max="1965-05-29T23:59:59Z">
+                <div type="document" n="49" xml:id="d49" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-05-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-05-29T23:59:59-05:00">
                     <head>49. Memorandum From the Under Secretary of State for Economic Affairs
                             (<persName corresp="#p_MTC1" type="from">Mann</persName>) to President
                             <persName corresp="#p_JLB1" type="to">Johnson</persName>
@@ -8070,9 +8081,9 @@
                         </p>
                     </frus:attachment>
                 </div>
-                <div type="document" n="50" xml:id="d50"
-                    frus:doc-dateTime-min="1965-06-15T07:22:00Z"
-                    frus:doc-dateTime-max="1965-06-15T07:22:00Z">
+                <div type="document" n="50" xml:id="d50" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-06-15T02:22:00-05:00"
+                    frus:doc-dateTime-max="1965-06-15T02:22:00-05:00">
                     <head>50. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d50fn1" type="source">Source: National Archives and
@@ -8148,9 +8159,9 @@
                     </closer>
                 </div>
                 <pb n="99" xml:id="pg_99" facs="0135"/>
-                <div type="document" n="51" xml:id="d51"
-                    frus:doc-dateTime-min="1965-06-23T00:00:00Z"
-                    frus:doc-dateTime-max="1965-06-23T23:59:59Z">
+                <div type="document" n="51" xml:id="d51" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-06-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-06-23T23:59:59-05:00">
                     <head>51. Memorandum From the President's Deputy Special Assistant (<persName
                             type="from">Bator</persName>) to the Executive Secretary of the
                         Department of State (<persName corresp="#p_RBH1" type="to"
@@ -8193,9 +8204,9 @@
                     </closer>
                 </div>
                 <pb n="100" xml:id="pg_100" facs="0136"/>
-                <div type="document" n="52" xml:id="d52"
-                    frus:doc-dateTime-min="1965-07-08T00:00:00Z"
-                    frus:doc-dateTime-max="1965-07-08T23:59:59Z">
+                <div type="document" n="52" xml:id="d52" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-07-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-07-08T23:59:59-05:00">
                     <head>52. Memorandum From the <gloss type="from">Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
                             >McNamara</persName>
@@ -8322,9 +8333,9 @@
                     </closer>
                 </div>
                 <pb n="102" xml:id="pg_102" facs="0138"/>
-                <div type="document" n="53" xml:id="d53"
-                    frus:doc-dateTime-min="1965-07-13T00:00:00Z"
-                    frus:doc-dateTime-max="1965-07-13T23:59:59Z">
+                <div type="document" n="53" xml:id="d53" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-07-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-07-13T23:59:59-05:00">
                     <head>53. Memorandum From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName>
@@ -8448,9 +8459,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="54" xml:id="d54"
-                    frus:doc-dateTime-min="1965-07-13T00:00:00Z"
-                    frus:doc-dateTime-max="1965-07-13T23:59:59Z">
+                <div type="document" n="54" xml:id="d54" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-07-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-07-13T23:59:59-05:00">
                     <head>54. Memorandum Prepared for the 303 Committee</head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1965-07-13">July 13,
@@ -8459,9 +8470,9 @@
                         Files, 5412 Files, 303 Committee. Secret; Eyes Only. 7 pages of source text
                         not declassified.]</p>
                 </div>
-                <div type="document" n="55" xml:id="d55"
-                    frus:doc-dateTime-min="1965-07-14T00:00:00Z"
-                    frus:doc-dateTime-max="1965-07-14T23:59:59Z">
+                <div type="document" n="55" xml:id="d55" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-07-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-07-14T23:59:59-05:00">
                     <head>55. Memorandum From the Ambassador to Japan (<persName corresp="#p_REO1"
                             type="from">Reischauer</persName>) to Secretary of State <persName
                             corresp="#p_RD3" type="to">Rusk</persName>
@@ -8802,9 +8813,9 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" n="56" xml:id="d56"
-                    frus:doc-dateTime-min="1965-07-30T10:01:00Z"
-                    frus:doc-dateTime-max="1965-07-30T10:01:00Z">
+                <div type="document" n="56" xml:id="d56" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-07-30T05:01:00-05:00"
+                    frus:doc-dateTime-max="1965-07-30T05:01:00-05:00">
                     <head>56. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d56fn1" type="source">Source: National Archives and
@@ -8864,9 +8875,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="57" xml:id="d57"
-                    frus:doc-dateTime-min="1965-07-31T00:00:00Z"
-                    frus:doc-dateTime-max="1965-07-31T23:59:59Z">
+                <div type="document" n="57" xml:id="d57" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-07-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-07-31T23:59:59-05:00">
                     <head>57. Letter From the Under Secretary of State (<persName corresp="#p_BGW1"
                             type="from">Ball</persName>) to Secretary of Defense <persName
                             corresp="#p_MNRS1" type="to">McNamara</persName>
@@ -8960,9 +8971,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="58" xml:id="d58"
-                    frus:doc-dateTime-min="1965-08-20T00:00:00Z"
-                    frus:doc-dateTime-max="1965-08-20T23:59:59Z">
+                <div type="document" n="58" xml:id="d58" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-08-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-08-20T23:59:59-05:00">
                     <head>58. Memorandum From the Assistant Secretary of State for Far Eastern
                         Affairs (<persName corresp="#p_BWP1" type="from">Bundy</persName>) to the
                         Deputy Under Secretary for Political Affairs (<persName corresp="#p_TLET1"
@@ -9398,9 +9409,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="122" xml:id="pg_122" facs="0158"/>
-                <div type="document" n="59" xml:id="d59"
-                    frus:doc-dateTime-min="1965-08-25T09:13:00Z"
-                    frus:doc-dateTime-max="1965-08-25T09:13:00Z">
+                <div type="document" n="59" xml:id="d59" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-08-25T04:13:00-05:00"
+                    frus:doc-dateTime-max="1965-08-25T04:13:00-05:00">
                     <head>59. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d59fn1" type="source">Source: National Archives and
@@ -9521,9 +9532,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="60" xml:id="d60"
-                    frus:doc-dateTime-min="1965-09-04T04:16:00Z"
-                    frus:doc-dateTime-max="1965-09-04T04:16:00Z">
+                <div type="document" n="60" xml:id="d60" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-09-03T23:16:00-05:00"
+                    frus:doc-dateTime-max="1965-09-03T23:16:00-05:00">
                     <head>60. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d60fn1" type="source">Source: National Archives and
@@ -9630,7 +9641,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="61" xml:id="d61">
+                <div type="document" n="61" xml:id="d61" subtype="editorial-note">
                     <head>61. Editorial Note</head>
                     <p>In September 1965 Prime Minister <persName corresp="#p_SE3">Sato</persName>
                         began working behind the scenes to promote a negotiated settlement to the
@@ -9677,9 +9688,9 @@
                             <gloss target="#t_POL1">POL</gloss> 7 JAPAN, and <gloss target="#t_POL1"
                             >POL</gloss> JAPAN–US.</p>
                 </div>
-                <div type="document" n="62" xml:id="d62"
-                    frus:doc-dateTime-min="1965-09-25T00:00:00Z"
-                    frus:doc-dateTime-max="1965-09-25T23:59:59Z">
+                <div type="document" n="62" xml:id="d62" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-09-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-09-25T23:59:59-05:00">
                     <head>62. Letter From Secretary of State <persName corresp="#p_RD3" type="from"
                             >Rusk</persName> to Secretary of Defense <persName corresp="#p_MNRS1"
                             type="to">McNamara</persName>
@@ -9786,7 +9797,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="63" xml:id="d63">
+                <div type="document" n="63" xml:id="d63" subtype="editorial-note">
                     <head>63. Editorial Note</head>
                     <p>Between September 27 and October 1, 1965, Ambassador <persName
                             corresp="#p_REO1">Reischauer</persName> and General <persName
@@ -9822,9 +9833,9 @@
                         Department of State <hi rend="italic">Bulletin</hi>, January 10, 1966, page
                         66.</p>
                 </div>
-                <div type="document" n="64" xml:id="d64"
-                    frus:doc-dateTime-min="1965-11-26T00:00:00Z"
-                    frus:doc-dateTime-max="1965-11-26T23:59:59Z">
+                <div type="document" n="64" xml:id="d64" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-11-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-11-26T23:59:59-05:00">
                     <head>64. National Intelligence Estimate<note n="1" xml:id="d64fn1"
                             type="source">Source: Department of State, <gloss target="#t_INR1"
                                 >INR</gloss>/<gloss target="#t_EAP1">EAP</gloss> Files: Lot 90 D
@@ -9908,9 +9919,9 @@
                     </list>
                 </div>
                 <pb n="132" xml:id="pg_132" facs="0168"/>
-                <div type="document" n="65" xml:id="d65"
-                    frus:doc-dateTime-min="1965-12-23T00:00:00Z"
-                    frus:doc-dateTime-max="1965-12-23T23:59:59Z">
+                <div type="document" n="65" xml:id="d65" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-12-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1965-12-23T23:59:59-05:00">
                     <head>65. Memorandum From the <gloss type="from">Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
                             >McNamara</persName>
@@ -10044,9 +10055,9 @@
                             <lb/>Acting Chairman<lb/>Joint Chiefs of Staff</signed>
                     </closer>
                 </div>
-                <div type="document" n="66" xml:id="d66"
-                    frus:doc-dateTime-min="1965-12-31T15:26:00Z"
-                    frus:doc-dateTime-max="1965-12-31T15:26:00Z">
+                <div type="document" n="66" xml:id="d66" subtype="historical-document"
+                    frus:doc-dateTime-min="1965-12-31T10:26:00-05:00"
+                    frus:doc-dateTime-max="1965-12-31T10:26:00-05:00">
                     <head>66. Telegram From Vice President <persName type="from">Humphrey</persName>
                         to President <persName corresp="#p_JLB1" type="to">Johnson</persName>
                         <note n="1" xml:id="d66fn1" type="source">Source:
@@ -10150,9 +10161,9 @@
                         the Philippines.]</p>
                 </div>
                 <pb n="136" xml:id="pg_136" facs="0172"/>
-                <div type="document" n="67" xml:id="d67"
-                    frus:doc-dateTime-min="1966-04-27T00:00:00Z"
-                    frus:doc-dateTime-max="1966-04-27T23:59:59Z">
+                <div type="document" n="67" xml:id="d67" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-04-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1966-04-27T23:59:59-05:00">
                     <head>67. Letter From the Ambassador to Japan (<persName corresp="#p_REO1"
                             type="from">Reischauer</persName>) to Secretary of State <persName
                             corresp="#p_RD3" type="to">Rusk</persName>
@@ -10165,9 +10176,9 @@
                         Miscellaneous Correspondence. Official–Informal; Top Secret; Eyes Only. 3
                         pages of source text not declassified.]</p>
                 </div>
-                <div type="document" n="68" xml:id="d68"
-                    frus:doc-dateTime-min="1966-05-23T00:00:00Z"
-                    frus:doc-dateTime-max="1966-05-23T23:59:59Z">
+                <div type="document" n="68" xml:id="d68" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-05-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1966-05-23T23:59:59-05:00">
                     <head>68. Memorandum From <persName corresp="#p_BMG2" type="from">McGeorge
                             Bundy</persName> to President <persName corresp="#p_JLB1" type="to"
                             >Johnson</persName>
@@ -10252,9 +10263,9 @@
                     </closer>
                 </div>
                 <pb n="138" xml:id="pg_138" facs="0174"/>
-                <div type="document" n="69" xml:id="d69"
-                    frus:doc-dateTime-min="1966-05-31T00:00:00Z"
-                    frus:doc-dateTime-max="1966-05-31T23:59:59Z">
+                <div type="document" n="69" xml:id="d69" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-05-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1966-05-31T23:59:59-05:00">
                     <head>69. Memorandum From the Assistant Secretary of Defense for International
                         Security Affairs (<persName corresp="#p_MNJT1" type="from"
                             >McNaughton</persName>) to the Acting Chairman of the Joint Chiefs of
@@ -10267,9 +10278,9 @@
                         A 6647, 560 Japan. Top Secret. 5 pages of source text, including attachment,
                         not declassified.]</p>
                 </div>
-                <div type="document" n="70" xml:id="d70"
-                    frus:doc-dateTime-min="1966-06-14T08:43:00Z"
-                    frus:doc-dateTime-max="1966-06-14T08:43:00Z">
+                <div type="document" n="70" xml:id="d70" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-06-14T03:43:00-05:00"
+                    frus:doc-dateTime-max="1966-06-14T03:43:00-05:00">
                     <head>70. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d70fn1" type="source">Source: National Archives and
@@ -10467,9 +10478,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="71" xml:id="d71"
-                    frus:doc-dateTime-min="1966-06-17T00:00:00Z"
-                    frus:doc-dateTime-max="1966-06-17T23:59:59Z">
+                <div type="document" n="71" xml:id="d71" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-06-17T00:00:00-05:00"
+                    frus:doc-dateTime-max="1966-06-17T23:59:59-05:00">
                     <head>71. Memorandum From the <gloss type="from">Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
                             >McNamara</persName>
@@ -10484,9 +10495,9 @@
                         A 6489, Japan 471.61 Sensitive. Top Secret; handling designator not
                         declassified. 1 page of source text not declassified.]</p>
                 </div>
-                <div type="document" n="72" xml:id="d72"
-                    frus:doc-dateTime-min="1966-07-02T12:54:00Z"
-                    frus:doc-dateTime-max="1966-07-02T12:54:00Z">
+                <div type="document" n="72" xml:id="d72" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-07-02T07:54:00-05:00"
+                    frus:doc-dateTime-max="1966-07-02T07:54:00-05:00">
                     <head>72. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d72fn1" type="source">Source: National Archives and
@@ -10747,9 +10758,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="73" xml:id="d73"
-                    frus:doc-dateTime-min="1966-07-07T00:00:00Z"
-                    frus:doc-dateTime-max="1966-07-07T23:59:59Z">
+                <div type="document" n="73" xml:id="d73" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-07-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1966-07-07T23:59:59-05:00">
                     <head>73. Memorandum of Conversation<note n="1" xml:id="d73fn1" type="source"
                             >Source: National Archives and Records Administration, RG 59, Central
                             Files 1964–66, <gloss target="#t_POL1">POL</gloss> 19 KYU IS. Secret.
@@ -10758,8 +10769,8 @@
                             Conference Hall in Kyoto.</note>
                     </head>
                     <dateline>
-                        <placeName>Kyoto</placeName>, <date when="1966-07-07">July 7,
-                        1966</date>.</dateline>
+                        <placeName>Kyoto</placeName>, <date when="1966-07-07"
+                            type="conversation-or-meeting-date">July 7, 1966</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Okinawa and Bonin Islands</item>
@@ -10897,9 +10908,9 @@
                     </list>
                 </div>
                 <pb n="149" xml:id="pg_149" facs="0185"/>
-                <div type="document" n="74" xml:id="d74"
-                    frus:doc-dateTime-min="1966-07-07T18:15:00Z"
-                    frus:doc-dateTime-max="1966-07-07T18:15:00Z">
+                <div type="document" n="74" xml:id="d74" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-07-07T18:15:00-05:00"
+                    frus:doc-dateTime-max="1966-07-07T18:15:00-05:00">
                     <head>74. Memorandum of Conversation<note n="1" xml:id="d74fn1" type="source"
                             >Source: National Archives and Records Administration, RG 59, Central
                             Files 1964–66, DEF 4 JAPAN–US. Secret. Drafted by Zurhellen and approved
@@ -10908,8 +10919,8 @@
                             Tokyo.</note>
                     </head>
                     <dateline>
-                        <placeName>Tokyo</placeName>, <date when="1966-07-07T18:15:00">July 7, 1966,
-                            6:15 p.m.</date>
+                        <placeName>Tokyo</placeName>, <date when="1966-07-07T18:15:00"
+                            type="conversation-or-meeting-date">July 7, 1966, 6:15 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -11015,9 +11026,9 @@
                     </list>
                 </div>
                 <pb n="151" xml:id="pg_151" facs="0187"/>
-                <div type="document" n="75" xml:id="d75"
-                    frus:doc-dateTime-min="1966-07-07T00:00:00Z"
-                    frus:doc-dateTime-max="1966-07-07T23:59:59Z">
+                <div type="document" n="75" xml:id="d75" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-07-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1966-07-07T23:59:59-05:00">
                     <head>75. Memorandum of Conversation<note n="1" xml:id="d75fn1" type="source"
                             >Source: National Archives and Records Administration, RG 59, Central
                             Files 1964–66, DEF 4 JAPAN–US. Secret. Drafted by Zurhellen and approved
@@ -11031,8 +11042,8 @@
                             7; ibid., Conference Files: Lot 67 D 305)</note>
                     </head>
                     <dateline>
-                        <placeName>Tokyo</placeName>, <date when="1966-07-07">July 7,
-                        1966</date>.</dateline>
+                        <placeName>Tokyo</placeName>, <date when="1966-07-07"
+                            type="conversation-or-meeting-date">July 7, 1966</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>U.S.-Japan Bilateral Relations</item>
@@ -11127,9 +11138,9 @@
                     </list>
                 </div>
                 <pb n="153" xml:id="pg_153" facs="0189"/>
-                <div type="document" n="76" xml:id="d76"
-                    frus:doc-dateTime-min="1966-07-12T00:00:00Z"
-                    frus:doc-dateTime-max="1966-07-12T23:59:59Z">
+                <div type="document" n="76" xml:id="d76" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-07-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1966-07-12T23:59:59-05:00">
                     <head>76. Memorandum Prepared by Counselor and Chairman of the Policy Planning
                         Council (<persName corresp="#p_OHD1">Owen</persName>)<note n="1"
                             xml:id="d76fn1" type="source">Source: <persName>Johnson</persName>
@@ -11226,7 +11237,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="77" xml:id="d77">
+                <div type="document" n="77" xml:id="d77" subtype="editorial-note">
                     <head>77. Editorial Note</head>
                     <p>Ambassador <persName corresp="#p_REO1">Reischauer</persName> submitted his
                         resignation in April and left Japan on August 19, 1966, to resume his
@@ -11241,7 +11252,7 @@
                             <hi rend="italic">Foreign Relations</hi>, 1964–1968, volume XXX,
                             Document 174</ref>.</p>
                 </div>
-                <div type="document" n="78" xml:id="d78">
+                <div type="document" n="78" xml:id="d78" subtype="editorial-note">
                     <head>78. Editorial Note</head>
                     <p>The United States Government's examination of questions surrounding the
                         Ryukyu Islands and its military bases on Okinawa culminated in an
@@ -11274,9 +11285,9 @@
                             target="#t_POL1">POL</gloss> 19 RYU IS, <gloss target="#t_POL1"
                             >POL</gloss> 19 RYU IS–US, and DEF 15 RYU IS–US.</p>
                 </div>
-                <div type="document" n="79" xml:id="d79"
-                    frus:doc-dateTime-min="1966-09-07T09:49:00Z"
-                    frus:doc-dateTime-max="1966-09-07T09:49:00Z">
+                <div type="document" n="79" xml:id="d79" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-09-07T04:49:00-05:00"
+                    frus:doc-dateTime-max="1966-09-07T04:49:00-05:00">
                     <head>79. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d79fn1" type="source">Source: National Archives and
@@ -11429,9 +11440,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="80" xml:id="d80"
-                    frus:doc-dateTime-min="1966-12-07T23:48:00Z"
-                    frus:doc-dateTime-max="1966-12-07T23:48:00Z">
+                <div type="document" n="80" xml:id="d80" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-12-07T23:48:00-05:00"
+                    frus:doc-dateTime-max="1966-12-07T23:48:00-05:00">
                     <head>80. Telegram From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName>
@@ -11482,9 +11493,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="81" xml:id="d81"
-                    frus:doc-dateTime-min="1966-12-22T06:00:00Z"
-                    frus:doc-dateTime-max="1966-12-22T06:00:00Z">
+                <div type="document" n="81" xml:id="d81" subtype="historical-document"
+                    frus:doc-dateTime-min="1966-12-22T01:00:00-05:00"
+                    frus:doc-dateTime-max="1966-12-22T01:00:00-05:00">
                     <head>81. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d81fn1" type="source">Source: National Archives and
@@ -11588,9 +11599,9 @@
                     </closer>
                 </div>
                 <pb n="161" xml:id="pg_161" facs="0197"/>
-                <div type="document" n="82" xml:id="d82"
-                    frus:doc-dateTime-min="1967-01-11T00:00:00Z"
-                    frus:doc-dateTime-max="1967-01-11T23:59:59Z">
+                <div type="document" n="82" xml:id="d82" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-01-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-01-11T23:59:59-05:00">
                     <head>82. Information Memorandum from the Assistant Secretary of State for East
                         Asian and Pacific Affairs (<persName corresp="#p_BWP1" type="from"
                             >Bundy</persName>) to Under Secretary of State for Political Affairs
@@ -11823,7 +11834,7 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" n="83" xml:id="d83">
+                <div type="document" n="83" xml:id="d83" subtype="editorial-note">
                     <head>83. Editorial Note</head>
                     <p>By late 1966 and early 1967 the United States and Japan initiated actions to
                         advance the Japanese role not only in Asia, but also in global affairs. As a
@@ -11882,9 +11893,9 @@
                             <gloss target="#t_POL1">POL</gloss> 1 JAPAN–US)</p>
                 </div>
                 <pb n="166" xml:id="pg_166" facs="0202"/>
-                <div type="document" n="84" xml:id="d84"
-                    frus:doc-dateTime-min="1967-03-01T00:00:00Z"
-                    frus:doc-dateTime-max="1967-03-01T23:59:59Z">
+                <div type="document" n="84" xml:id="d84" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-03-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-03-01T23:59:59-05:00">
                     <head>84. Memorandum From the President's Special Assistant (<persName
                             corresp="#p_RWW1" type="from">Rostow</persName>) to President <persName
                             corresp="#p_JLB1" type="to">Johnson</persName>
@@ -12091,9 +12102,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" n="85" xml:id="d85"
-                    frus:doc-dateTime-min="1967-03-30T16:05:00Z"
-                    frus:doc-dateTime-max="1967-03-30T16:25:00Z">
+                <div type="document" n="85" xml:id="d85" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-03-30T16:05:00-05:00"
+                    frus:doc-dateTime-max="1967-03-30T16:25:00-05:00">
                     <head>85. Memorandum of Conversation<note n="1" xml:id="d85fn1" type="source"
                             >Source: Washington National Records Center, <gloss target="#t_OSD1"
                                 >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss> Files: FRC 330
@@ -12104,7 +12115,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1967-03-30T16:05:00"
-                            to="1967-03-30T16:25:00">March 30, 1967, 4:05–4:25 p.m.</date>
+                            to="1967-03-30T16:25:00" type="conversation-or-meeting-date">March 30,
+                            1967, 4:05–4:25 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -12288,9 +12300,9 @@
                             exchange of frank and personal views.</item>
                     </list>
                 </div>
-                <div type="document" n="86" xml:id="d86"
-                    frus:doc-dateTime-min="1967-06-29T00:00:00Z"
-                    frus:doc-dateTime-max="1967-06-29T23:59:59Z">
+                <div type="document" n="86" xml:id="d86" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-06-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-06-29T23:59:59-05:00">
                     <head>86. Memorandum From the <gloss type="from">Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
                             >McNamara</persName>
@@ -12496,9 +12508,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="87" xml:id="d87"
-                    frus:doc-dateTime-min="1967-07-10T00:00:00Z"
-                    frus:doc-dateTime-max="1967-07-10T23:59:59Z">
+                <div type="document" n="87" xml:id="d87" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-07-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-07-10T23:59:59-05:00">
                     <head>87. Memorandum of Conversation<note n="1" xml:id="d87fn1" type="source"
                             >Source: National Archives and Records Administration, RG 59, Central
                             Files 1967–69, <gloss target="#t_POL1">POL</gloss> 19 RYU IS. Secret;
@@ -12506,8 +12518,8 @@
                                 >Petree</persName>.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1967-07-10">July 10,
-                            1967</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1967-07-10"
+                            type="conversation-or-meeting-date">July 10, 1967</date>.</dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
                         <item>Okinawa and the Bonin Islands</item>
@@ -12864,9 +12876,9 @@
                     </list>
                 </div>
                 <pb n="182" xml:id="pg_182" facs="0218"/>
-                <div type="document" n="88" xml:id="d88"
-                    frus:doc-dateTime-min="1967-07-15T05:05:00Z"
-                    frus:doc-dateTime-max="1967-07-15T05:05:00Z">
+                <div type="document" n="88" xml:id="d88" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-07-15T00:05:00-05:00"
+                    frus:doc-dateTime-max="1967-07-15T00:05:00-05:00">
                     <head>88. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d88fn1" type="source">Source: National Archives and
@@ -12998,9 +13010,9 @@
                     </closer>
                 </div>
                 <pb n="184" xml:id="pg_184" facs="0220"/>
-                <div type="document" n="89" xml:id="d89"
-                    frus:doc-dateTime-min="1967-07-20T00:00:00Z"
-                    frus:doc-dateTime-max="1967-07-20T23:59:59Z">
+                <div type="document" n="89" xml:id="d89" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-07-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-07-20T23:59:59-05:00">
                     <head>89. Memorandum From <gloss type="from">the Joint Chiefs of Staff</gloss>
                         to Secretary of Defense <persName corresp="#p_MNRS1" type="to"
                             >McNamara</persName>
@@ -13179,9 +13191,9 @@
                     </closer>
                 </div>
                 <pb n="187" xml:id="pg_187" facs="0223"/>
-                <div type="document" n="90" xml:id="d90"
-                    frus:doc-dateTime-min="1967-08-01T10:10:00Z"
-                    frus:doc-dateTime-max="1967-08-01T10:10:00Z">
+                <div type="document" n="90" xml:id="d90" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-08-01T05:10:00-05:00"
+                    frus:doc-dateTime-max="1967-08-01T05:10:00-05:00">
                     <head>90. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d90fn1" type="source">Source: National Archives and
@@ -13303,9 +13315,9 @@
                     </closer>
                 </div>
                 <pb n="189" xml:id="pg_189" facs="0225"/>
-                <div type="document" n="91" xml:id="d91"
-                    frus:doc-dateTime-min="1967-08-07T00:00:00Z"
-                    frus:doc-dateTime-max="1967-08-07T23:59:59Z">
+                <div type="document" n="91" xml:id="d91" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-08-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-08-07T23:59:59-05:00">
                     <head>91. Action Memorandum From the Assistant Secretary of State for East Asian
                         and Pacific Affairs (<persName corresp="#p_BWP1" type="from"
                             >Bundy</persName>) to Secretary of State <persName corresp="#p_RD3"
@@ -13866,9 +13878,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="198" xml:id="pg_198" facs="0234"/>
-                <div type="document" n="92" xml:id="d92"
-                    frus:doc-dateTime-min="1967-08-10T00:00:00Z"
-                    frus:doc-dateTime-max="1967-08-10T23:59:59Z">
+                <div type="document" n="92" xml:id="d92" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-08-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-08-10T23:59:59-05:00">
                     <head>92. Memorandum From the Country Director for Japan (<persName
                             corresp="#p_SRL2" type="from">Sneider</persName>) to the Assistant
                         Secretary of State for East Asian and Pacific Affairs (<persName
@@ -13923,9 +13935,9 @@
                     <p>[Omitted here is a listing of the original recommendations.]</p>
                 </div>
                 <pb n="199" xml:id="pg_199" facs="0235"/>
-                <div type="document" n="93" xml:id="d93"
-                    frus:doc-dateTime-min="1967-08-30T00:00:00Z"
-                    frus:doc-dateTime-max="1967-08-30T23:59:59Z">
+                <div type="document" n="93" xml:id="d93" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-08-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-08-30T23:59:59-05:00">
                     <head>93. Memorandum for the Record<note n="1" xml:id="d93fn1" type="source"
                             >Source: <persName>Johnson</persName> Library, National Security File,
                             National Security Council File, National Security Council Meetings, Vol.
@@ -14169,9 +14181,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="94" xml:id="d94"
-                    frus:doc-dateTime-min="1967-08-30T00:00:00Z"
-                    frus:doc-dateTime-max="1967-08-30T23:59:59Z">
+                <div type="document" n="94" xml:id="d94" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-08-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-08-30T23:59:59-05:00">
                     <head>94. Memorandum From Secretary of Defense <persName corresp="#p_MNRS1"
                             type="from">McNamara</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName>
@@ -14234,9 +14246,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="95" xml:id="d95"
-                    frus:doc-dateTime-min="1967-08-31T00:00:00Z"
-                    frus:doc-dateTime-max="1967-08-31T23:59:59Z">
+                <div type="document" n="95" xml:id="d95" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-08-31T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-08-31T23:59:59-05:00">
                     <head>95. Memorandum From Secretary of the Treasury <persName corresp="#p_FHH1"
                             type="from">Fowler</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName>
@@ -14354,9 +14366,9 @@
                         </list>
                     </frus:attachment>
                 </div>
-                <div type="document" n="96" xml:id="d96"
-                    frus:doc-dateTime-min="1967-09-04T00:00:00Z"
-                    frus:doc-dateTime-max="1967-09-04T23:59:59Z">
+                <div type="document" n="96" xml:id="d96" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-09-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-09-04T23:59:59-05:00">
                     <head>96. Memorandum From Secretary of State <persName corresp="#p_RD3"
                             type="from">Rusk</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName>
@@ -14433,9 +14445,9 @@
                     </closer>
                 </div>
                 <pb n="208" xml:id="pg_208" facs="0244"/>
-                <div type="document" n="97" xml:id="d97"
-                    frus:doc-dateTime-min="1967-09-28T16:27:00Z"
-                    frus:doc-dateTime-max="1967-09-28T16:27:00Z">
+                <div type="document" n="97" xml:id="d97" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-09-28T11:27:00-05:00"
+                    frus:doc-dateTime-max="1967-09-28T11:27:00-05:00">
                     <head>97. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in Japan</gloss>
                         <note n="1" xml:id="d97fn1" type="source">Source: National Archives and
@@ -14659,9 +14671,9 @@
                     </closer>
                 </div>
                 <pb n="211" xml:id="pg_211" facs="0247"/>
-                <div type="document" n="98" xml:id="d98"
-                    frus:doc-dateTime-min="1967-10-13T00:00:00Z"
-                    frus:doc-dateTime-max="1967-10-13T23:59:59Z">
+                <div type="document" n="98" xml:id="d98" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-10-13T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-10-13T23:59:59-05:00">
                     <head>98. Memorandum From the Executive Secretary of the Department of State
                             (<persName corresp="#p_RBH1" type="from">Read</persName>) to the
                         President's Special Assistant (<persName corresp="#p_RWW1" type="to"
@@ -14811,9 +14823,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="99" xml:id="d99"
-                    frus:doc-dateTime-min="1967-10-27T18:45:00Z"
-                    frus:doc-dateTime-max="1967-10-27T18:45:00Z">
+                <div type="document" n="99" xml:id="d99" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-10-27T18:45:00-05:00"
+                    frus:doc-dateTime-max="1967-10-27T18:45:00-05:00">
                     <head>99. Memorandum From the President's Special Assistant (<persName
                             corresp="#p_RWW1" type="from">Rostow</persName>) to President <persName
                             corresp="#p_JLB1" type="to">Johnson</persName>
@@ -15033,9 +15045,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" n="100" xml:id="d100"
-                    frus:doc-dateTime-min="1967-11-03T00:00:00Z"
-                    frus:doc-dateTime-max="1967-11-03T23:59:59Z">
+                <div type="document" n="100" xml:id="d100" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-11-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-11-03T23:59:59-05:00">
                     <head>100. Memorandum From the President's Special Assistant (<persName
                             corresp="#p_RWW1" type="from">Rostow</persName>) to President <persName
                             corresp="#p_JLB1" type="to">Johnson</persName>
@@ -15281,7 +15293,7 @@
                             the framework of mutual trust between the two countries.</p>
                     </frus:attachment>
                 </div>
-                <div type="document" n="101" xml:id="d101">
+                <div type="document" n="101" xml:id="d101" subtype="editorial-note">
                     <head>101. Editorial Note</head>
                     <p>Although the United States and Japanese Government officials focused their
                         attention on the reversion question throughout the second half of 1967, both
@@ -15298,9 +15310,9 @@
                         and Japanese Foreign Ministry note are in the National Archives and Records
                         Administration, RG 59, Central Files 1967–69, DEF 7 JAPAN–US.</p>
                 </div>
-                <div type="document" n="102" xml:id="d102"
-                    frus:doc-dateTime-min="1967-11-11T00:00:00Z"
-                    frus:doc-dateTime-max="1967-11-11T23:59:59Z">
+                <div type="document" n="102" xml:id="d102" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-11-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-11-11T23:59:59-05:00">
                     <head>102. Memorandum of Conversation Between the President's Special Assistant
                             (<persName corresp="#p_RWW1">Rostow</persName>) and <persName
                             corresp="#p_WK1">Kei Wakaizumi</persName>
@@ -15309,8 +15321,8 @@
                             Country File, Japan, Vol. VII. Secret; Sensitive.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1967-11-11">November 11,
-                            1967</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1967-11-11"
+                            type="conversation-or-meeting-date">November 11, 1967</date>.</dateline>
                     <list>
                         <label>1.</label>
                         <item>Mr. <persName corresp="#p_WK1">Wakaizumi</persName> began by handing
@@ -15520,9 +15532,9 @@
                     </closer>
                 </div>
                 <pb n="225" xml:id="pg_225" facs="0261"/>
-                <div type="document" n="103" xml:id="d103"
-                    frus:doc-dateTime-min="1967-11-11T00:00:00Z"
-                    frus:doc-dateTime-max="1967-11-11T23:59:59Z">
+                <div type="document" n="103" xml:id="d103" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-11-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-11-11T23:59:59-05:00">
                     <head>103. Memorandum From Secretary of the Treasury <persName corresp="#p_FHH1"
                             type="from">Fowler</persName> to President <persName corresp="#p_JLB1"
                             type="to">Johnson</persName>
@@ -15625,9 +15637,9 @@
                     </closer>
                 </div>
                 <pb n="227" xml:id="pg_227" facs="0263"/>
-                <div type="document" n="104" xml:id="d104"
-                    frus:doc-dateTime-min="1967-11-14T17:05:00Z"
-                    frus:doc-dateTime-max="1967-11-14T18:15:00Z">
+                <div type="document" n="104" xml:id="d104" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-11-14T17:05:00-05:00"
+                    frus:doc-dateTime-max="1967-11-14T18:15:00-05:00">
                     <head>104. Memorandum of Conversation<note n="1" xml:id="d104fn1" type="source"
                             >Source: Washington National Records Center, <gloss target="#t_OSD1"
                                 >OSD</gloss>/OASD/<gloss target="#t_ISA1">ISA</gloss> Files: FRC 330
@@ -15657,7 +15669,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1967-11-14T17:05:00"
-                            to="1967-11-14T18:15:00">November 14, 1967, 5:05–6:15 p.m.</date>
+                            to="1967-11-14T18:15:00" type="conversation-or-meeting-date">November
+                            14, 1967, 5:05–6:15 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -15926,9 +15939,9 @@
                         the Philippines, all of which relied on the U.S. presence and arrangements
                         in Okinawa that served to assure the security of the whole area.</p>
                 </div>
-                <div type="document" n="105" xml:id="d105"
-                    frus:doc-dateTime-min="1967-11-15T00:00:00Z"
-                    frus:doc-dateTime-max="1967-11-15T23:59:59Z">
+                <div type="document" n="105" xml:id="d105" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-11-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-11-15T23:59:59-05:00">
                     <head>105. Memorandum of Conversation<note n="1" xml:id="d105fn1" type="source"
                             >Source: National Archives and Records Administration, RG 59, Central
                             Files 1967–69, <gloss target="#t_POL1">POL</gloss> 19 RYU IS. Secret;
@@ -15942,8 +15955,8 @@
                             million. (Ibid., <gloss target="#t_POL1">POL</gloss> JAPAN–US)</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1967-11-15">November 15,
-                            1967</date>.</dateline>
+                        <placeName>Washington</placeName>, <date when="1967-11-15"
+                            type="conversation-or-meeting-date">November 15, 1967</date>.</dateline>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>
@@ -16090,9 +16103,9 @@
                         be brought in as required.</p>
                 </div>
                 <pb n="235" xml:id="pg_235" facs="0271"/>
-                <div type="document" n="106" xml:id="d106"
-                    frus:doc-dateTime-min="1967-11-15T17:23:00Z"
-                    frus:doc-dateTime-max="1967-11-15T18:59:00Z">
+                <div type="document" n="106" xml:id="d106" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-11-15T17:23:00-05:00"
+                    frus:doc-dateTime-max="1967-11-15T18:59:00-05:00">
                     <head>106. Memorandum of Conversation<note n="1" xml:id="d106fn1" type="source"
                             >Source: <persName>Johnson</persName> Library, National Security File,
                             Country File—Addendum, Japan. Secret; Nodis. Drafted by Wickel. The
@@ -16108,7 +16121,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1967-11-15T17:23:00"
-                            to="1967-11-15T18:59:00">November 15, 1967, 5:23–6:59 p.m.</date>
+                            to="1967-11-15T18:59:00" type="conversation-or-meeting-date">November
+                            15, 1967, 5:23–6:59 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -16549,9 +16563,9 @@
                         Prime Minister's courage.</p>
                 </div>
                 <pb n="245" xml:id="pg_245" facs="0281"/>
-                <div type="document" n="107" xml:id="d107"
-                    frus:doc-dateTime-min="1967-12-22T00:00:00Z"
-                    frus:doc-dateTime-max="1967-12-22T23:59:59Z">
+                <div type="document" n="107" xml:id="d107" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-12-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-12-22T23:59:59-05:00">
                     <head>107. Action Memorandum From the Assistant Secretary of State for East
                         Asian and Pacific Affairs (<persName corresp="#p_BWP1" type="from"
                             >Bundy</persName>) to Secretary of State <persName corresp="#p_RD3"
@@ -16839,9 +16853,9 @@
                     </list>
                 </div>
                 <pb n="250" xml:id="pg_250" facs="0286"/>
-                <div type="document" n="108" xml:id="d108"
-                    frus:doc-dateTime-min="1967-12-29T08:50:00Z"
-                    frus:doc-dateTime-max="1967-12-29T08:50:00Z">
+                <div type="document" n="108" xml:id="d108" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-12-29T03:50:00-05:00"
+                    frus:doc-dateTime-max="1967-12-29T03:50:00-05:00">
                     <head>108. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d108fn1" type="source">Source: Department of State,
@@ -16930,9 +16944,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="109" xml:id="d109"
-                    frus:doc-dateTime-min="1967-12-31T08:49:00Z"
-                    frus:doc-dateTime-max="1967-12-31T08:49:00Z">
+                <div type="document" n="109" xml:id="d109" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-12-31T03:49:00-05:00"
+                    frus:doc-dateTime-max="1967-12-31T03:49:00-05:00">
                     <head>109. Telegram From the <gloss type="from">Department of State</gloss> to
                             <gloss type="to">the Embassy in Japan</gloss>
                         <note n="1" xml:id="d109fn1" type="source">Source: National Archives and
@@ -17076,7 +17090,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="110" xml:id="d110">
+                <div type="document" n="110" xml:id="d110" subtype="editorial-note">
                     <head>110. Editorial Note</head>
                     <p>During the first weeks of 1968, Japan and the United States implemented those
                         portions of the <persName>Johnson</persName>–<persName corresp="#p_SE3"
@@ -17134,9 +17148,9 @@
                         ibid., <gloss target="#t_POL1">POL</gloss> 7 JAPAN.</p>
                 </div>
                 <pb n="256" xml:id="pg_256" facs="0292"/>
-                <div type="document" n="111" xml:id="d111"
-                    frus:doc-dateTime-min="1968-01-11T00:00:00Z"
-                    frus:doc-dateTime-max="1968-01-11T23:59:59Z">
+                <div type="document" n="111" xml:id="d111" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-01-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-01-11T23:59:59-05:00">
                     <head>111. National Intelligence Estimate<note n="1" xml:id="d111fn1"
                             type="source">Source: Department of State, <gloss target="#t_INR1"
                                 >INR</gloss>/<gloss target="#t_EAP1">EAP</gloss> Files: Lot 90 D
@@ -17241,9 +17255,9 @@
                     <p>[Here follows the discussion section of the estimate and an economic
                         annex.]</p>
                 </div>
-                <div type="document" n="112" xml:id="d112"
-                    frus:doc-dateTime-min="1968-01-23T11:00:00Z"
-                    frus:doc-dateTime-max="1968-01-23T11:00:00Z">
+                <div type="document" n="112" xml:id="d112" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-01-23T06:00:00-05:00"
+                    frus:doc-dateTime-max="1968-01-23T06:00:00-05:00">
                     <head>112. Telegram 4858 From the <gloss type="from">Embassy in Japan</gloss> to
                         the <gloss type="to">Department of State</gloss>
                     </head>
@@ -17255,9 +17269,9 @@
                         not declassified.]</p>
                 </div>
                 <pb n="258" xml:id="pg_258" facs="0294"/>
-                <div type="document" n="113" xml:id="d113"
-                    frus:doc-dateTime-min="1968-01-24T00:00:00Z"
-                    frus:doc-dateTime-max="1968-01-24T23:59:59Z">
+                <div type="document" n="113" xml:id="d113" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-01-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-01-24T23:59:59-05:00">
                     <head>113. Intelligence Note From the Director of the Bureau of Intelligence and
                         Research (<persName corresp="#p_HTL2" type="from">Hughes</persName>) to
                         Secretary of State <persName corresp="#p_RD3" type="to">Rusk</persName>
@@ -17466,9 +17480,9 @@
                         willingness to entertain the possibility of acquiring nuclear weapons,
                         either in concert with the US or independently, will increase.</p>
                 </div>
-                <div type="document" n="114" xml:id="d114"
-                    frus:doc-dateTime-min="1968-01-26T12:50:00Z"
-                    frus:doc-dateTime-max="1968-01-26T12:50:00Z">
+                <div type="document" n="114" xml:id="d114" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-01-26T12:50:00-05:00"
+                    frus:doc-dateTime-max="1968-01-26T12:50:00-05:00">
                     <head>114. Memorandum From the President's Special Assistant (<persName
                             corresp="#p_RWW1" type="from">Rostow</persName>) to President <persName
                             corresp="#p_JLB1" type="to">Johnson</persName>
@@ -17525,9 +17539,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="115" xml:id="d115"
-                    frus:doc-dateTime-min="1968-02-16T23:30:00Z"
-                    frus:doc-dateTime-max="1968-02-16T23:30:00Z">
+                <div type="document" n="115" xml:id="d115" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-02-16T18:30:00-05:00"
+                    frus:doc-dateTime-max="1968-02-16T18:30:00-05:00">
                     <head>115. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in Japan</gloss>
                         <note n="1" xml:id="d115fn1" type="source">Source: Department of State,
@@ -17576,9 +17590,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="116" xml:id="d116"
-                    frus:doc-dateTime-min="1968-02-17T08:41:00Z"
-                    frus:doc-dateTime-max="1968-02-17T08:41:00Z">
+                <div type="document" n="116" xml:id="d116" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-02-17T03:41:00-05:00"
+                    frus:doc-dateTime-max="1968-02-17T03:41:00-05:00">
                     <head>116. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d116fn1" type="source">Source: National Archives and
@@ -17703,7 +17717,7 @@
                     </closer>
                 </div>
                 <pb n="266" xml:id="pg_266" facs="0302"/>
-                <div type="document" n="117" xml:id="d117">
+                <div type="document" n="117" xml:id="d117" subtype="editorial-note">
                     <head>117. Editorial Note</head>
                     <p>The discussion between Assistant Secretary <persName>Bundy</persName> and
                         Ambassador <persName corresp="#p_ST5">Shimoda</persName> on February 17,
@@ -17800,9 +17814,9 @@
                             <gloss target="#t_POL1">POL</gloss> 1 JAPAN–US)</p>
                 </div>
                 <pb n="268" xml:id="pg_268" facs="0304"/>
-                <div type="document" n="118" xml:id="d118"
-                    frus:doc-dateTime-min="1968-03-23T00:00:00Z"
-                    frus:doc-dateTime-max="1968-03-23T23:59:59Z">
+                <div type="document" n="118" xml:id="d118" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-03-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-03-23T23:59:59-05:00">
                     <head>118. Information Memorandum From the Assistant Secretary of State for East
                         Asian and Pacific Affairs (<persName corresp="#p_BWP1" type="from"
                             >Bundy</persName>) to Secretary of State <persName corresp="#p_RD3"
@@ -17959,7 +17973,7 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" n="119" xml:id="d119">
+                <div type="document" n="119" xml:id="d119" subtype="editorial-note">
                     <head>119. Editorial Note</head>
                     <p>On March 31, 1968, President <persName corresp="#p_JLB1">Johnson</persName>
                         announced a unilateral deescalation of hostilities toward North Vietnam and
@@ -18014,9 +18028,9 @@
                         possibility of an Imperial visit to the United States and a Presidential
                         visit to Japan. (Ibid.)</p>
                 </div>
-                <div type="document" n="120" xml:id="d120"
-                    frus:doc-dateTime-min="1968-04-26T00:00:00Z"
-                    frus:doc-dateTime-max="1968-04-26T23:59:59Z">
+                <div type="document" n="120" xml:id="d120" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-04-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-04-26T23:59:59-05:00">
                     <head>120. Memorandum From the Department of State's Country Director for Japan
                             (<persName corresp="#p_SRL2" type="from">Sneider</persName>) to the
                         Assistant Secretary of State for East Asian and Pacific Affairs (<persName
@@ -18246,7 +18260,7 @@
                         problem.</p>
                 </div>
                 <pb n="276" xml:id="pg_276" facs="0312"/>
-                <div type="document" n="121" xml:id="d121">
+                <div type="document" n="121" xml:id="d121" subtype="editorial-note">
                     <head>121. Editorial Note</head>
                     <p>In early May 1968 reports of alleged leakage of radioactive material from the
                         nuclear-powered submarine USS <hi rend="italic">Swordfish</hi> while in port
@@ -18281,7 +18295,7 @@
                             >CINCPAC</gloss>, Hawaii, October 30; <persName>Johnson</persName>
                         Library, National Security File, Country File, Ryukyu Islands, Vol. 1)</p>
                 </div>
-                <div type="document" n="122" xml:id="d122">
+                <div type="document" n="122" xml:id="d122" subtype="editorial-note">
                     <head>122. Editorial Note</head>
                     <p>The issue of U.S. bases in Japan moved into the spotlight in early June 1968
                         when an Air Force plane based at Kadena Air Base on Okinawa crashed off the
@@ -18317,9 +18331,9 @@
                             target="#t_ISA1">ISA</gloss> Files: FRC 330 73 A 1250, Japan
                         091.112)</p>
                 </div>
-                <div type="document" n="123" xml:id="d123"
-                    frus:doc-dateTime-min="1968-06-05T07:00:00Z"
-                    frus:doc-dateTime-max="1968-06-05T07:00:00Z">
+                <div type="document" n="123" xml:id="d123" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-06-05T02:00:00-05:00"
+                    frus:doc-dateTime-max="1968-06-05T02:00:00-05:00">
                     <head>123. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d123fn1" type="source">Source: National Archives and
@@ -18612,9 +18626,9 @@
                     </closer>
                 </div>
                 <pb n="284" xml:id="pg_284" facs="0320"/>
-                <div type="document" n="124" xml:id="d124"
-                    frus:doc-dateTime-min="1968-06-14T00:00:00Z"
-                    frus:doc-dateTime-max="1968-06-14T23:59:59Z">
+                <div type="document" n="124" xml:id="d124" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-06-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-06-14T23:59:59-05:00">
                     <head>124. Memorandum From <persName type="from">Alfred Jenkins</persName> of
                         the National Security Council Staff to the President's Special Assistant
                             (<persName corresp="#p_RWW1" type="to">Rostow</persName>)<note n="1"
@@ -18708,9 +18722,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="125" xml:id="d125"
-                    frus:doc-dateTime-min="1968-06-14T00:00:00Z"
-                    frus:doc-dateTime-max="1968-06-14T23:59:59Z">
+                <div type="document" n="125" xml:id="d125" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-06-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-06-14T23:59:59-05:00">
                     <head>125. Memorandum From the Under Secretary of the Army (<persName
                             corresp="#p_MGD1">McGiffert</persName>) to the Deputy Secretary of
                         Defense (<persName corresp="#p_VCR1" type="to">Vance</persName>)<note n="1"
@@ -18832,9 +18846,9 @@
                     </closer>
                 </div>
                 <pb n="288" xml:id="pg_288" facs="0324"/>
-                <div type="document" n="126" xml:id="d126"
-                    frus:doc-dateTime-min="1968-06-18T00:00:00Z"
-                    frus:doc-dateTime-max="1968-06-18T23:59:59Z">
+                <div type="document" n="126" xml:id="d126" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-06-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-06-18T23:59:59-05:00">
                     <head>126. Memorandum From <persName type="from">Alfred Jenkins</persName> of
                         the National Security Council Staff to the President's Special Assistant
                             (<persName corresp="#p_RWW1" type="to">Rostow</persName>)<note n="1"
@@ -18886,9 +18900,9 @@
                     </closer>
                 </div>
                 <pb n="289" xml:id="pg_289" facs="0325"/>
-                <div type="document" n="127" xml:id="d127"
-                    frus:doc-dateTime-min="1968-06-22T00:00:00Z"
-                    frus:doc-dateTime-max="1968-06-22T23:59:59Z">
+                <div type="document" n="127" xml:id="d127" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-06-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-06-22T23:59:59-05:00">
                     <head>127. Memorandum From the Under Secretary of State's Staff Director
                             (<persName type="from">Hartman</persName>) to the <gloss type="to"
                             >Members of the Senior Interdepartmental Group</gloss>
@@ -19139,9 +19153,9 @@
                             U.S., Ryukyuan, and Japanese stakes in the upcoming election.]</p>
                     </frus:attachment>
                 </div>
-                <div type="document" n="128" xml:id="d128"
-                    frus:doc-dateTime-min="1968-07-08T22:44:00Z"
-                    frus:doc-dateTime-max="1968-07-08T22:44:00Z">
+                <div type="document" n="128" xml:id="d128" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-07-08T17:44:00-05:00"
+                    frus:doc-dateTime-max="1968-07-08T17:44:00-05:00">
                     <head>128. Telegram From the <gloss type="from">Department of State</gloss> to
                         the <gloss type="to">Embassy in Japan</gloss>
                         <note n="1" xml:id="d128fn1" type="source">Source: National Archives and
@@ -19248,9 +19262,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="129" xml:id="d129"
-                    frus:doc-dateTime-min="1968-07-15T00:00:00Z"
-                    frus:doc-dateTime-max="1968-07-15T23:59:59Z">
+                <div type="document" n="129" xml:id="d129" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-07-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-07-15T23:59:59-05:00">
                     <pb n="294" xml:id="pg_294" facs="0330"/>
                     <head>129. Memorandum Prepared for the 303 Committee</head>
                     <dateline>
@@ -19261,9 +19275,9 @@
                             target="#t_EA1">EA</gloss> Weekly Meetings, 1968. Secret; Eyes Only. 7
                         pages of source text not declassified.]</p>
                 </div>
-                <div type="document" n="130" xml:id="d130"
-                    frus:doc-dateTime-min="1968-08-21T06:30:00Z"
-                    frus:doc-dateTime-max="1968-08-21T06:30:00Z">
+                <div type="document" n="130" xml:id="d130" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-08-21T01:30:00-05:00"
+                    frus:doc-dateTime-max="1968-08-21T01:30:00-05:00">
                     <head>130. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d130fn1" type="source">Source: National Archives and
@@ -19614,7 +19628,7 @@
                     </closer>
                 </div>
                 <pb n="301" xml:id="pg_301" facs="0337"/>
-                <div type="document" n="131" xml:id="d131">
+                <div type="document" n="131" xml:id="d131" subtype="editorial-note">
                     <head>131. Editorial Note</head>
                     <p>On September 26, 1968, Ambassador <persName>Johnson</persName> and Admiral
                         John</p>
@@ -19661,9 +19675,9 @@
                         A 1304)</p>
                 </div>
                 <pb n="302" xml:id="pg_302" facs="0338"/>
-                <div type="document" n="132" xml:id="d132"
-                    frus:doc-dateTime-min="1968-09-28T00:00:00Z"
-                    frus:doc-dateTime-max="1968-09-28T23:59:59Z">
+                <div type="document" n="132" xml:id="d132" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-09-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-09-28T23:59:59-05:00">
                     <head>132. Letter From the Assistant Secretary of State for East Asian and
                         Pacific Affairs (<persName corresp="#p_BWP1" type="from">Bundy</persName>)
                         to the Ambassador to Japan (<persName corresp="#p_JUA1" type="to"
@@ -19843,9 +19857,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="133" xml:id="d133"
-                    frus:doc-dateTime-min="1968-10-02T08:30:00Z"
-                    frus:doc-dateTime-max="1968-10-02T08:30:00Z">
+                <div type="document" n="133" xml:id="d133" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-10-02T03:30:00-05:00"
+                    frus:doc-dateTime-max="1968-10-02T03:30:00-05:00">
                     <head>133. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d133fn1" type="source">Source: National Archives and
@@ -19930,9 +19944,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="134" xml:id="d134"
-                    frus:doc-dateTime-min="1968-10-24T00:00:00Z"
-                    frus:doc-dateTime-max="1968-10-24T23:59:59Z">
+                <div type="document" n="134" xml:id="d134" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-10-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-10-24T23:59:59-05:00">
                     <head>134. Memorandum From the Deputy Director of Coordination for the Bureau of
                         Intelligence and Research (<persName type="from">Trueheart</persName>) to
                         the Director (<persName corresp="#p_HTL2" type="to"
@@ -19946,9 +19960,9 @@
                         source text not declassified.]</p>
                 </div>
                 <pb n="307" xml:id="pg_307" facs="0343"/>
-                <div type="document" n="135" xml:id="d135"
-                    frus:doc-dateTime-min="1968-11-11T00:00:00Z"
-                    frus:doc-dateTime-max="1968-11-11T23:59:59Z">
+                <div type="document" n="135" xml:id="d135" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-11-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-11-11T23:59:59-05:00">
                     <head>135. Memorandum From <persName type="from">Alfred Jenkins</persName> of
                         the National Security Council Staff to the President's Special Assistant
                             (<persName corresp="#p_RWW1" type="to">Rostow</persName>)<note n="1"
@@ -19997,7 +20011,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" n="136" xml:id="d136">
+                <div type="document" n="136" xml:id="d136" subtype="editorial-note">
                     <head>136. Editorial Note</head>
                     <p>The situation on Okinawa and in Japan was further affected by the appointment
                         of a new High Commissioner for the Ryukyu Islands. In early November the
@@ -20028,9 +20042,9 @@
                         respectively; National Archives and Records Administration, RG 59, Central
                         Files 1967–69, DEF 17 US)</p>
                 </div>
-                <div type="document" n="137" xml:id="d137"
-                    frus:doc-dateTime-min="1968-11-23T00:00:00Z"
-                    frus:doc-dateTime-max="1968-11-23T23:59:59Z">
+                <div type="document" n="137" xml:id="d137" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-11-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-11-23T23:59:59-05:00">
                     <head>137. Research Memorandum From the Director of the Bureau of Intelligence
                         and Research (<persName corresp="#p_HTL2" type="from">Hughes</persName>) to
                         Secretary of State <persName corresp="#p_RD3" type="to">Rusk</persName>
@@ -20123,9 +20137,9 @@
                         question.]</p>
                 </div>
                 <pb n="310" xml:id="pg_310" facs="0346"/>
-                <div type="document" n="138" xml:id="d138"
-                    frus:doc-dateTime-min="1968-12-24T00:00:00Z"
-                    frus:doc-dateTime-max="1968-12-24T23:59:59Z">
+                <div type="document" n="138" xml:id="d138" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-12-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-24T23:59:59-05:00">
                     <head>138. Memorandum From the Country Director for Japan (<persName
                             corresp="#p_SRL2" type="from">Sneider</persName>) to the Assistant
                         Secretary of State for East Asian and Pacific Affairs (<persName
@@ -20312,9 +20326,9 @@
                         Okinawa has become a serious test of U.S. willingness to treat Japan on more
                         equal terms.</p>
                 </div>
-                <div type="document" n="139" xml:id="d139"
-                    frus:doc-dateTime-min="1968-12-27T00:00:00Z"
-                    frus:doc-dateTime-max="1968-12-27T23:59:59Z">
+                <div type="document" n="139" xml:id="d139" subtype="historical-document"
+                    frus:doc-dateTime-min="1968-12-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1968-12-27T23:59:59-05:00">
                     <head>139. Memorandum Prepared for the 303 Committee</head>
                     <dateline>
                         <placeName>Washington</placeName>, <date when="1968-12-27">December 27,
@@ -20324,9 +20338,9 @@
                         Eyes Only. 2 pages of source text not declassified.]</p>
                 </div>
                 <pb n="314" xml:id="pg_314" facs="0350"/>
-                <div type="document" n="140" xml:id="d140"
-                    frus:doc-dateTime-min="1969-01-11T07:31:00Z"
-                    frus:doc-dateTime-max="1969-01-11T07:31:00Z">
+                <div type="document" n="140" xml:id="d140" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-01-11T02:31:00-05:00"
+                    frus:doc-dateTime-max="1969-01-11T02:31:00-05:00">
                     <head>140. Telegram From the <gloss type="from">Embassy in Japan</gloss> to the
                             <gloss type="to">Department of State</gloss>
                         <note n="1" xml:id="d140fn1" type="source">Source: National Archives and

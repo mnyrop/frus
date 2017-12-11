@@ -1588,7 +1588,7 @@
             <div type="compilation" xml:id="comp1">
                 <pb n="1" xml:id="pg_1" facs="0021"/>
                 <head>Foundations of Foreign Policy, 1969-1972</head>
-                <div type="document" xml:id="d1" n="1">
+                <div type="document" xml:id="d1" n="1" subtype="editorial-note">
                     <head>1. Editorial Note</head>
                     <p>The intellectual assumptions on which the foreign policy of the <persName
                             corresp="#p_NRM1">Nixon</persName> administration was based were
@@ -1631,8 +1631,9 @@
                         Policy” which provides an overview of his perspective on foreign policy at
                         that point. (See <ref target="#d4">Document 4</ref>)</p>
                 </div>
-                <div type="document" xml:id="d2" n="2" frus:doc-dateTime-min="1967-07-29T00:00:00Z"
-                    frus:doc-dateTime-max="1967-07-29T23:59:59Z">
+                <div type="document" xml:id="d2" n="2" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-07-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1967-07-29T23:59:59-05:00">
                     <pb n="2" xml:id="pg_2" facs="0022"/>
                     <head>2. Address by <persName corresp="#p_NRM1" type="from">Richard M.
                             Nixon</persName> to the <gloss type="to">Bohemian Club</gloss>
@@ -1980,8 +1981,9 @@
                     <p>And as we near the evening of another Bohemian Encampment, we, too, can look
                         back and say, “How splendid the day has been.”</p>
                 </div>
-                <div type="document" xml:id="d3" n="3" frus:doc-dateTime-min="1967-10-01T04:00:00Z"
-                    frus:doc-dateTime-max="1967-11-01T04:59:59Z">
+                <div type="document" xml:id="d3" n="3" subtype="historical-document"
+                    frus:doc-dateTime-min="1967-09-30T23:00:00-05:00"
+                    frus:doc-dateTime-max="1967-10-31T23:59:59-05:00">
                     <head>3. Article by <persName corresp="#p_NRM1">Richard M. Nixon</persName>
                         <note n="1" xml:id="d3fn1" type="source">Source: <hi rend="italic">Foreign
                                 Affairs,</hi> Vol. 46, No. 1, October 1967, pp. 113-125. Reprinted
@@ -2443,8 +2445,9 @@
                         controlled by it. In this race we cannot afford to wait for others to act,
                         and then merely react. And the race in Asia is already under way.</p>
                 </div>
-                <div type="document" xml:id="d4" n="4" frus:doc-dateTime-min="1969-04-01T00:00:00Z"
-                    frus:doc-dateTime-max="1969-04-01T23:59:59Z">
+                <div type="document" xml:id="d4" n="4" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-04-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-04-01T23:59:59-05:00">
                     <head>4. Essay by <persName corresp="#p_KHA1">Henry A. Kissinger</persName>
                         <note n="1" xml:id="d4fn1" type="source">Source: From <hi rend="italic"
                                 >American Foreign Policy: Three Essays</hi> by <persName
@@ -3620,7 +3623,7 @@
                         to contribute to building a stable and creative world order unless we first
                         form some conception of it.</p>
                 </div>
-                <div type="document" xml:id="d5" n="5">
+                <div type="document" xml:id="d5" n="5" subtype="editorial-note">
                     <head>5. Editorial Note</head>
                     <p>In a campaign speech delivered in Omaha, Nebraska, on May 6, 1968, <persName
                             corresp="#p_NRM1">Richard Nixon</persName> proposed a “new diplomacy” to
@@ -3646,7 +3649,7 @@
                             <persName corresp="#p_NRM1">Nixon</persName> on the Issues</hi>, New
                         York, 1968, pages 1-2)</p>
                 </div>
-                <div type="document" xml:id="d6" n="6">
+                <div type="document" xml:id="d6" n="6" subtype="editorial-note">
                     <head>6. Editorial Note</head>
                     <p>
                         <persName corresp="#p_NRM1">Richard Nixon</persName> offered his perspective
@@ -3684,7 +3687,7 @@
                     <p>The full text of the speech was published in <hi rend="italic">The New York
                             Times</hi> on August 9.</p>
                 </div>
-                <div type="document" xml:id="d7" n="7">
+                <div type="document" xml:id="d7" n="7" subtype="editorial-note">
                     <head>7. Editorial Note</head>
                     <p>On October 7, 1968, <persName corresp="#p_NRM1">Richard Nixon</persName>
                         addressed a conference organized by United Press International in
@@ -3708,7 +3711,7 @@
                         9-10)</p>
                 </div>
                 <pb n="51" xml:id="pg_51" facs="0071"/>
-                <div type="document" xml:id="d8" n="8">
+                <div type="document" xml:id="d8" n="8" subtype="editorial-note">
                     <head>8. Editorial Note</head>
                     <p>Secretary of State-designate <persName corresp="#p_RWP1">William
                             Rogers</persName> testified on January 15, 1969, before the Senate
@@ -3828,7 +3831,7 @@
                             <hi rend="italic">Republican Papers</hi> (New York: Frederick A.
                         Praeger, 1968).</p>
                 </div>
-                <div type="document" xml:id="d9" n="9">
+                <div type="document" xml:id="d9" n="9" subtype="editorial-note">
                     <head>9. Editorial Note</head>
                     <p>The theme that ran through the world view President <persName
                             corresp="#p_NRM1">Nixon</persName> offered in his inaugural address on
@@ -3911,9 +3914,9 @@
                         television.</p>
                 </div>
                 <pb n="56" xml:id="pg_56" facs="0076"/>
-                <div type="document" xml:id="d10" n="10"
-                    frus:doc-dateTime-min="1969-02-04T00:00:00Z"
-                    frus:doc-dateTime-max="1969-02-04T23:59:59Z">
+                <div type="document" xml:id="d10" n="10" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-02-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-02-04T23:59:59-05:00">
                     <head>10. Letter From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to Secretary of Defense <persName corresp="#p_LMR2"
                             type="to">Laird</persName>
@@ -4034,7 +4037,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d11" n="11">
+                <div type="document" xml:id="d11" n="11" subtype="editorial-note">
                     <head>11. Editorial Note</head>
                     <p>
                         <persName corresp="#p_KHA1">Henry Kissinger</persName> discussed the
@@ -4092,9 +4095,9 @@
                             Presidents of the United States: <persName corresp="#p_NRM1">Richard
                                 Nixon</persName>, 1969,</hi> pages 66-76.</p>
                 </div>
-                <div type="document" xml:id="d12" n="12"
-                    frus:doc-dateTime-min="1969-02-19T00:00:00Z"
-                    frus:doc-dateTime-max="1969-02-19T23:59:59Z">
+                <div type="document" xml:id="d12" n="12" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-02-19T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-02-19T23:59:59-05:00">
                     <head>12. Memorandum From the President's Special Assistant (<persName
                             corresp="#p_BP1" type="from">Buchanan</persName>) to President <persName
                             corresp="#p_NRM1" type="to">Nixon</persName>
@@ -4177,7 +4180,7 @@
                         problems.</p>
                     <p>[Omitted here is discussion of other foreign policy issues.]</p>
                 </div>
-                <div type="document" xml:id="d13" n="13">
+                <div type="document" xml:id="d13" n="13" subtype="editorial-note">
                     <head>13. Editorial Note</head>
                     <p>On February 28, 1969, President <persName corresp="#p_NRM1">Nixon</persName>
                         arrived in Paris on the fifth stop of his European trip and met with
@@ -4265,7 +4268,7 @@
                         be published in the <ref target="frus1969-76ve13">Supplement to Foreign
                             Relations, 1969-1976, China, 1969-1972</ref>.</p>
                 </div>
-                <div type="document" xml:id="d14" n="14">
+                <div type="document" xml:id="d14" n="14" subtype="editorial-note">
                     <head>14. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM1">Nixon</persName> met again with
                         President <persName corresp="#p_DGC1">De Gaulle</persName> on March 1, 1969,
@@ -4360,7 +4363,7 @@
                         Members and Office Files, Office of Presidential Papers and Archives, Daily
                         Diary)</p>
                 </div>
-                <div type="document" xml:id="d15" n="15">
+                <div type="document" xml:id="d15" n="15" subtype="editorial-note">
                     <head>15. Editorial Note</head>
                     <p>On March 4, 1969, President <persName corresp="#p_NRM1">Nixon</persName>
                         invited Congressional leaders to the White House to brief them on the
@@ -4409,9 +4412,9 @@
                         Archives, Daily Diary)</p>
                 </div>
                 <pb n="67" xml:id="pg_67" facs="0087"/>
-                <div type="document" xml:id="d16" n="16"
-                    frus:doc-dateTime-min="1969-03-15T00:00:00Z"
-                    frus:doc-dateTime-max="1969-03-15T23:59:59Z">
+                <div type="document" xml:id="d16" n="16" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-03-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-03-15T23:59:59-05:00">
                     <head>16. Letter From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the Head of the Delegation to the Eighteen-Nation
                         Disarmament Conference (<persName corresp="#p_SGC1" type="to"
@@ -4515,7 +4518,7 @@
                     </closer>
                 </div>
                 <pb n="69" xml:id="pg_69" facs="0089"/>
-                <div type="document" xml:id="d17" n="17">
+                <div type="document" xml:id="d17" n="17" subtype="editorial-note">
                     <head>17. Editorial Note</head>
                     <p>In a meeting with Australian Prime Minister <persName>John Gorton</persName>
                         at the White House on April 1, 1969, President <persName corresp="#p_NRM1"
@@ -4541,9 +4544,9 @@
                         documents withheld in Box 7 from documents originally filed in folder 7 of
                         Box 57)</p>
                 </div>
-                <div type="document" xml:id="d18" n="18"
-                    frus:doc-dateTime-min="1969-04-10T00:00:00Z"
-                    frus:doc-dateTime-max="1969-04-10T23:59:59Z">
+                <div type="document" xml:id="d18" n="18" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-04-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-04-10T23:59:59-05:00">
                     <head>18. Address by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">North Atlantic Council</gloss>
                         <note n="1" xml:id="d18fn1" type="source">Source: <hi rend="italic">Public
@@ -4822,9 +4825,9 @@
                         its nobility, and <gloss target="#t_NATO1">NATO</gloss>'s backbone its
                         steel.</p>
                 </div>
-                <div type="document" xml:id="d19" n="19"
-                    frus:doc-dateTime-min="1969-04-10T00:00:00Z"
-                    frus:doc-dateTime-max="1969-04-10T23:59:59Z">
+                <div type="document" xml:id="d19" n="19" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-04-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-04-10T23:59:59-05:00">
                     <pb n="76" xml:id="pg_76" facs="0096"/>
                     <head>19. Report on Meeting of the Cabinet Committee on Economic Policy<note
                             n="1" xml:id="d19fn1" type="source">Source: National Archives, <persName
@@ -4872,9 +4875,9 @@
                     <p>[Omitted here is discussion of a broad range of economic issues.]</p>
                 </div>
                 <pb n="77" xml:id="pg_77" facs="0097"/>
-                <div type="document" xml:id="d20" n="20"
-                    frus:doc-dateTime-min="1969-04-12T00:00:00Z"
-                    frus:doc-dateTime-max="1969-04-12T23:59:59Z">
+                <div type="document" xml:id="d20" n="20" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-04-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-04-12T23:59:59-05:00">
                     <head>20. Memorandum From the President's Deputy Assistant (<persName
                             corresp="#p_BAP1" type="from">Butterfield</persName>) to the President's
                         Assistant for National Security Affairs (<persName corresp="#p_KHA1"
@@ -4928,7 +4931,7 @@
                     </closer>
                 </div>
                 <pb n="78" xml:id="pg_78" facs="0098"/>
-                <div type="document" xml:id="d21" n="21">
+                <div type="document" xml:id="d21" n="21" subtype="editorial-note">
                     <head>21. Editorial Note</head>
                     <p>On April 21, 1969, Secretary of State <persName corresp="#p_RWP1"
                             >Rogers</persName> defined administration policy objectives in Asia in
@@ -5009,7 +5012,7 @@
                             >Bulletin</hi>, May 12, 1969, pages 397-400)</p>
                 </div>
                 <pb n="80" xml:id="pg_80" facs="0100"/>
-                <div type="document" xml:id="d22" n="22">
+                <div type="document" xml:id="d22" n="22" subtype="editorial-note">
                     <head>22. Editorial Note</head>
                     <p>On April 28, 1969, Secretary of Commerce <persName corresp="#p_SMH3">Maurice
                             Stans</persName> reported to President <persName corresp="#p_NRM1"
@@ -5038,7 +5041,7 @@
                             Materials,<gloss target="#t_NSC1">NSC</gloss> Files, Box 213, Agency
                         Files, Commerce, 1970, Vol. I)</p>
                 </div>
-                <div type="document" xml:id="d23" n="23">
+                <div type="document" xml:id="d23" n="23" subtype="editorial-note">
                     <head>23. Editorial Note</head>
                     <p>The <persName corresp="#p_NRM1">Nixon</persName> administration's
                         determination to “Vietnamize” the combat in Vietnam was balanced by
@@ -5063,7 +5066,7 @@
                         Special Files, President's Office Files, B Series documents withheld in Box
                         7 from documents originally filed in folder 11 of Box 57)</p>
                 </div>
-                <div type="document" xml:id="d24" n="24">
+                <div type="document" xml:id="d24" n="24" subtype="editorial-note">
                     <head>24. Editorial Note</head>
                     <p>On May 15, 1969, the National Security Council's Senior Review Group, chaired
                         by <persName corresp="#p_KHA1">Henry Kissinger</persName>, met to consider
@@ -5103,7 +5106,7 @@
                             <hi rend="italic">Foreign Relations</hi>, 1969-1976, China,
                             1969-1972</ref>.</p>
                 </div>
-                <div type="document" xml:id="d25" n="25">
+                <div type="document" xml:id="d25" n="25" subtype="editorial-note">
                     <head>25. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM1">Nixon</persName> briefed a joint
                         meeting of the National Security Council and the Cabinet on May 15, 1969, on
@@ -5152,9 +5155,9 @@
                             <persName corresp="#p_NRM1">Richard Nixon</persName>, 1969, pages
                         369-375.</p>
                 </div>
-                <div type="document" xml:id="d26" n="26"
-                    frus:doc-dateTime-min="1969-05-28T00:00:00Z"
-                    frus:doc-dateTime-max="1969-05-28T23:59:59Z">
+                <div type="document" xml:id="d26" n="26" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-05-28T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-05-28T23:59:59-05:00">
                     <head>26. Special Message From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">Congress</gloss>
                         <note n="1" xml:id="d26fn1" type="source">Source: <hi rend="italic">Public
@@ -5261,9 +5264,9 @@
                     </closer>
                 </div>
                 <pb n="86" xml:id="pg_86" facs="0106"/>
-                <div type="document" xml:id="d27" n="27"
-                    frus:doc-dateTime-min="1969-06-04T00:00:00Z"
-                    frus:doc-dateTime-max="1969-06-04T23:59:59Z">
+                <div type="document" xml:id="d27" n="27" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-06-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-06-04T23:59:59-05:00">
                     <head>27. Address by President <persName corresp="#p_NRM1">Nixon</persName>
                         <note n="1" xml:id="d27fn1" type="source">Source: <hi rend="italic">Public
                                 Papers of the Presidents of the United States: <persName
@@ -5389,9 +5392,9 @@
                         a strong military establishment.]</p>
                 </div>
                 <pb n="89" xml:id="pg_89" facs="0109"/>
-                <div type="document" xml:id="d28" n="28"
-                    frus:doc-dateTime-min="1969-07-21T00:00:00Z"
-                    frus:doc-dateTime-max="1969-07-21T23:59:59Z">
+                <div type="document" xml:id="d28" n="28" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-07-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-07-21T23:59:59-05:00">
                     <head>28. Letter From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the Director of the Arms Control and Disarmament
                         Agency (<persName corresp="#p_SGC1" type="to">Smith</persName>)<note n="1"
@@ -5515,7 +5518,7 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d29" n="29">
+                <div type="document" xml:id="d29" n="29" subtype="editorial-note">
                     <head>29. Editorial Note</head>
                     <p>On July 25, 1969, during a tour of Asia, President <persName
                             corresp="#p_NRM1">Nixon</persName> met with reporters in Guam. His
@@ -5578,7 +5581,7 @@
                                 Nixon</persName>
                         </hi>, page 395)</p>
                 </div>
-                <div type="document" xml:id="d30" n="30">
+                <div type="document" xml:id="d30" n="30" subtype="editorial-note">
                     <head>30. Editorial Note</head>
                     <p>In a background briefing for reporters in Bangkok, Thailand, on July 29,
                         1969, <persName corresp="#p_KHA1">Henry Kissinger</persName> amplified on
@@ -5638,9 +5641,9 @@
                             corresp="#p_KHA1">Kissinger</persName> Papers, Box CL 425, Subject File,
                         Background Briefings, June-Dec 1969)</p>
                 </div>
-                <div type="document" xml:id="d31" n="31"
-                    frus:doc-dateTime-min="1969-07-29T16:00:00Z"
-                    frus:doc-dateTime-max="1969-07-29T16:00:00Z">
+                <div type="document" xml:id="d31" n="31" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-07-29T16:00:00-05:00"
+                    frus:doc-dateTime-max="1969-07-29T16:00:00-05:00">
                     <head>31. Memorandum of Conversation<note n="1" xml:id="d31fn1" type="source"
                             >Source: National Archives, <persName corresp="#p_NRM1">Nixon</persName>
                             Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Box
@@ -5656,8 +5659,8 @@
                                 1969-1972</ref>.</note>
                     </head>
                     <dateline>
-                        <placeName>Bangkok</placeName>, <date when="1969-07-29T16:00:00">July 29,
-                            1969, 4 p.m.</date>
+                        <placeName>Bangkok</placeName>, <date when="1969-07-29T16:00:00"
+                            type="conversation-or-meeting-date">July 29, 1969, 4 p.m.</date>
                     </dateline>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
@@ -5759,7 +5762,7 @@
                         </list>
                     </p>
                 </div>
-                <div type="document" xml:id="d32" n="32">
+                <div type="document" xml:id="d32" n="32" subtype="editorial-note">
                     <head>32. Editorial Note</head>
                     <p>The final stop in Asia on the tour undertaken by President <persName
                             corresp="#p_NRM1">Nixon</persName> in July and August 1969 was in
@@ -5803,7 +5806,7 @@
                             corresp="#p_KHA1">Kissinger</persName> Papers, Box CL 425, Subject File,
                         Background Briefings, June-Dec 1969)</p>
                 </div>
-                <div type="document" xml:id="d33" n="33">
+                <div type="document" xml:id="d33" n="33" subtype="editorial-note">
                     <head>33. Editorial Note</head>
                     <p>During his visit to Lahore, Pakistan, on August 1, 1969, President <persName
                             corresp="#p_NRM1">Nixon</persName> discussed with President Yahya Khan
@@ -5840,7 +5843,7 @@
                         President's Office Files, Box 79, Memoranda for the President, Aug 3-Dec 28,
                         1969)</p>
                 </div>
-                <div type="document" xml:id="d34" n="34">
+                <div type="document" xml:id="d34" n="34" subtype="editorial-note">
                     <head>34. Editorial Note</head>
                     <p>When he returned from his trip to Asia and Romania, President <persName
                             corresp="#p_NRM1">Nixon</persName> briefed Congressional leaders on
@@ -5903,9 +5906,9 @@
                         Presidential Papers and Archives, Daily Diary)</p>
                 </div>
                 <pb n="100" xml:id="pg_100" facs="0120"/>
-                <div type="document" xml:id="d35" n="35"
-                    frus:doc-dateTime-min="1969-09-02T11:45:00Z"
-                    frus:doc-dateTime-max="1969-09-02T11:45:00Z">
+                <div type="document" xml:id="d35" n="35" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-09-02T11:45:00-05:00"
+                    frus:doc-dateTime-max="1969-09-02T11:45:00-05:00">
                     <head>35. Memorandum of Conversation<note n="1" xml:id="d35fn1" type="source"
                             >Source: National Archives, <persName corresp="#p_NRM1">Nixon</persName>
                             Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Box
@@ -5917,7 +5920,8 @@
                     </head>
                     <dateline>
                         <placeName>San Clemente, California</placeName>, <date
-                            when="1969-09-02T11:45:00">September 2, 1969, 11:45 a.m.</date>
+                            when="1969-09-02T11:45:00" type="conversation-or-meeting-date">September
+                            2, 1969, 11:45 a.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -6190,7 +6194,7 @@
                         upon a new approach and also recommend how to implement it. The President
                         concurred and stressed that the whole program must be reorganized.</p>
                 </div>
-                <div type="document" xml:id="d36" n="36">
+                <div type="document" xml:id="d36" n="36" subtype="editorial-note">
                     <head>36. Editorial Note</head>
                     <p>
                         <persName corresp="#p_KHA1">Henry Kissinger</persName> sent a memorandum to
@@ -6281,7 +6285,7 @@
                             >Kissinger</persName>, <hi rend="italic">White House Years,</hi> pages
                         1480-1482.</p>
                 </div>
-                <div type="document" xml:id="d37" n="37">
+                <div type="document" xml:id="d37" n="37" subtype="editorial-note">
                     <head>37. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM1">Nixon</persName> addressed the United
                         Nations General Assembly on September 18, 1969, and expressed the
@@ -6347,7 +6351,7 @@
                             the Presidents of the United States: <persName corresp="#p_NRM1">Richard
                                 Nixon</persName>, 1969</hi>, pages 724-725.</p>
                 </div>
-                <div type="document" xml:id="d38" n="38">
+                <div type="document" xml:id="d38" n="38" subtype="editorial-note">
                     <head>38. Editorial Note</head>
                     <p>On September 27, 1969, President <persName corresp="#p_NRM1">Nixon</persName>
                         met at Camp David, Maryland, with the political team he had selected to help
@@ -6386,7 +6390,7 @@
                         Files, Office of Presidential Papers and Archives, Daily Diary)</p>
                 </div>
                 <pb n="110" xml:id="pg_110" facs="0130"/>
-                <div type="document" xml:id="d39" n="39">
+                <div type="document" xml:id="d39" n="39" subtype="historical-document">
                     <head>39. Memorandum From the President's Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
                         President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -7042,7 +7046,7 @@
                     </frus:attachment>
                 </div>
                 <pb n="122" xml:id="pg_122" facs="0142"/>
-                <div type="document" xml:id="d40" n="40">
+                <div type="document" xml:id="d40" n="40" subtype="editorial-note">
                     <head>40. Editorial Note</head>
                     <p>On October 20, 1969, President <persName corresp="#p_NRM1">Nixon</persName>
                         and <persName corresp="#p_KHA1">Henry Kissinger</persName> met in the Oval
@@ -7086,9 +7090,9 @@
                     </p>
                 </div>
                 <pb n="123" xml:id="pg_123" facs="0143"/>
-                <div type="document" xml:id="d41" n="41"
-                    frus:doc-dateTime-min="1969-10-20T00:00:00Z"
-                    frus:doc-dateTime-max="1969-10-20T23:59:59Z">
+                <div type="document" xml:id="d41" n="41" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-10-20T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-10-20T23:59:59-05:00">
                     <head>41. Memorandum From the President's Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
                         President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -7941,9 +7945,9 @@
                     </frus:attachment>
                 </div>
                 <pb n="140" xml:id="pg_140" facs="0160"/>
-                <div type="document" xml:id="d42" n="42"
-                    frus:doc-dateTime-min="1969-10-27T00:00:00Z"
-                    frus:doc-dateTime-max="1969-10-27T23:59:59Z">
+                <div type="document" xml:id="d42" n="42" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-10-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-10-27T23:59:59-05:00">
                     <head>42. Letter From the Under Secretary of State (<persName corresp="#p_REL1"
                             type="from">Richardson</persName>) to the President's Assistant for
                         National Security Affairs (<persName corresp="#p_KHA1" type="to"
@@ -8053,9 +8057,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d43" n="43"
-                    frus:doc-dateTime-min="1969-11-05T19:00:00Z"
-                    frus:doc-dateTime-max="1969-11-05T19:00:00Z">
+                <div type="document" xml:id="d43" n="43" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-11-05T19:00:00-05:00"
+                    frus:doc-dateTime-max="1969-11-05T19:00:00-05:00">
                     <head>43. Notes of Telephone Conversation Between President <persName
                             corresp="#p_NRM1">Nixon</persName> and His Assistant for National
                         Security Affairs (<persName corresp="#p_KHA1">Kissinger</persName>)<note
@@ -8090,9 +8094,9 @@
                         were searching for that same feeling that people need.</p>
                     <p>K said he would have a talk with Sidey and do his best.</p>
                 </div>
-                <div type="document" xml:id="d44" n="44"
-                    frus:doc-dateTime-min="1969-11-18T00:00:00Z"
-                    frus:doc-dateTime-max="1969-11-18T23:59:59Z">
+                <div type="document" xml:id="d44" n="44" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-11-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-11-18T23:59:59-05:00">
                     <head>44. Special Message From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">Congress</gloss>
                         <note n="1" xml:id="d44fn1" type="source">Source: Public Papers of the
@@ -8234,9 +8238,9 @@
                     </closer>
                 </div>
                 <pb n="146" xml:id="pg_146" facs="0166"/>
-                <div type="document" xml:id="d45" n="45"
-                    frus:doc-dateTime-min="1969-12-03T00:00:00Z"
-                    frus:doc-dateTime-max="1969-12-03T23:59:59Z">
+                <div type="document" xml:id="d45" n="45" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-12-03T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-12-03T23:59:59-05:00">
                     <head>45. Memorandum From the President's Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
                         President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -8495,9 +8499,9 @@
                         </closer>
                     </frus:attachment>
                 </div>
-                <div type="document" xml:id="d46" n="46"
-                    frus:doc-dateTime-min="1969-12-05T00:00:00Z"
-                    frus:doc-dateTime-max="1969-12-05T23:59:59Z">
+                <div type="document" xml:id="d46" n="46" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-12-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-12-05T23:59:59-05:00">
                     <head>46. Memorandum From the Under Secretary of State (<persName
                             corresp="#p_REL1" type="from">Richardson</persName>) to the President's
                         Assistant for National Security Affairs (<persName corresp="#p_KHA1"
@@ -8598,9 +8602,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d47" n="47"
-                    frus:doc-dateTime-min="1969-12-18T14:50:00Z"
-                    frus:doc-dateTime-max="1969-12-18T14:50:00Z">
+                <div type="document" xml:id="d47" n="47" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-12-18T14:50:00-05:00"
+                    frus:doc-dateTime-max="1969-12-18T14:50:00-05:00">
                     <head>47. White House Background Press Briefing by the President's Assistant for
                         National Security Affairs (<persName corresp="#p_KHA1" type="from"
                             >Kissinger</persName>)<note n="1" xml:id="d47fn1" type="source">Source:
@@ -8820,9 +8824,9 @@
                         thoughtful, but whether we were in fact thoughtful. [Omitted here is the
                         question-and-answer session on a variety of foreign policy issues.]</p>
                 </div>
-                <div type="document" xml:id="d48" n="48"
-                    frus:doc-dateTime-min="1969-12-24T00:00:00Z"
-                    frus:doc-dateTime-max="1969-12-24T23:59:59Z">
+                <div type="document" xml:id="d48" n="48" subtype="historical-document"
+                    frus:doc-dateTime-min="1969-12-24T00:00:00-05:00"
+                    frus:doc-dateTime-max="1969-12-24T23:59:59-05:00">
                     <head>48. Memorandum From Secretary of State <persName corresp="#p_RWP1"
                             type="from">Rogers</persName> to President <persName corresp="#p_NRM1"
                             type="to">Nixon</persName>
@@ -9039,9 +9043,9 @@
                     </closer>
                 </div>
                 <pb n="163" xml:id="pg_163" facs="0183"/>
-                <div type="document" xml:id="d49" n="49"
-                    frus:doc-dateTime-min="1970-01-10T00:00:00Z"
-                    frus:doc-dateTime-max="1970-01-10T23:59:59Z">
+                <div type="document" xml:id="d49" n="49" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-01-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-01-10T23:59:59-05:00">
                     <head>49. Memorandum From <persName corresp="#p_WWM1" type="from">Marshall
                             Wright</persName> of the National Security Council Staff to the
                         President's Assistant for National Security Affairs (<persName
@@ -9087,7 +9091,7 @@
                     <p>I call this to your attention so that you will be under no illusions that I
                         consider the attached drafts to be what you asked for.</p>
                 </div>
-                <div type="document" xml:id="d50" n="50">
+                <div type="document" xml:id="d50" n="50" subtype="editorial-note">
                     <head>50. Editorial Note</head>
                     <p>
                         <persName corresp="#p_KHA1">Henry Kissinger</persName> telephoned President
@@ -9165,9 +9169,9 @@
                     <p>For the reference to Thompson, see <ref target="#d43fn3">footnote 3, Document
                             43</ref>.</p>
                 </div>
-                <div type="document" xml:id="d51" n="51"
-                    frus:doc-dateTime-min="1970-01-15T00:00:00Z"
-                    frus:doc-dateTime-max="1970-01-15T23:59:59Z">
+                <div type="document" xml:id="d51" n="51" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-01-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-01-15T23:59:59-05:00">
                     <head>51. Address by Secretary of State <persName corresp="#p_RWP1" type="from"
                             >Rogers</persName>
                         <note n="1" xml:id="d51fn1" type="source">Source: Department of State <hi
@@ -9349,9 +9353,9 @@
                         peace and security in the world during this last third of the 20th
                         century.</p>
                 </div>
-                <div type="document" xml:id="d52" n="52"
-                    frus:doc-dateTime-min="1970-01-22T00:00:00Z"
-                    frus:doc-dateTime-max="1970-01-22T23:59:59Z">
+                <div type="document" xml:id="d52" n="52" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-01-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-01-22T23:59:59-05:00">
                     <head>52. Address by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> on the State of the Union<note n="1" xml:id="d52fn1"
                             type="source">Source: Public Papers of the Presidents of the United
@@ -9451,9 +9455,9 @@
                     <p>[Omitted here is the remainder of the address devoted largely to domestic
                         issues.]</p>
                 </div>
-                <div type="document" xml:id="d53" n="53"
-                    frus:doc-dateTime-min="1970-01-22T00:00:00Z"
-                    frus:doc-dateTime-max="1970-01-22T23:59:59Z">
+                <div type="document" xml:id="d53" n="53" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-01-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-01-22T23:59:59-05:00">
                     <head>53. Memorandum From the Under Secretary of State (<persName
                             corresp="#p_REL1" type="from">Richardson</persName>) to the President's
                         Assistant for National Security Affairs (<persName corresp="#p_KHA1"
@@ -9546,7 +9550,7 @@
                     </closer>
                 </div>
                 <pb n="174" xml:id="pg_174" facs="0194"/>
-                <div type="document" xml:id="d54" n="54">
+                <div type="document" xml:id="d54" n="54" subtype="historical-document">
                     <head>54. Paper Prepared in the National Security Council Staff<note n="1"
                             xml:id="d54fn1" type="source">Source: National Archives, <gloss
                                 target="#t_RG1">RG</gloss> 59, Policy Planning Staff Files: Lot 77 D
@@ -10057,7 +10061,7 @@
                         this concept mean? Is it a pattern we can or should be trying to encourage?
                         If not, why not? If so, how?</p>
                 </div>
-                <div type="document" xml:id="d55" n="55">
+                <div type="document" xml:id="d55" n="55" subtype="editorial-note">
                     <head>55. Editorial Note</head>
                     <p>During a conversation in the Oval Office of the White House on January 27,
                         1970, President <persName corresp="#p_NRM1">Nixon</persName> and British
@@ -10107,7 +10111,7 @@
                             >Nixon</persName>-Prime Minister <persName corresp="#p_WJH2"
                             >Wilson</persName> Jan 27, 1970)</p>
                 </div>
-                <div type="document" xml:id="d56" n="56">
+                <div type="document" xml:id="d56" n="56" subtype="editorial-note">
                     <head>56. Editorial Note</head>
                     <p>At a National Security Council meeting on January 28, 1970, with British
                         Prime Minister <persName corresp="#p_WJH2">Wilson</persName> attending,
@@ -10144,9 +10148,9 @@
                         Security Council, Secretariat Files, <gloss target="#t_NSC1">NSC</gloss>
                         Meeting Minutes, Originals, 1970)</p>
                 </div>
-                <div type="document" xml:id="d57" n="57"
-                    frus:doc-dateTime-min="1970-02-10T00:00:00Z"
-                    frus:doc-dateTime-max="1970-02-10T23:59:59Z">
+                <div type="document" xml:id="d57" n="57" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-02-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-02-10T23:59:59-05:00">
                     <head>57. Memorandum From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to His Assistant for National Security Affairs
                             (<persName corresp="#p_KHA1" type="to">Kissinger</persName>)<note n="1"
@@ -10202,9 +10206,9 @@
                         potential enemies, need to hear this.</p>
                 </div>
                 <pb n="188" xml:id="pg_188" facs="0208"/>
-                <div type="document" xml:id="d58" n="58"
-                    frus:doc-dateTime-min="1970-02-16T00:00:00Z"
-                    frus:doc-dateTime-max="1970-02-16T23:59:59Z">
+                <div type="document" xml:id="d58" n="58" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-02-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-02-16T23:59:59-05:00">
                     <head>58. White House Background Press Briefing by the President's Assistant for
                         National Security Affairs (<persName corresp="#p_KHA1" type="from"
                             >Kissinger</persName>)<note n="1" xml:id="d58fn1" type="source">Source:
@@ -10323,9 +10327,9 @@
                         relating to <gloss target="#t_SALT1">SALT</gloss> negotiations and
                         developments in the Middle East, Latin America, and Vietnam.]</p>
                 </div>
-                <div type="document" xml:id="d59" n="59"
-                    frus:doc-dateTime-min="1970-02-18T00:00:00Z"
-                    frus:doc-dateTime-max="1970-02-18T23:59:59Z">
+                <div type="document" xml:id="d59" n="59" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-02-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-02-18T23:59:59-05:00">
                     <head>59. Memorandum From the President's Special Assistant (<persName
                             corresp="#p_BP1" type="from">Buchanan</persName>) to President <persName
                             corresp="#p_NRM1" type="to">Nixon</persName>
@@ -10532,9 +10536,9 @@
                     <p>[Omitted here is discussion of domestic issues.]</p>
                 </div>
                 <pb n="195" xml:id="pg_195" facs="0215"/>
-                <div type="document" xml:id="d60" n="60"
-                    frus:doc-dateTime-min="1970-02-18T00:00:00Z"
-                    frus:doc-dateTime-max="1970-02-18T23:59:59Z">
+                <div type="document" xml:id="d60" n="60" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-02-18T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-02-18T23:59:59-05:00">
                     <head>60. Report by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">Congress</gloss>
                         <note n="1" xml:id="d60fn1" type="source">
@@ -10952,9 +10956,9 @@
                     <p>[Omitted here is the 68-page body of the report.]</p>
                 </div>
                 <pb n="204" xml:id="pg_204" facs="0224"/>
-                <div type="document" xml:id="d61" n="61"
-                    frus:doc-dateTime-min="1970-03-02T00:00:00Z"
-                    frus:doc-dateTime-max="1970-03-02T23:59:59Z">
+                <div type="document" xml:id="d61" n="61" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-03-02T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-03-02T23:59:59-05:00">
                     <head>61. Memorandum From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to His Assistant (<persName corresp="#p_HHR1"
                             type="to">Haldeman</persName>), His Assistant for Domestic Affairs
@@ -11098,7 +11102,7 @@
                     <p>[Omitted here is a concluding paragraph on government reorganization.]</p>
                 </div>
                 <pb n="207" xml:id="pg_207" facs="0227"/>
-                <div type="document" xml:id="d62" n="62">
+                <div type="document" xml:id="d62" n="62" subtype="editorial-note">
                     <head>62. Editorial Note</head>
                     <p>On March 26, 1970, Secretary of State <persName corresp="#p_RWP1"
                             >Rogers</persName> sent to President <persName corresp="#p_NRM1"
@@ -11150,9 +11154,9 @@
                             target="frus1969-76v06">Vol. VI</ref>)</p>
                 </div>
                 <pb n="208" xml:id="pg_208" facs="0228"/>
-                <div type="document" xml:id="d63" n="63"
-                    frus:doc-dateTime-min="1970-03-27T00:00:00Z"
-                    frus:doc-dateTime-max="1970-03-27T23:59:59Z">
+                <div type="document" xml:id="d63" n="63" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-03-27T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-03-27T23:59:59-05:00">
                     <head>63. Letter From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to President <persName corresp="#p_JJ3" type="to"
                             >Chiang</persName>
@@ -11230,9 +11234,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d64" n="64"
-                    frus:doc-dateTime-min="1970-04-22T00:00:00Z"
-                    frus:doc-dateTime-max="1970-04-22T23:59:59Z">
+                <div type="document" xml:id="d64" n="64" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-04-22T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-04-22T23:59:59-05:00">
                     <head>64. Memorandum From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to His Assistant for National Security Affairs
                             (<persName corresp="#p_KHA1" type="to">Kissinger</persName>)<note n="1"
@@ -11287,9 +11291,9 @@
                         meeting.</p>
                 </div>
                 <pb n="211" xml:id="pg_211" facs="0231"/>
-                <div type="document" xml:id="d65" n="65"
-                    frus:doc-dateTime-min="1970-05-06T15:00:00Z"
-                    frus:doc-dateTime-max="1970-05-06T16:15:00Z">
+                <div type="document" xml:id="d65" n="65" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-05-06T15:00:00-05:00"
+                    frus:doc-dateTime-max="1970-05-06T16:15:00-05:00">
                     <head>65. Memorandum of Conversation<note n="1" xml:id="d65fn1" type="source"
                             >Source: National Archives, <persName corresp="#p_NRM1">Nixon</persName>
                             Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Box
@@ -11301,7 +11305,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1970-05-06T15:00:00"
-                            to="1970-05-06T16:15:00">May 6, 1970, 3-4:15 p.m.</date>
+                            to="1970-05-06T16:15:00" type="conversation-or-meeting-date">May 6,
+                            1970, 3-4:15 p.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -11584,9 +11589,9 @@
                         </signed>
                     </closer>
                 </div>
-                <div type="document" xml:id="d66" n="66"
-                    frus:doc-dateTime-min="1970-05-07T11:12:00Z"
-                    frus:doc-dateTime-max="1970-05-07T12:32:00Z">
+                <div type="document" xml:id="d66" n="66" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-05-07T11:12:00-05:00"
+                    frus:doc-dateTime-max="1970-05-07T12:32:00-05:00">
                     <head>66. Memorandum for the President's File<note n="1" xml:id="d66fn1"
                             type="source">Source: National Archives, <persName corresp="#p_NRM1"
                                 >Nixon</persName> Presidential Materials, White House Special Files,
@@ -11875,9 +11880,9 @@
                         the administration.</p>
                     <p>The President noted all this, but did not commit to appointing someone.</p>
                 </div>
-                <div type="document" xml:id="d67" n="67"
-                    frus:doc-dateTime-min="1970-07-01T00:00:00Z"
-                    frus:doc-dateTime-max="1970-07-01T23:59:59Z">
+                <div type="document" xml:id="d67" n="67" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-07-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-07-01T23:59:59-05:00">
                     <head>67. Interview With President <persName corresp="#p_NRM1">Nixon</persName>
                         <note n="1" xml:id="d67fn1" type="source">Source: <hi rend="italic">Public
                                 Papers of the Presidents of the United States: <persName
@@ -12080,9 +12085,9 @@
                         Middle East.]</p>
                 </div>
                 <pb n="228" xml:id="pg_228" facs="0248"/>
-                <div type="document" xml:id="d68" n="68"
-                    frus:doc-dateTime-min="1970-07-30T00:00:00Z"
-                    frus:doc-dateTime-max="1970-07-30T23:59:59Z">
+                <div type="document" xml:id="d68" n="68" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-07-30T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-07-30T23:59:59-05:00">
                     <head>68. Press Conference by President <persName corresp="#p_NRM1"
                             >Nixon</persName>
                         <note n="1" xml:id="d68fn1" type="source">Source: Public Papers of the
@@ -12127,9 +12132,9 @@
                     <p>[Omitted here are questions and answers on domestic issues and Vietnam.]</p>
                 </div>
                 <pb n="229" xml:id="pg_229" facs="0249"/>
-                <div type="document" xml:id="d69" n="69"
-                    frus:doc-dateTime-min="1970-08-14T00:00:00Z"
-                    frus:doc-dateTime-max="1970-08-14T23:59:59Z">
+                <div type="document" xml:id="d69" n="69" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-08-14T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-08-14T23:59:59-05:00">
                     <head>69. Background Press Briefing by the President's Assistant for National
                         Security Affairs (<persName corresp="#p_KHA1">Kissinger</persName>)<note
                             n="1" xml:id="d69fn1" type="source">Source: Library of Congress,
@@ -12626,9 +12631,9 @@
                         his and <persName corresp="#p_KHA1">Kissinger</persName>'s answers to
                         questions.]</p>
                 </div>
-                <div type="document" xml:id="d70" n="70"
-                    frus:doc-dateTime-min="1970-09-15T00:00:00Z"
-                    frus:doc-dateTime-max="1970-09-15T23:59:59Z">
+                <div type="document" xml:id="d70" n="70" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-09-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-09-15T23:59:59-05:00">
                     <head>70. Message From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">Congress</gloss>
                         <note n="1" xml:id="d70fn1" type="source">Source: <hi rend="italic">Public
@@ -12949,9 +12954,9 @@
                     <p>[Omitted here is a detailed exposition of the proposed program for
                         reform.]</p>
                 </div>
-                <div type="document" xml:id="d71" n="71"
-                    frus:doc-dateTime-min="1970-09-16T00:00:00Z"
-                    frus:doc-dateTime-max="1970-09-16T23:59:59Z">
+                <div type="document" xml:id="d71" n="71" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-09-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-09-16T23:59:59-05:00">
                     <head>71. Off-the-Record Remarks by President <persName corresp="#p_NRM1"
                             >Nixon</persName>
                         <note n="1" xml:id="d71fn1" type="source">Source: Library of Congress,
@@ -13410,9 +13415,9 @@
                     <p>Thank you.</p>
                 </div>
                 <pb n="258" xml:id="pg_258" facs="0278"/>
-                <div type="document" xml:id="d72" n="72"
-                    frus:doc-dateTime-min="1970-09-29T00:00:00Z"
-                    frus:doc-dateTime-max="1970-09-29T23:59:59Z">
+                <div type="document" xml:id="d72" n="72" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-09-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-09-29T23:59:59-05:00">
                     <head>72. Background Press Briefing by the President's Assistant for National
                         Security Affairs (<persName corresp="#p_KHA1" type="from"
                             >Kissinger</persName>)<note n="1" xml:id="d72fn1" type="source">Source:
@@ -13525,9 +13530,9 @@
                     <p>[Omitted here is the remainder of the briefing, devoted largely to questions
                         relating to the Middle East.]</p>
                 </div>
-                <div type="document" xml:id="d73" n="73"
-                    frus:doc-dateTime-min="1970-10-04T00:00:00Z"
-                    frus:doc-dateTime-max="1970-10-04T23:59:59Z">
+                <div type="document" xml:id="d73" n="73" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-10-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-10-04T23:59:59-05:00">
                     <head>73. Statement by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">Press</gloss>
                         <note n="1" xml:id="d73fn1" type="source">Source: <hi rend="italic">Public
@@ -13677,9 +13682,9 @@
                         impressions of the trip and the leaders with whom he met.]</p>
                 </div>
                 <pb n="264" xml:id="pg_264" facs="0284"/>
-                <div type="document" xml:id="d74" n="74"
-                    frus:doc-dateTime-min="1970-10-07T00:00:00Z"
-                    frus:doc-dateTime-max="1970-10-07T23:59:59Z">
+                <div type="document" xml:id="d74" n="74" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-10-07T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-10-07T23:59:59-05:00">
                     <head>74. Memorandum for the President's File by the President's Special
                         Assistant (<persName corresp="#p_KJ2" type="from">Keogh</persName>)<note
                             n="1" xml:id="d74fn1" type="source">Source: National Archives, <persName
@@ -13733,7 +13738,7 @@
                         serving in the Armed Forces. I say our best young men went to Vietnam.”</p>
                     <p>As the President left the room, the Cabinet gave him a standing ovation.</p>
                 </div>
-                <div type="document" xml:id="d75" n="75">
+                <div type="document" xml:id="d75" n="75" subtype="editorial-note">
                     <head>75. Editorial Note</head>
                     <p>During the course of a general discussion of foreign policy issues and
                         domestic considerations on October 12, 1970, President <persName
@@ -13759,9 +13764,9 @@
                         Conversations, Chronological File, 12-16 Oct 1970)</p>
                 </div>
                 <pb n="266" xml:id="pg_266" facs="0286"/>
-                <div type="document" xml:id="d76" n="76"
-                    frus:doc-dateTime-min="1970-10-12T00:00:00Z"
-                    frus:doc-dateTime-max="1970-10-12T23:59:59Z">
+                <div type="document" xml:id="d76" n="76" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-10-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-10-12T23:59:59-05:00">
                     <head>76. Statement by Secretary of State <persName corresp="#p_RWP1"
                             >Rogers</persName> Before the Senate Finance Committee<note n="1"
                             xml:id="d76fn1" type="source">Source: Trade Act of 1970: Amendments 925
@@ -13926,9 +13931,9 @@
                     <p>Thank you, Mr. Chairman.</p>
                 </div>
                 <pb n="270" xml:id="pg_270" facs="0290"/>
-                <div type="document" xml:id="d77" n="77"
-                    frus:doc-dateTime-min="1970-10-22T11:00:00Z"
-                    frus:doc-dateTime-max="1970-10-22T13:30:00Z">
+                <div type="document" xml:id="d77" n="77" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-10-22T11:00:00-05:00"
+                    frus:doc-dateTime-max="1970-10-22T13:30:00-05:00">
                     <head>77. Memorandum of Conversation<note n="1" xml:id="d77fn1" type="source"
                             >Source: National Archives, <persName corresp="#p_NRM1">Nixon</persName>
                             Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Box
@@ -13939,7 +13944,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1970-10-22T11:00:00"
-                            to="1970-10-22T13:30:00">October 22, 1970, 11 a.m.-1:30 p.m.</date>
+                            to="1970-10-22T13:30:00" type="conversation-or-meeting-date">October 22,
+                            1970, 11 a.m.-1:30 p.m.</date>
                     </dateline>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
@@ -14112,9 +14118,9 @@
                         the interests of peace.</p>
                 </div>
                 <pb n="274" xml:id="pg_274" facs="0294"/>
-                <div type="document" xml:id="d78" n="78"
-                    frus:doc-dateTime-min="1970-10-23T00:00:00Z"
-                    frus:doc-dateTime-max="1970-10-23T23:59:59Z">
+                <div type="document" xml:id="d78" n="78" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-10-23T00:00:00-05:00"
+                    frus:doc-dateTime-max="1970-10-23T23:59:59-05:00">
                     <head>78. Address by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">United Nations General
                             Assembly</gloss>
@@ -14466,7 +14472,7 @@
                         world without any war, a full generation of peace.</p>
                 </div>
                 <pb n="282" xml:id="pg_282" facs="0302"/>
-                <div type="document" xml:id="d79" n="79">
+                <div type="document" xml:id="d79" n="79" subtype="editorial-note">
                     <head>79. Editorial Note</head>
                     <p>Romanian President <persName corresp="#p_CN4">Nicolae Ceausescu</persName>
                         came to Washington on October 26, 1970, for a 2-day official visit following
@@ -14574,9 +14580,9 @@
                             >Nixon</persName> Presidential Materials, <gloss target="#t_NSC1"
                             >NSC</gloss> Files, Box 936, VIP Visits)</p>
                 </div>
-                <div type="document" xml:id="d80" n="80"
-                    frus:doc-dateTime-min="1970-12-09T13:00:00Z"
-                    frus:doc-dateTime-max="1970-12-09T14:45:00Z">
+                <div type="document" xml:id="d80" n="80" subtype="historical-document"
+                    frus:doc-dateTime-min="1970-12-09T13:00:00-05:00"
+                    frus:doc-dateTime-max="1970-12-09T14:45:00-05:00">
                     <head>80. Memorandum of Conversation<note n="1" xml:id="d80fn1" type="source"
                             >Source: Library of Congress, Manuscript Division, <persName
                                 corresp="#p_KHA1">Kissinger</persName> Papers, Box CL 269, Memoranda
@@ -14588,7 +14594,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1970-12-09T13:00:00"
-                            to="1970-12-09T14:45:00">December 9, 1970, 1-2:45 p.m.</date>
+                            to="1970-12-09T14:45:00" type="conversation-or-meeting-date">December 9,
+                            1970, 1-2:45 p.m.</date>
                     </dateline>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
@@ -14920,7 +14927,7 @@
                         Soviets.</p>
                     <p>[Omitted here is discussion of developments in Vietnam.]</p>
                 </div>
-                <div type="document" xml:id="d81" n="81">
+                <div type="document" xml:id="d81" n="81" subtype="editorial-note">
                     <head>81. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM1">Nixon</persName> used the occasion of a
                         visit to White House by Israeli Defense Minister <persName corresp="#p_DM8"
@@ -14970,7 +14977,7 @@
                         White House Special Files, President's Office Files, Memoranda for the
                         President, November 1-January 17, 1971)</p>
                 </div>
-                <div type="document" xml:id="d82" n="82">
+                <div type="document" xml:id="d82" n="82" subtype="editorial-note">
                     <head>82. Editorial Note</head>
                     <p>At a meeting with his senior staff in the Pentagon on December 14, 1970,
                         Secretary of Defense <persName corresp="#p_LMR2">Laird</persName> discussed
@@ -15027,7 +15034,7 @@
                             >NSDM</gloss>s), Nos 51-96.</p>
                 </div>
                 <pb n="294" xml:id="pg_294" facs="0314"/>
-                <div type="document" xml:id="d83" n="83">
+                <div type="document" xml:id="d83" n="83" subtype="editorial-note">
                     <head>83. Editorial Note</head>
                     <p>On December 17, 1970, <persName corresp="#p_KHA1">Henry Kissinger</persName>
                         met a number of reporters from the <hi rend="italic">Washington Post</hi> in
@@ -15067,9 +15074,9 @@
                         Hubbard.</p>
                 </div>
                 <pb n="295" xml:id="pg_295" facs="0315"/>
-                <div type="document" xml:id="d84" n="84"
-                    frus:doc-dateTime-min="1971-02-10T00:00:00Z"
-                    frus:doc-dateTime-max="1971-02-10T23:59:59Z">
+                <div type="document" xml:id="d84" n="84" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-02-10T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-02-10T23:59:59-05:00">
                     <head>84. Memorandum From the President's Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="from">Kissinger</persName>) to
                         President <persName corresp="#p_NRM1" type="to">Nixon</persName>
@@ -15174,9 +15181,9 @@
                             >NSC</gloss> meeting to discuss the report.]</p>
                 </div>
                 <pb n="297" xml:id="pg_297" facs="0317"/>
-                <div type="document" xml:id="d85" n="85"
-                    frus:doc-dateTime-min="1971-02-25T00:00:00Z"
-                    frus:doc-dateTime-max="1971-02-25T23:59:59Z">
+                <div type="document" xml:id="d85" n="85" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-02-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-02-25T23:59:59-05:00">
                     <head>85. Radio Address by President <persName corresp="#p_NRM1"
                             >Nixon</persName>
                         <note n="1" xml:id="d85fn1" type="source">Source: <hi rend="italic">Public
@@ -15449,9 +15456,9 @@
                         globe in building for our children the kind of world they deserve: a world
                         of opportunity in a world without war.</p>
                 </div>
-                <div type="document" xml:id="d86" n="86"
-                    frus:doc-dateTime-min="1971-02-26T00:00:00Z"
-                    frus:doc-dateTime-max="1971-02-26T23:59:59Z">
+                <div type="document" xml:id="d86" n="86" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-02-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-02-26T23:59:59-05:00">
                     <head>86. Interview With the President's Assistant for National Security Affairs
                             (<persName corresp="#p_KHA1">Kissinger</persName>)<note n="1"
                             xml:id="d86fn1" type="source">Source: Library of Congress, Manuscript
@@ -15504,9 +15511,9 @@
                         and an attempt to hold together the widest possible group that we can.</p>
                     <p>[Omitted here is discussion of the war in Vietnam.]</p>
                 </div>
-                <div type="document" xml:id="d87" n="87"
-                    frus:doc-dateTime-min="1971-03-12T00:00:00Z"
-                    frus:doc-dateTime-max="1971-03-12T23:59:59Z">
+                <div type="document" xml:id="d87" n="87" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-03-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-03-12T23:59:59-05:00">
                     <head>87. Address by President <persName corresp="#p_NRM1">Nixon</persName>
                         <note n="1" xml:id="d87fn1" type="source">Source: <hi rend="italic">Public
                                 Papers of the Presidents of the United States: <persName
@@ -15651,7 +15658,7 @@
                         be redeemed along with the hopes of humanity.</p>
                     <p>[Omitted here are brief closing personal comments.]</p>
                 </div>
-                <div type="document" xml:id="d88" n="88">
+                <div type="document" xml:id="d88" n="88" subtype="editorial-note">
                     <head>88. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM1">Nixon</persName> met on April 20, 1971,
                         with members of the Republican Congressional leadership in the Cabinet Room
@@ -15826,9 +15833,9 @@
                         House Central Files, Staff Members and Office Files, Office of Presidential
                         Papers and Archives, Daily Diary)</p>
                 </div>
-                <div type="document" xml:id="d89" n="89"
-                    frus:doc-dateTime-min="1971-04-21T00:00:00Z"
-                    frus:doc-dateTime-max="1971-04-21T23:59:59Z">
+                <div type="document" xml:id="d89" n="89" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-04-21T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-04-21T23:59:59-05:00">
                     <head>89. Special Message by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">Congress</gloss>
                         <note n="1" xml:id="d89fn1" type="source">Source: <hi rend="italic">Public
@@ -16064,7 +16071,7 @@
                     <p>[Omitted here are details of the new foreign assistance program.]</p>
                 </div>
                 <pb n="317" xml:id="pg_317" facs="0337"/>
-                <div type="document" xml:id="d90" n="90">
+                <div type="document" xml:id="d90" n="90" subtype="editorial-note">
                     <head>90. Editorial Note</head>
                     <p>On April 21, 1971, the same day the President sent to Congress his message on
                         foreign assistance reform (see <ref target="#d89">Document 89</ref>), Peter
@@ -16264,9 +16271,9 @@
                         at 10:25 and ended at 11:05 a.m.</p>
                 </div>
                 <pb n="322" xml:id="pg_322" facs="0342"/>
-                <div type="document" xml:id="d91" n="91"
-                    frus:doc-dateTime-min="1971-06-29T00:00:00Z"
-                    frus:doc-dateTime-max="1971-06-29T23:59:59Z">
+                <div type="document" xml:id="d91" n="91" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-06-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-06-29T23:59:59-05:00">
                     <head>91. Memorandum for the President's File by the President's Special
                         Assistant (<persName corresp="#p_SWL1">Safire</persName>)<note n="1"
                             xml:id="d91fn1" type="source">Source: National Archives, <persName
@@ -16337,9 +16344,9 @@
                     <p>“This would diminish the chances for a generation of peace. The future of the
                         economy is in our hands—and also the future of peace.”</p>
                 </div>
-                <div type="document" xml:id="d92" n="92"
-                    frus:doc-dateTime-min="1971-07-15T00:00:00Z"
-                    frus:doc-dateTime-max="1971-07-15T23:59:59Z">
+                <div type="document" xml:id="d92" n="92" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-07-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-07-15T23:59:59-05:00">
                     <head>92. Remarks by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">Nation</gloss>
                         <note n="1" xml:id="d92fn1" type="source">Source: <hi rend="italic">Public
@@ -16399,7 +16406,7 @@
                         generations on this earth we share together.</p>
                     <p>Thank you and good night.</p>
                 </div>
-                <div type="document" xml:id="d93" n="93">
+                <div type="document" xml:id="d93" n="93" subtype="editorial-note">
                     <head>93. Editorial Note</head>
                     <p>On July 16, 1971, <persName corresp="#p_KHA1">Henry Kissinger</persName>
                         provided a briefing on a background basis to members of the press on his
@@ -16503,7 +16510,7 @@
                             corresp="#p_ZRL1">Ronald Ziegler</persName> introduced <persName
                             corresp="#p_KHA1">Kissinger</persName>.</p>
                 </div>
-                <div type="document" xml:id="d94" n="94">
+                <div type="document" xml:id="d94" n="94" subtype="editorial-note">
                     <head>94. Editorial Note</head>
                     <p>On July 19, 1971, <persName corresp="#p_KHA1">Henry Kissinger</persName> met
                         with Soviet Ambassador <persName corresp="#p_DAF1">Anatoly
@@ -16599,9 +16606,9 @@
                         with us because they were quarreling. We could not ‘exploit’ that rivalry;
                         it exploited itself.” (Ibid., page 763)</p>
                 </div>
-                <div type="document" xml:id="d95" n="95"
-                    frus:doc-dateTime-min="1971-08-04T00:00:00Z"
-                    frus:doc-dateTime-max="1971-08-04T23:59:59Z">
+                <div type="document" xml:id="d95" n="95" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-08-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-08-04T23:59:59-05:00">
                     <head>95. Press Conference by President <persName corresp="#p_NRM1"
                             >Nixon</persName>
                         <note n="1" xml:id="d95fn1" type="source">Source: Public Papers of the
@@ -16653,9 +16660,9 @@
                         talks.</p>
                     <p>[Omitted here are the remaining items in the press conference.]</p>
                 </div>
-                <div type="document" xml:id="d96" n="96"
-                    frus:doc-dateTime-min="1971-08-13T10:05:00Z"
-                    frus:doc-dateTime-max="1971-08-13T11:50:00Z">
+                <div type="document" xml:id="d96" n="96" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-08-13T10:05:00-05:00"
+                    frus:doc-dateTime-max="1971-08-13T11:50:00-05:00">
                     <head>96. Memorandum of Conversation<note n="1" xml:id="d96fn1" type="source"
                             >Source: National Security Council, <persName corresp="#p_NRM1"
                                 >Nixon</persName>
@@ -16668,7 +16675,8 @@
                     </head>
                     <dateline>
                         <placeName>Washington</placeName>, <date from="1971-08-13T10:05:00"
-                            to="1971-08-13T11:50:00">August 13, 1971, 10:05-11:50 a.m.</date>
+                            to="1971-08-13T11:50:00" type="conversation-or-meeting-date">August 13,
+                            1971, 10:05-11:50 a.m.</date>
                     </dateline>
                     <list type="subject">
                         <head>SUBJECT</head>
@@ -16828,9 +16836,9 @@
                     <p>[Omitted here is additional discussion of <gloss target="#t_FY1">FY</gloss>
                         1973 Defense budget matters.]</p>
                 </div>
-                <div type="document" xml:id="d97" n="97"
-                    frus:doc-dateTime-min="1971-10-12T00:00:00Z"
-                    frus:doc-dateTime-max="1971-10-12T23:59:59Z">
+                <div type="document" xml:id="d97" n="97" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-10-12T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-10-12T23:59:59-05:00">
                     <head>97. Memorandum for the President's File by the President's Assistant for
                         National Security Affairs (<persName corresp="#p_KHA1"
                             >Kissinger</persName>)<note n="1" xml:id="d97fn1" type="source">Source:
@@ -16945,7 +16953,7 @@
                         extremely careful not to risk a leak.</p>
                     <p>[Omitted here is general discussion among the participants.]</p>
                 </div>
-                <div type="document" xml:id="d98" n="98">
+                <div type="document" xml:id="d98" n="98" subtype="editorial-note">
                     <head>98. Editorial Note</head>
                     <p>On October 27, 1971, on his return from China, <persName corresp="#p_KHA1"
                             >Henry Kissinger</persName> held a press conference in the White House
@@ -16982,9 +16990,9 @@
                         conducted almost entirely “on the record.”</p>
                 </div>
                 <pb n="338" xml:id="pg_338" facs="0358"/>
-                <div type="document" xml:id="d99" n="99"
-                    frus:doc-dateTime-min="1971-10-30T10:05:00Z"
-                    frus:doc-dateTime-max="1971-10-30T11:05:00Z">
+                <div type="document" xml:id="d99" n="99" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-10-30T10:05:00-05:00"
+                    frus:doc-dateTime-max="1971-10-30T11:05:00-05:00">
                     <head>99. Memorandum for the President's File by the President's Assistant for
                         National Security Affairs (<persName corresp="#p_KHA1"
                             >Kissinger</persName>)<note n="1" xml:id="d99fn1" type="source">Source:
@@ -17115,9 +17123,9 @@
                         about such participation and wanted to see some action.</p>
                     <p>[Omitted here is discussion of the war in Vietnam.]</p>
                 </div>
-                <div type="document" xml:id="d100" n="100"
-                    frus:doc-dateTime-min="1971-12-01T00:00:00Z"
-                    frus:doc-dateTime-max="1971-12-01T23:59:59Z">
+                <div type="document" xml:id="d100" n="100" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-12-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1971-12-01T23:59:59-05:00">
                     <head>100. Address by Secretary of State <persName corresp="#p_RWP1"
                             >Rogers</persName>
                         <note n="1" xml:id="d100fn1" type="source">Source: Department of State <hi
@@ -17417,9 +17425,9 @@
                         cooperative relationships within the whole of Europe.</p>
                     <p>[Omitted here are questions and answers.]</p>
                 </div>
-                <div type="document" xml:id="d101" n="101"
-                    frus:doc-dateTime-min="1971-12-01T21:30:00Z"
-                    frus:doc-dateTime-max="1971-12-01T21:30:00Z">
+                <div type="document" xml:id="d101" n="101" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-12-01T21:30:00-05:00"
+                    frus:doc-dateTime-max="1971-12-01T21:30:00-05:00">
                     <head>101. Memorandum of Conversation<note n="1" xml:id="d101fn1" type="source"
                             >Source: Library of Congress, Manuscript Division, <persName
                                 corresp="#p_KHA1">Kissinger</persName> Papers, Box CL 270, Memoranda
@@ -17429,8 +17437,8 @@
                             the Business Council participants is attached but not printed.</note>
                     </head>
                     <dateline>
-                        <placeName>Washington</placeName>, <date when="1971-12-01T21:30:00">December
-                            1, 1971, 9:30 p.m.</date>
+                        <placeName>Washington</placeName>, <date when="1971-12-01T21:30:00"
+                            type="conversation-or-meeting-date">December 1, 1971, 9:30 p.m.</date>
                     </dateline>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
@@ -17629,9 +17637,9 @@
                         domestically (regarding the reintegration of American society).</p>
                     <p>[Omitted here are concluding remarks and questions and answers.]</p>
                 </div>
-                <div type="document" xml:id="d102" n="102"
-                    frus:doc-dateTime-min="1971-12-20T13:30:00Z"
-                    frus:doc-dateTime-max="1971-12-20T17:00:00Z">
+                <div type="document" xml:id="d102" n="102" subtype="historical-document"
+                    frus:doc-dateTime-min="1971-12-20T13:30:00-05:00"
+                    frus:doc-dateTime-max="1971-12-20T17:00:00-05:00">
                     <head>102. Memorandum for the President's File by the President's Assistant for
                         National Security Affairs (<persName corresp="#p_KHA1"
                             >Kissinger</persName>)<note n="1" xml:id="d102fn1" type="source">Source:
@@ -17728,7 +17736,7 @@
                         we are willing to pay to avert war. If we are not, we have tough days
                         ahead.” [Omitted here are very brief comments on South Asia.]</p>
                 </div>
-                <div type="document" xml:id="d103" n="103">
+                <div type="document" xml:id="d103" n="103" subtype="editorial-note">
                     <head>103. Editorial Note</head>
                     <p>On January 6, 1972, President <persName corresp="#p_NRM1">Nixon</persName>
                         received Japanese Prime Minister <persName corresp="#p_SE3"
@@ -17779,9 +17787,9 @@
                         </quote>
                     </p>
                 </div>
-                <div type="document" xml:id="d104" n="104"
-                    frus:doc-dateTime-min="1972-02-09T00:00:00Z"
-                    frus:doc-dateTime-max="1972-02-09T23:59:59Z">
+                <div type="document" xml:id="d104" n="104" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-02-09T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-02-09T23:59:59-05:00">
                     <head>104. Third Annual Report on U.S. Foreign Policy<note n="1"
                             xml:id="d104fn1" type="source">Source: Public Papers of the Presidents
                             of the United States: <persName corresp="#p_NRM1">Richard
@@ -17957,7 +17965,7 @@
                         progress, justice, and freedom.</p>
                     <p>This is what we mean by a generation of peace.</p>
                 </div>
-                <div type="document" xml:id="d105" n="105">
+                <div type="document" xml:id="d105" n="105" subtype="editorial-note">
                     <head>105. Editorial Note</head>
                     <p>Three days before his trip to the People's Republic of China, on February 14,
                         1972, President <persName corresp="#p_NRM1">Nixon</persName> spoke about his
@@ -18012,7 +18020,7 @@
                             <hi rend="italic">Foreign Relations</hi>, 1969-1976, China,
                             1969-1972</ref>.</p>
                 </div>
-                <div type="document" xml:id="d106" n="106">
+                <div type="document" xml:id="d106" n="106" subtype="editorial-note">
                     <head>106. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM1">Nixon</persName> met with Chairman
                             <persName corresp="#p_MZMT1">Mao Tse-tung</persName> on February 21,
@@ -18253,7 +18261,7 @@
                             <hi rend="italic">Foreign Relations</hi>, 1969-1976, China,
                             1969-1972</ref>.</p>
                 </div>
-                <div type="document" xml:id="d107" n="107">
+                <div type="document" xml:id="d107" n="107" subtype="editorial-note">
                     <head>107. Editorial Note</head>
                     <p>During the course of a long meeting between President <persName
                             corresp="#p_NRM1">Nixon</persName> and Premier <persName
@@ -18332,7 +18340,7 @@
                             1969-1972</ref>.</p>
                 </div>
                 <pb n="368" xml:id="pg_368" facs="0388"/>
-                <div type="document" xml:id="d108" n="108">
+                <div type="document" xml:id="d108" n="108" subtype="editorial-note">
                     <head>108. Editorial Note</head>
                     <p>On February 29, 1972, President <persName corresp="#p_NRM1">Nixon</persName>
                         met with the bipartisan Congressional leadership in the Cabinet Room of the
@@ -18404,7 +18412,7 @@
                         Central Files, Staff Members and Office Files, Office of Presidential Papers
                         and Archives, Daily Diary)</p>
                 </div>
-                <div type="document" xml:id="d109" n="109">
+                <div type="document" xml:id="d109" n="109" subtype="editorial-note">
                     <head>109. Editorial Note</head>
                     <p>On March 30, 1972, North Vietnam initiated a major offensive against the
                         South. The offensive was supplied in large measure by the Soviet Union,
@@ -18459,9 +18467,9 @@
                         Telephone Conversations, Chronological File)</p>
                 </div>
                 <pb n="371" xml:id="pg_371" facs="0391"/>
-                <div type="document" xml:id="d110" n="110"
-                    frus:doc-dateTime-min="1972-04-23T19:45:00Z"
-                    frus:doc-dateTime-max="1972-04-23T19:45:00Z">
+                <div type="document" xml:id="d110" n="110" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-04-23T14:45:00-05:00"
+                    frus:doc-dateTime-max="1972-04-23T14:45:00-05:00">
                     <head>110. Telegram From President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the President's Assistant for National Security
                         Affairs (<persName corresp="#p_KHA1" type="to">Kissinger</persName>) in
@@ -18618,9 +18626,9 @@
                         man in Moscow at this time than <persName corresp="#p_KHA1"
                             >Kissinger</persName>. Rebozo joins us in sending our regards.</p>
                 </div>
-                <div type="document" xml:id="d111" n="111"
-                    frus:doc-dateTime-min="1972-05-05T00:00:00Z"
-                    frus:doc-dateTime-max="1972-05-05T23:59:59Z">
+                <div type="document" xml:id="d111" n="111" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-05-05T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-05-05T23:59:59-05:00">
                     <head>111. Memorandum of Conversation<note n="1" xml:id="d111fn1" type="source"
                             >Source: National Archives, <persName corresp="#p_NRM1">Nixon</persName>
                             Presidential Materials, <gloss target="#t_NSC1">NSC</gloss> Files, Box
@@ -18628,8 +18636,8 @@
                             no drafting information on the memorandum.</note>
                     </head>
                     <dateline>
-                        <placeName>New York</placeName>, <date when="1972-05-05">May 5,
-                        1972</date>.</dateline>
+                        <placeName>New York</placeName>, <date when="1972-05-05"
+                            type="conversation-or-meeting-date">May 5, 1972</date>.</dateline>
                     <list type="participants">
                         <head>PARTICIPANTS</head>
                         <item>List Attached<note n="2" xml:id="d111fn2">Not printed.</note>
@@ -18720,9 +18728,9 @@
                     <p>[Omitted here is a non-substantive explanatory comment by the notetaker.]</p>
                 </div>
                 <pb n="377" xml:id="pg_377" facs="0397"/>
-                <div type="document" xml:id="d112" n="112"
-                    frus:doc-dateTime-min="1972-05-08T00:00:00Z"
-                    frus:doc-dateTime-max="1972-05-08T23:59:59Z">
+                <div type="document" xml:id="d112" n="112" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-05-08T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-05-08T23:59:59-05:00">
                     <head>112. Address by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to the <gloss type="to">Nation</gloss>
                         <note n="1" xml:id="d112fn1" type="source">Source: <hi rend="italic">Public
@@ -18945,7 +18953,7 @@
                     <p>With God's help, with your support, we will accomplish that great goal.</p>
                     <p>Thank you and good night.</p>
                 </div>
-                <div type="document" xml:id="d113" n="113">
+                <div type="document" xml:id="d113" n="113" subtype="editorial-note">
                     <head>113. Editorial Note</head>
                     <p>On May 8, 1972, immediately following the President's address on the
                         situation in South Vietnam (see <ref target="#d112">Document 112</ref>),
@@ -18981,9 +18989,9 @@
                             rend="italic">Weekly Compilation of Presidential Documents,</hi> Volume
                         8, May 15, 1972, page 844)</p>
                 </div>
-                <div type="document" xml:id="d114" n="114"
-                    frus:doc-dateTime-min="1972-05-19T16:00:00Z"
-                    frus:doc-dateTime-max="1972-05-19T16:00:00Z">
+                <div type="document" xml:id="d114" n="114" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-05-19T16:00:00-05:00"
+                    frus:doc-dateTime-max="1972-05-19T16:00:00-05:00">
                     <head>114. Memorandum for the President's File by the President's Special
                         Consultant (<persName corresp="#p_SJA1">Scali</persName>)<note n="1"
                             xml:id="d114fn1" type="source">Source: National Archives, <persName
@@ -19132,7 +19140,7 @@
                         something.</p>
                     <p>[Omitted here are comments and discussion of specific issues.]</p>
                 </div>
-                <div type="document" xml:id="d115" n="115">
+                <div type="document" xml:id="d115" n="115" subtype="editorial-note">
                     <head>115. Editorial Note</head>
                     <p>President <persName corresp="#p_NRM1">Nixon</persName> and senior U.S.
                         officials visited the Soviet Union May 22-29, 1972, for Summit meetings.
@@ -19228,9 +19236,9 @@
                             >Brezhnev</persName>, May 29, 1972; ibid., Part 2)</p>
                 </div>
                 <pb n="389" xml:id="pg_389" facs="0409"/>
-                <div type="document" xml:id="d116" n="116"
-                    frus:doc-dateTime-min="1972-05-29T00:00:00Z"
-                    frus:doc-dateTime-max="1972-05-29T23:59:59Z">
+                <div type="document" xml:id="d116" n="116" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-05-29T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-05-29T23:59:59-05:00">
                     <head>116. Paper Agreed Upon by the United States and the Soviet Union<note
                             n="1" xml:id="d116fn1" type="source">
                             <p>Source: <hi rend="italic">Public Papers of the Presidents of the
@@ -19404,9 +19412,9 @@
                     </p>
                 </div>
                 <pb n="392" xml:id="pg_392" facs="0412"/>
-                <div type="document" xml:id="d117" n="117"
-                    frus:doc-dateTime-min="1972-06-01T00:00:00Z"
-                    frus:doc-dateTime-max="1972-06-01T23:59:59Z">
+                <div type="document" xml:id="d117" n="117" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-06-01T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-06-01T23:59:59-05:00">
                     <head>117. Address by President <persName corresp="#p_NRM1" type="from"
                             >Nixon</persName> to a <gloss type="to">Joint Session of the
                             Congress</gloss>
@@ -19728,9 +19736,9 @@
                         of lasting peace.</p>
                 </div>
                 <pb n="400" xml:id="pg_400" facs="0420"/>
-                <div type="document" xml:id="d118" n="118"
-                    frus:doc-dateTime-min="1972-06-15T00:00:00Z"
-                    frus:doc-dateTime-max="1972-06-15T23:59:59Z">
+                <div type="document" xml:id="d118" n="118" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-06-15T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-06-15T23:59:59-05:00">
                     <head>118. Briefing by the President's Assistant for National Security Affairs
                             (<persName corresp="#p_KHA1">Kissinger</persName>) for the Senate
                         Foreign Relations Committee<note n="1" xml:id="d118fn1" type="source"
@@ -20072,9 +20080,9 @@
                             >Kissinger</persName>.]</p>
                 </div>
                 <pb n="408" xml:id="pg_408" facs="0428"/>
-                <div type="document" xml:id="d119" n="119"
-                    frus:doc-dateTime-min="1972-06-16T00:00:00Z"
-                    frus:doc-dateTime-max="1972-06-16T23:59:59Z">
+                <div type="document" xml:id="d119" n="119" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-06-16T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-06-16T23:59:59-05:00">
                     <head>119. Memorandum for the President's File by the President's Special
                         Assistant (<persName corresp="#p_PRKJ1">Price</persName>)<note n="1"
                             xml:id="d119fn1" type="source">Source: National Archives, <persName
@@ -20206,9 +20214,9 @@
                     <p>[Omitted here is brief discussion on defense matters and domestic
                         politics.]</p>
                 </div>
-                <div type="document" xml:id="d120" n="120"
-                    frus:doc-dateTime-min="1972-09-11T00:00:00Z"
-                    frus:doc-dateTime-max="1972-09-11T23:59:59Z">
+                <div type="document" xml:id="d120" n="120" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-09-11T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-09-11T23:59:59-05:00">
                     <head>120. Memorandum for the President's File by the President's Assistant
                             (<persName corresp="#p_FPM1">Flanigan</persName>)<note n="1"
                             xml:id="d120fn1" type="source">Source: National Archives, <persName
@@ -20336,9 +20344,9 @@
                     <p>[Omitted here is a concluding comment by <persName corresp="#p_NRM1"
                             >Nixon</persName> relating mainly to political concerns.]</p>
                 </div>
-                <div type="document" xml:id="d121" n="121"
-                    frus:doc-dateTime-min="1972-09-25T00:00:00Z"
-                    frus:doc-dateTime-max="1972-09-25T23:59:59Z">
+                <div type="document" xml:id="d121" n="121" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-09-25T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-09-25T23:59:59-05:00">
                     <head>121. Remarks by President <persName corresp="#p_NRM1">Nixon</persName>
                         <note n="1" xml:id="d121fn1" type="source">Source: <hi rend="italic">Public
                                 Papers of the Presidents of the United States: <persName
@@ -20500,9 +20508,9 @@
                         coming generation—and will help to shape the years ahead into a generation
                         of peace for all nations in the world.</p>
                 </div>
-                <div type="document" xml:id="d122" n="122"
-                    frus:doc-dateTime-min="1972-09-26T00:00:00Z"
-                    frus:doc-dateTime-max="1972-09-26T23:59:59Z">
+                <div type="document" xml:id="d122" n="122" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-09-26T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-09-26T23:59:59-05:00">
                     <head>122. Statement by Secretary of the Treasury <persName corresp="#p_SGP1"
                             >Shultz</persName>
                         <note n="1" xml:id="d122fn1" type="source">Source: Department of State <hi
@@ -20642,9 +20650,9 @@
                         international financial system.</p>
                     <p>[Omitted here are brief concluding comments.]</p>
                 </div>
-                <div type="document" xml:id="d123" n="123"
-                    frus:doc-dateTime-min="1972-11-04T00:00:00Z"
-                    frus:doc-dateTime-max="1972-11-04T23:59:59Z">
+                <div type="document" xml:id="d123" n="123" subtype="historical-document"
+                    frus:doc-dateTime-min="1972-11-04T00:00:00-05:00"
+                    frus:doc-dateTime-max="1972-11-04T23:59:59-05:00">
                     <head>123. Address by President <persName corresp="#p_NRM1">Nixon</persName>
                         <note n="1" xml:id="d123fn1" type="source">Source: <hi rend="italic">Public
                                 Papers of the Presidents of the United States: <persName

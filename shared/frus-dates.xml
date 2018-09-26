@@ -14,6 +14,7 @@
         </fileDesc>
         <encodingDesc>
             <classDecl>
+                <!-- Taxonomy for date/@ana values -->
                 <taxonomy xml:id="frus-dates">
                     <category xml:id="date_apparent-typo-based-on-document-content">
                         <catDesc>The recorded date was determined to be an error via content of the
@@ -34,6 +35,12 @@
                         <catDesc>The recorded date was determined to be an error by typo based on
                             nearest dated siblings and corrected date value(s) were inferred from
                             nearest dated siblings</catDesc>
+                    </category>
+                    <category
+                        xml:id="date_conversion-issue-inferred-from-document-content-and-sibling-dates">
+                        <catDesc>Problems in conversion to Gregorian date value(s) necessitated
+                            adding @notBefore and @notAfter inferred from the content of the
+                            document and nearest dated siblings</catDesc>
                     </category>
                     <category xml:id="date_editorial-correction">
                         <catDesc>The recorded date was determined to be an error by the FRUS
@@ -67,6 +74,15 @@
                             inferred from the content of the document and nearest dated
                             siblings</catDesc>
                     </category>
+                    <category xml:id="date_imprecise-inferred-from-editorial-annotation">
+                        <catDesc>[Contemporary Volumes] Imprecise date value(s) augmented with
+                            @notBefore and @notAfter inferred from editorial annotations</catDesc>
+                    </category>
+                    <category xml:id="date_imprecise-inferred-from-editorial-consultation">
+                        <catDesc>[Contemporary Volumes] Imprecise date value(s) augmented with
+                            @notBefore and @notAfter inferred during consultation with
+                            editor(s)/compiler(s)</catDesc>
+                    </category>
                     <category xml:id="date_imprecise-inferred-from-outside-research">
                         <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
                             inferred from related sources</catDesc>
@@ -75,13 +91,13 @@
                         <catDesc>Imprecise date value(s) augmented with @notBefore and @notAfter
                             inferred from nearest dated siblings</catDesc>
                     </category>
-                    <category xml:id="date_undated-inferred-from-document-content">
-                        <catDesc>Date value(s) for undated document were inferred from the content
-                            of the document</catDesc>
-                    </category>
                     <category xml:id="date_undated-inferred-from-chapter-heading">
                         <catDesc>Date value(s) for undated document were inferred from the heading
                             of its parent chapter</catDesc>
+                    </category>
+                    <category xml:id="date_undated-inferred-from-document-content">
+                        <catDesc>Date value(s) for undated document were inferred from the content
+                            of the document</catDesc>
                     </category>
                     <category xml:id="date_undated-inferred-from-document-content-and-sibling-dates">
                         <catDesc>Date value(s) for undated document were inferred from the content
@@ -95,6 +111,14 @@
                         <catDesc>Date value(s) for undated document were inferred from the content
                             of the scanned version of the document</catDesc>
                     </category>
+                    <category xml:id="date_undated-inferred-from-editorial-annotation">
+                        <catDesc>[Contemporary Volumes] Date value(s) for undated document were
+                            inferred from editorial annotations</catDesc>
+                    </category>
+                    <category xml:id="date_undated-inferred-from-editorial-consultation">
+                        <catDesc>[Contemporary Volumes] Date value(s) for undated document were
+                            inferred during consultation with editor(s)/compiler(s)</catDesc>
+                    </category>
                     <category xml:id="date_undated-inferred-from-outside-research">
                         <catDesc>Date value(s) for undated document were inferred from related
                             sources</catDesc>
@@ -107,7 +131,69 @@
                         <catDesc>Date value(s) for undated document were inferred from volume date
                             range and possibly outside research</catDesc>
                     </category>
+                    <category xml:id="date_undated-temporarily-inferred-from-volume-rules">
+                        <catDesc>Date value(s) for undated document were inferred from volume date
+                            range. (The value(s) serve as a placeholder until more discrete analysis
+                            can be conducted on an individual document level.)</catDesc>
+                    </category>
                     <!-- other categories -->
+                </taxonomy>
+                <!-- Taxonomy for date/@calendar values -->
+                <taxonomy xml:id="frus-calendars">
+                    <category xml:id="chinese-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="chinese-lunisolar">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="ethiopian-geez">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="gregorian">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="haitian-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="hijri">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="iranian-persian">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="japanese-nengō">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="julian">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="korean-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="korean-lunisolar">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="masonic-anno-lucis">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="papal-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="roman">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="rumi">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="thai-era">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="tibetan-phugpa">
+                        <catDesc/>
+                    </category>
+                    <category xml:id="us-era">
+                        <catDesc/>
+                    </category>
                 </taxonomy>
             </classDecl>
         </encodingDesc>

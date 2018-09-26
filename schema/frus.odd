@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="odd4odds.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="odd4odds.isosch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:lang="en" xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:rng="http://relaxng.org/ns/structure/1.0"
     xmlns:frus="http://history.state.gov/frus/ns/1.0"
@@ -9,18 +7,10 @@
         <fileDesc>
             <titleStmt>
                 <title>FRUS TEI Guidelines</title>
-                <author>
-                    <persName xml:id="Mandy">Mandy Chalou</persName>
-                </author>
-                <author>
-                    <persName xml:id="Joe">Joe Wicentowski</persName>
-                </author>
-                <author role="contributor">
-                    <persName xml:id="Amanda">Amanda Ross</persName>
-                </author>
-                <author role="contributor">
-                    <persName xml:id="Virginia">Virginia Kinniburgh</persName>
-                </author>
+                <author xml:id="Mandy">Mandy Chalou</author>
+                <author xml:id="Joe">Joe Wicentowski</author>
+                <author xml:id="Amanda" role="contributor">Amanda Ross</author>
+                <author xml:id="Virginia" role="contributor">Virginia Kinniburgh</author>
             </titleStmt>
             <publicationStmt>
                 <p>Released online as the prose and schema guidelines for the FRUS digital
@@ -290,8 +280,9 @@
                             <head>Front Matter Divs</head>
                             <p>After the <gi>titlePage</gi>, there are typically a number of
                                 sections, such as the Preface, Table of Contents, etc. Each
-                                    <gi>div</gi> requires <att>xml:id</att> and <att>type</att>
-                                attributes and a child <gi>head</gi>element.</p>
+                                    <gi>div</gi> requires <att>xml:id</att>, <att>type</att>, and
+                                    <att>subtype</att> attributes and a child
+                                <gi>head</gi>element.</p>
                             <egXML xmlns="http://www.tei-c.org/ns/Examples">
                                 <front>
                                     <titlePage/>
@@ -322,15 +313,20 @@
                                 so these values are allowed:</p>
                             <list>
                                 <item>Table of Contents: <att>type</att>=<ident>toc</ident>,
+                                        <att>subtype</att>=<ident>table-of-contents</ident>,
                                         <att>xml:id</att>=<ident>toc</ident></item>
                                 <item>List of Persons: <att>type</att>=<ident>section</ident>,
+                                        <att>subtype</att>=<ident>index</ident>,
                                         <att>xml:id</att>=<ident>persons</ident></item>
                                 <item>List of Terms &amp; Abbreviations:
                                         <att>type</att>=<ident>section</ident>,
+                                        <att>subtype</att>=<ident>index</ident>,
                                         <att>xml:id</att>=<ident>terms</ident></item>
                                 <item>Preface: <att>type</att>=<ident>section</ident>,
+                                        <att>subtype</att>=<ident>preface</ident>,
                                         <att>xml:id</att>=<ident>preface</ident></item>
                                 <item>Sources: <att>type</att>=<ident>section</ident>,
+                                        <att>subtype</att>=<ident>sources</ident>,
                                         <att>xml:id</att>=<ident>sources</ident></item>
                             </list>
                         </div>
@@ -418,8 +414,9 @@
                             <div xml:id="index">
                                 <head>Index</head>
                                 <p>Indexes are wrapped in a <gi>div</gi> with a <att>type</att>
-                                    value of <ident>section</ident> and an <att>xml:id</att> value
-                                    of <ident>index</ident>. The <gi>head</gi> element should be
+                                    value of <ident>section</ident>, a <att>subtype</att> value of
+                                        <ident>index</ident>, and an <att>xml:id</att> value of
+                                        <ident>index</ident>. The <gi>head</gi> element should be
                                     drawn from the text but is typically simply, "Index." The entire
                                     index should be wrapped in a single <gi>list</gi> element, with
                                     contents consisting of nested <gi>list</gi> and <gi>item</gi>
@@ -467,11 +464,42 @@
                         <p>Every <gi>div</gi> element must have one and only one child <gi>head</gi>
                             element.</p>
                     </div>
+                    <div xml:id="openers">
+                        <p>A document <gi>opener</gi> consists of material such as a
+                                <gi>dateline</gi>, a reference number ("No. 5" or similar) or
+                            classification indicator ("private," "top secret", etc.) and sometimes
+                            other content before the document itself. It goes inside the
+                                <gi>opener</gi> element. If there is no <gi>opener</gi> content,
+                            there is no need for an <gi>opener</gi> tag. The <gi>dateline</gi>
+                            element should be accompanied by a <att>rendition</att> attribute that
+                            specifies <ident>right</ident> alignment. All other <gi>opener</gi>
+                            content should be tagged using <gi>seg</gi> with <att>rendition</att>
+                            <ident>left</ident> alignment.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <head>
+                                <hi rend="italic">Mr. <persName type="from">Tower</persName> to Mr.
+                                        <persName type="to">Hay</persName>.</hi>
+                            </head>
+                            <opener>
+                                <dateline rendition="#right"><placeName><hi rend="smallcaps">United
+                                            States Legation</hi>,<lb/><hi rend="italic"
+                                        >Vienna</hi></placeName>, <date when="1899-01-25"><hi
+                                            rend="italic">January 25, 1899</hi></date></dateline>
+                                <seg rendition="#left">No. 116.]</seg>
+                            </opener>
+                            <p><hi rend="smallcaps">Sir</hi>: In compliance with the
+                                instructions</p>
+                        </egXML>
+                        <p>These <ident>left</ident> and <ident>right</ident>
+                            <att>rendition</att> attributes allow the <gi>seg</gi> and
+                                <gi>dateline</gi> to render on the same line in accordance with the
+                            letterpress edition.</p>
+                    </div>
                     <div xml:id="paragraphs">
                         <head>Paragraphs</head>
                         <p>Paragraphs are wrapped in a <gi>p</gi> element. By default, a paragraph
                             is left-aligned, roman text, and its first line will be indented, but
-                            these properties can be overriden with an optional <att>rend</att>
+                            these properties can be overridden with an optional <att>rend</att>
                             attribute carrying one of the following values: <list>
                                 <item><ident>flushleft</ident>: the paragraph's first line is flush
                                     left, that is, not indented.</item>
@@ -536,6 +564,10 @@
                             value of <ident>sectiontitleital</ident>. Paragraphs may be numbered;
                             these can be distinguished from lists by their indentation: their first
                             line is indented, but subsequent lines are flush left.</p>
+                        <p>Also distinguish lists from numbered paragraphs by the amount of
+                            non-numbered paragraphs within the block of text. More than two
+                                <gi>p</gi> tags within an <gi>item</gi> usually indicate that the
+                            section is composed of numbered paragraphs and is not a list.</p>
                         <p>Certain specialized lists take the following <att>type</att>
                             attributes:</p>
                         <list>
@@ -640,6 +672,129 @@
                             the date is wrapped in a <gi>date</gi> element, with a <att>when</att>
                             attribute with the date expressed in XML Schema date (xs:date) or date
                             time (xs:dateTime) notation.</p>
+                        <p>The complete dateline is part of the <gi>opener</gi> element, described
+                            above in 3.3.4., and is usually (but not always) preceded by a
+                                <gi>seg</gi> element. If preceded by a <gi>seg</gi> element, the
+                            dateline should include a <att>rendition</att> attribute specifying
+                                <ident>right</ident> alignment.</p>
+                        <p>Datelines can also be found at the end of documents wrapped in
+                                <gi>closer</gi> or <gi>postscript</gi> elements. The same guidelines
+                            apply for the <gi>placeName</gi> and <gi>date</gi> elements given
+                            above.</p>
+                        <p>In the case that more than one date appears in a dateline, wrap only the
+                            one: the date the document was created, with the <gi>date</gi> element.
+                            For example, in the dateline, "United States Legation, Vienna, October
+                            3, 1870. (Received October 26.)" the first date indicates the date of
+                            creation, and the second indicates the date the document was received by
+                            the recipient. Therefore, only the first date is tagged, and the second
+                            is left untagged:</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <dateline>
+                                <placeName>United States Legation, Vienna</placeName>, 
+                                <date when="1870-10-03" calendar="gregorian">October 3, 1870</date>. 
+                                (Received October 26.)
+                            </dateline>
+                        </egXML>
+                    </div>
+                    <div xml:id="dates">
+                        <head>Dates</head>
+                        <p>Dates are most often wrapped in the <gi>dateline</gi> elements.
+                            (Occasionally, quoted material may contain a <gi>date</gi> within
+                                <gi>quote</gi> but these encoded dates do not constitute a document
+                            date.)</p>
+                        <p>Dates must have one or more of the following attribute sets: <list>
+                                <item><att>when</att> attribute as xs:dateTime, xs:date, year-month
+                                    only (yyyy-mm), or year only (yyyy)<list>
+                                        <item>In cases where the <att>when</att> value is imprecise,
+                                            such as year only (yyyy) or year-month only (yyyy-mm),
+                                                <att>notBefore</att> and <att>notAfter</att>
+                                            attributes should be added as well as an <att>ana</att>
+                                            attribute containing an analytical category describing
+                                            the source of information used in enhancing the date
+                                            values</item>
+                                        <item>In cases where the date has been added to undated
+                                            documents or corrected from the original printing,
+                                                <att>ana</att> attribute should be added, containing
+                                            an analytical category describing the source of
+                                            information used in determining or correcting the date
+                                            values</item>
+                                    </list>
+                                </item>
+                                <item><att>from</att> and <att>to</att> attributes as xs:dateTime or
+                                    xs:date <list>
+                                        <item>In cases where the <att>from</att> and <att>to</att>
+                                            have been added to undated documents or corrected from
+                                            the original printing, <att>ana</att> attribute should
+                                            be added, containing an analytical category describing
+                                            the source of information used in determining or
+                                            correcting the date values</item>
+                                    </list>
+                                </item>
+                                <item><att>notBefore</att> and <att>notAfter</att> as xs:dateTime,
+                                    with an <att>ana</att> attribute containing analytical category
+                                    describing the source of information used in determining the
+                                    values of <att>notBefore</att> and <att>notBefore</att>.</item>
+                            </list> All <gi>date</gi> should receive a <att>calendar</att> attribute
+                            identifing all the calendars referenced in a date phrase.</p>
+                        <p>Examples of encoded dates follow:</p>
+
+                        <!-- Example 1: Simple @when, @calendar="gregorian" -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1950-06-08" calendar="gregorian">June 8, 1950</date>
+                        </egXML>
+                        <!-- Example 2: @when, parallel date statements, multiple @calendar values -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1904-03-09" calendar="chinese-era chinese-lunar gregorian"
+                                >Kuanghsü XXX year, first moon, 23d day. (March 9, 1904.)</date>
+                        </egXML>
+                        <!-- Example 3: @when, @calendar="hijri" only -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1901-08-18" calendar="hijri">Year 1319, Jamad-el-Ewel the
+                                third</date>
+                        </egXML>
+
+                        <!-- Example 4: @from/@to -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date from="1943-01-22" to="1943-01-23" calendar="gregorian">January
+                                22–23, 1943</date>
+                        </egXML>
+
+                        <!-- Example 5: @from/@to/@ana undated, document head -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date from="1946-07-04T17:45:00+01:00" to="1946-07-04T18:50:00+01:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >July 4, 1946, 5:45 p.m. to 6:50 p.m.</date>
+                        </egXML>
+                        <!-- Example 6: @when/@ana imprecise -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1969-04-01"
+                                ana="#date_imprecise-inferred-from-outside-research"
+                                calendar="gregorian">1969</date>
+                        </egXML>
+                        <!-- Example 7: @when/@ana undated, document head -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date when="1954-07-30T15:00:00-04:00"
+                                ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                                >undated</date>
+                        </egXML>
+                        <!-- Example 8: @notBefore/@notAfter/@ana imprecise -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date notBefore="1915-04-01T00:00:00+00:00"
+                                notAfter="1915-04-30T23:59:59+00:00"
+                                ana="#date_imprecise-inferred-from-date-rules" when="1915-04"
+                                calendar="gregorian">
+                                <hi rend="italic">April 1915</hi>
+                            </date>
+                        </egXML>
+                        <!-- Example 9: @notBefore/@notAfter/@ana undated -->
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                            <date notBefore="1917-09-25T00:00:00-05:00"
+                                notAfter="1917-09-26T23:00:00-05:00"
+                                ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian">
+                                <hi rend="italic">undated</hi>
+                            </date>
+                        </egXML>
+
                     </div>
                     <div xml:id="signatures">
                         <head>Signatures</head>
@@ -675,8 +830,9 @@
                         </list>
                         <p>The following attributes are optional on the <gi>table</gi> element:</p>
                         <list>
-                            <item>A bordered table can be marked with a <att>rend</att> attribute of
-                                    <ident>bordered</ident>.</item>
+                            <item>A table centered on the page can be marked with a
+                                    <att>rendition</att> attribute of
+                                <ident>center-block</ident>.</item>
                         </list>
                         <p>The following attributes may be used on <gi>row</gi> and <gi>cell</gi>
                             elements:</p>
@@ -697,7 +853,13 @@
                                 numerical content, such as dollar amounts or counts, can be marked
                                 using with a <att>role</att> attribute with a value of
                                     <ident>num</ident>; this will result in the text being
-                                right-aligned.</item>
+                                right-aligned. Cells with this attribute should not contain spaces
+                                between numbers (1,000 instead of 1, 000, for instance).</item>
+                            <item><att>rendition</att>: Cells with horizontal or vertical borders
+                                should be tagged with values of <ident>border-right</ident>,
+                                    <ident>border-left</ident>, <ident>border-top</ident>, or
+                                    <ident>border-bottom</ident>. Often these occur in combination
+                                or multiple values will apply to a single cell.</item>
                         </list>
 
                     </div>
@@ -743,10 +905,50 @@
                     </item>
                     <item>XML-based review <list>
                             <item>Open volume in oXygen</item>
+                            <item>Apply transformations for initial pass [A]<list>
+                                    <item>A 01. Add TEI/xmlns:xi and classDecl/xi:include for
+                                        frus-dates</item>
+                                    <item>A 02. Add date/@subtype="publication-date" in
+                                        TEIHeader/publicationStmt</item>
+                                    <item>A 03. Add div/@subtype="historical-document" OR
+                                        "editorial-note"</item>
+                                    <item>A 04. Add div/@subtype="referral"</item>
+                                    <item>A 05. Add FRUS documents dateTimes (min/max) [initial
+                                        pass]</item>
+                                </list>
+                            </item>
                             <item>Apply schema files and validate the file</item>
                             <item>Fix validation errors</item>
+                            <item>Apply transformation for secondary pass [B]<list>
+                                    <item>B 06. Add/update FRUS documents dateTimes (min/max)
+                                        [secondary pass]</item>
+                                </list>
+                            </item>
                             <item>Review structure</item>
                             <item>Silent corrections vs. Errata</item>
+                            <item>Apply transformations for tertiary pass [C]<list>
+                                    <item>C 07. Add date/@calendar="gregorian"</item>
+                                    <item>C 08. Add date/@calendar="us-republic"</item>
+                                    <item>C 09. Add rendition="#left" for closer//dateline without @
+                                        rendition</item>
+                                    <item>C 10. Add div/@subtype to front matter</item>
+                                    <item>C 11. Add div/@subtype to back matter</item>
+                                    <item>C 12. Add/update FRUS documents dateTimes (min/max)
+                                        [tertiary pass]</item>
+                                    <item>C 13. Add FRUS compilations/chapter/subchapter dateTimes
+                                        (min/max)</item>
+                                </list>
+                            </item>
+                            <item>Apply transformations for penultimate pass [D]<list>
+                                    <item>D 14. Add FRUS volume dateTimes in
+                                        xenoData/frus:coverage</item>
+                                </list>
+                            </item>
+                            <item>Apply transformations for final pass [E]<list>
+                                    <item>E 15. Add FRUS section/toc dateTimes (min/max)</item>
+                                    <item>E 16. Add FRUS editorial-notes dateTimes (min/max)</item>
+                                </list>
+                            </item>
                         </list></item>
                 </list>
             </div>
@@ -759,7 +961,7 @@
                 says what element(s) are allowed as the root element of documents 
                 conforming to this schema. There is no official default, but Roma 
                 behave as if the default is "teiCorpus TEI".-->
-                <schemaSpec ident="frus" start="TEI" source="tei:2.7.0">
+                <schemaSpec ident="frus" start="TEI" source="tei:3.4.0">
 
 
 
@@ -772,6 +974,7 @@
                     http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ST.html#STMA.
                     The first four listed here are required: core, tei, header, 
                     textstructure. -->
+                    <desc>FRUS TEI Schema Spec</desc>
                     <moduleRef key="core"
                         include="p hi gloss term name date time ref list item head note                          graphic pb lb editor title publisher pubPlace label gap unclear cit quote bibl del l lg"/>
                     <moduleRef key="tei"/>
@@ -898,7 +1101,7 @@
 
                     <!-- 
                     add frus:attachment
-                -->
+                    -->
                     <elementSpec mode="add" ident="attachment"
                         ns="http://history.state.gov/frus/ns/1.0">
                         <desc>Indicates the segment of a document where an attachment begins. To be
@@ -965,7 +1168,7 @@
 
                     <!-- 
                     constrain tei:list/@type
-                -->
+                    -->
                     <elementSpec ident="list" module="core" mode="change">
                         <desc>Restrict @type values for tei:list elements</desc>
                         <attList>
@@ -995,6 +1198,9 @@
                                     <valItem ident="sources">
                                         <gloss>Front matter List of Sources</gloss>
                                     </valItem>
+                                    <valItem ident="from">
+                                        <gloss>Document Senders/Authors List</gloss>
+                                    </valItem>
                                     <valItem ident="to">
                                         <gloss>Document Recipients List</gloss>
                                     </valItem>
@@ -1012,10 +1218,10 @@
 
 
                     <!-- 
-                    constrain tei:div/@type
-                -->
+                    constrain tei:div/@type | @subtype | @doc-dateTime-min | @doc-dateTime-max
+                    -->
                     <elementSpec ident="div" module="core" mode="change">
-                        <desc>Restrict @type values for tei:div elements</desc>
+                        <desc>Restrict attribute values for tei:div elements</desc>
                         <attList>
                             <attDef ident="type" usage="req" mode="replace">
                                 <valList type="closed">
@@ -1036,6 +1242,111 @@
                                     </valItem>
                                     <valItem ident="toc">
                                         <gloss>Table of Contents</gloss>
+                                    </valItem>
+                                </valList>
+                            </attDef>
+                            <attDef ident="subtype" usage="opt" mode="replace">
+                                <valList type="closed">
+                                    <valItem ident="about-frus-series">
+                                        <gloss>About the Series</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="acknowledgements">
+                                        <gloss>Acknowledgements</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="additional-volumes">
+                                        <gloss>Additional Volumes</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="appendix">
+                                        <gloss>Appendix</gloss>
+                                        <desc>Typically found in back matter</desc>
+                                    </valItem>
+                                    <valItem ident="chapter-introduction">
+                                        <gloss>Chapter Introduction</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="editorial-note">
+                                        <gloss>Editorial Note</gloss>
+                                        <desc>Typically found in the body of volume</desc>
+                                    </valItem>
+                                    <valItem ident="editorial-policies">
+                                        <gloss>Editorial Policies</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="errata">
+                                        <gloss>Errata</gloss>
+                                    </valItem>
+                                    <valItem ident="errata_document-numbering-error">
+                                        <gloss>Errata (Document Numbering Error)</gloss>
+                                        <desc>Typically found in the body of volume</desc>
+                                    </valItem>
+                                    <valItem ident="event">
+                                        <gloss>Event</gloss>
+                                    </valItem>
+                                    <valItem ident="graphic-materials">
+                                        <gloss>Graphic Materials</gloss>
+                                        <desc>Includes visual artwork, prints, and
+                                            photographs</desc>
+                                    </valItem>
+                                    <valItem ident="historical-document">
+                                        <gloss>Historical Document</gloss>
+                                        <desc>Typically found in the body of volume</desc>
+                                    </valItem>
+                                    <valItem ident="index">
+                                        <gloss>Index</gloss>
+                                        <desc>Includes indices, list of papers, list of persons, and
+                                            list of organizations; typically found in front matter
+                                            and back matter</desc>
+                                    </valItem>
+                                    <valItem ident="maps">
+                                        <gloss>Maps</gloss>
+                                    </valItem>
+                                    <valItem ident="note-on-covert-actions">
+                                        <gloss>Note on U.S. Covert Actions</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="notes">
+                                        <gloss>Notes</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="preface">
+                                        <gloss>Preface</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="press-release">
+                                        <gloss>Press Release</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="referral">
+                                        <gloss>Referral</gloss>
+                                    </valItem>
+                                    <valItem ident="related-materials">
+                                        <gloss>Related Materials</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="section">
+                                        <gloss>Section</gloss>
+                                        <desc>Typically found in front matter and back matter</desc>
+                                    </valItem>
+                                    <valItem ident="sources">
+                                        <gloss>Sources</gloss>
+                                    </valItem>
+                                    <valItem ident="subsection">
+                                        <gloss>Subsection</gloss>
+                                        <desc>Typically found in the body of the volume</desc>
+                                    </valItem>
+                                    <valItem ident="table-of-contents">
+                                        <gloss>Table of Contents</gloss>
+                                        <desc>Typically found in front matter</desc>
+                                    </valItem>
+                                    <valItem ident="undetermined">
+                                        <gloss>As-yet-to-be-determined</gloss>
+                                    </valItem>
+                                    <valItem ident="volume-summary">
+                                        <gloss>Volume Summary</gloss>
+                                        <desc>Typically found in front matter</desc>
                                     </valItem>
                                 </valList>
                             </attDef>
@@ -1060,7 +1371,7 @@
 
                     <!-- 
                     constrain tei:hi/@rend
-                -->
+                    -->
                     <elementSpec ident="hi" module="core" mode="change">
                         <desc>Restrict @rend values for tei:hi elements</desc>
                         <attList>
@@ -1094,7 +1405,7 @@
 
                     <!-- 
                     constrain tei:p/@rend
-                -->
+                    -->
                     <elementSpec ident="p" module="core" mode="change">
                         <desc>Restrict @rend values for tei:p elements</desc>
                         <attList>
@@ -1124,12 +1435,12 @@
                     </elementSpec>
 
                     <!-- 
-                    constrain tei:date/@ana
+                    constrain tei:date/@ana | @calendar
                     -->
                     <elementSpec ident="date" module="core" mode="change">
-                        <desc>Restrict @ana values for tei:date elements</desc>
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
+                                <desc>Restrict @ana values for tei:date elements</desc>
                                 <valList type="closed">
                                     <valItem ident="#date_apparent-typo-based-on-document-content">
                                         <gloss>The recorded date was determined to be an error via
@@ -1151,6 +1462,13 @@
                                         <gloss>The recorded date was determined to be an error by
                                             typo based on nearest dated siblings and corrected date
                                             value(s) were inferred from nearest dated
+                                            siblings</gloss>
+                                    </valItem>
+                                    <valItem
+                                        ident="#date_conversion-issue-inferred-from-document-content-and-sibling-dates">
+                                        <gloss>Problems in conversion to Gregorian date value(s)
+                                            necessitated adding @notBefore and @notAfter inferred
+                                            from the content of the document and nearest dated
                                             siblings</gloss>
                                     </valItem>
                                     <valItem ident="#date_editorial-correction">
@@ -1189,6 +1507,18 @@
                                             @notAfter inferred from the content of the document and
                                             nearest dated siblings</gloss>
                                     </valItem>
+                                    <valItem
+                                        ident="#date_imprecise-inferred-from-editorial-annotation">
+                                        <gloss>[Contemporary Volumes] Imprecise date value(s)
+                                            augmented with @notBefore and @notAfter inferred from
+                                            editorial annotations</gloss>
+                                    </valItem>
+                                    <valItem
+                                        ident="#date_imprecise-inferred-from-editorial-consultation">
+                                        <gloss>[Contemporary Volumes] Imprecise date value(s)
+                                            augmented with @notBefore and @notAfter inferred during
+                                            consultation with editor(s)/compiler(s)</gloss>
+                                    </valItem>
                                     <valItem ident="#date_imprecise-inferred-from-outside-research">
                                         <gloss>Imprecise date value(s) augmented with @notBefore and
                                             @notAfter inferred from related sources</gloss>
@@ -1221,6 +1551,18 @@
                                             the content of the scanned version of the original
                                             document</gloss>
                                     </valItem>
+                                    <valItem
+                                        ident="#date_undated-inferred-from-editorial-annotation">
+                                        <gloss>[Contemporary Volumes] Date value(s) for undated
+                                            document were inferred from editorial
+                                            annotations</gloss>
+                                    </valItem>
+                                    <valItem
+                                        ident="#date_undated-inferred-from-editorial-consultation">
+                                        <gloss>[Contemporary Volumes] Date value(s) for undated
+                                            document were inferred during consultation with
+                                            editor(s)/compiler(s)</gloss>
+                                    </valItem>
                                     <valItem ident="#date_undated-inferred-from-outside-research">
                                         <gloss>Date value(s) for undated document were inferred from
                                             related sources</gloss>
@@ -1235,8 +1577,216 @@
                                     </valItem>
                                 </valList>
                             </attDef>
+                            
+                            <attDef ident="calendar" usage="rec" mode="replace">
+                                <desc>Restrict @calendar values for tei:date elements</desc>
+                                <datatype>
+                                    <dataRef name="token"/>
+                                </datatype>
+                                <valList type="semi">
+                                    <valItem ident="brazilian-republic">
+                                        <gloss>Official documents such as treaties may include a
+                                            parallel date phrase referring to the year in relation
+                                            to the establishment of the republic of Brazil.</gloss>
+                                        <desc>FRUS example(s): “the 23d of December, 1889, first
+                                            year of the Republic”; “June 30, 1906, 18th of the
+                                            Republic”</desc>
+                                    </valItem>
+                                    <valItem ident="chinese-era">
+                                        <gloss>Prior to 1912, the Chinese dating system often
+                                            referred to the reign or era of particular rulers of
+                                            China.</gloss>
+                                        <desc>FRUS example(s): “Kuang Hsü, 26th year, 11th month,
+                                            24th day”</desc>
+                                    </valItem>
+                                    <valItem ident="chinese-lunisolar">
+                                        <gloss>The Chinese calendar is a lunisolar calendar. While
+                                            it has been supplanted by the Gregorian calendar for
+                                            civil purposes, the Chinese calendar is still used in
+                                            the determination of community events such as
+                                            festivals.</gloss>
+                                        <desc>FRUS example(s): “Eighth moon, 28th day (October 10,
+                                            1901)”; “Kuanghsü XXX year, first moon, 23d day”</desc>
+                                    </valItem>
+                                    <valItem ident="chinese-republic">
+                                        <gloss>Official documents such as treaties may include a
+                                            parallel date phrase referring to the year in relation
+                                            to the establishment of the republic of China.</gloss>
+                                        <desc>FRUS example(s): “March 10, 1st year of the Republic
+                                            of China [1912]”; “March 27, 1916 (27th day of the third
+                                            month of the fifth year of the Chinese Republic)”</desc>
+                                    </valItem>
+                                    <valItem ident="ethiopian-geez">
+                                        <gloss>The Ethiopian Ge’ez calendar is used in Ethiopia's
+                                            civil society as well as the Orthodox Church in Ethiopia
+                                            and Eritrea. The solar-based Ethiopian calendar is
+                                            related to the Coptic and Julian calendars.</gloss>
+                                        <desc>FRUS example(s): “Written 15th Tehsass 1907
+                                            (Abyssinian date) Year of Grace Adis Ababa.”; “22nd of
+                                            Mazia, 1919 (April 30, 1927)”</desc>
+                                    </valItem>
+                                    <valItem ident="gregorian">
+                                        <gloss>The Gregorian calendar is widely used worldwide and
+                                            is the calendar system used in the international
+                                            standard for dates and times (ISO 8601). The solar-based
+                                            Gregorian calendar is also known as the Western calendar
+                                            or Christian calendar. Because the U.S. Department of
+                                            State is headquartered in the United States, the
+                                            majority of datelines in FRUS refer to the Gregorian
+                                            calendar or have parallel date statements.</gloss>
+                                        <desc>FRUS example(s): “the 27th of April, 1904”; “September
+                                            21, 1982, 1345Z”; “this thirtieth day of November, in
+                                            the year of our Lord one thousand nine hundred and
+                                            eighteen”</desc>
+                                    </valItem>
+                                    <valItem ident="haitian-republic">
+                                        <gloss>Official documents such as treaties may include a
+                                            parallel date phrase referring to the year in relation
+                                            to the establishment of the republic of Haiti
+                                            (originally Hayti).</gloss>
+                                        <desc>FRUS example(s): “August 28, year 103 of the
+                                            independence”; “the 28th of May, 1890, the
+                                            eighty-seventh year of independence”</desc>
+                                    </valItem>
+                                    <valItem ident="hijri">
+                                        <gloss>The Islamic calendar, or Hijri or Muslim calendar, is
+                                            a lunar calendar, whose time reckoning is tied to the
+                                            phases of the Earth's moon. The Hijri calendar is used
+                                            by many Muslim-majority countries and by Muslims around
+                                            the world to determine the dates of religious events and
+                                            observances.</gloss>
+                                        <desc>FRUS example(s): “Year 1319, Jamad-el-Ewel the third”;
+                                            “27 Babee El Thani 1361 (13 May 1942)”</desc>
+                                    </valItem>
+                                    <valItem ident="iranian-persian">
+                                        <gloss>The Solar Hijri calendar, or Persian or Iranian
+                                            calendar, is a solar calendar, whose time reckoning is
+                                            tied to the Earth's movements around its sun. The
+                                            Persian calendar is officially used in Iran and
+                                            Afghanistan.</gloss>
+                                        <desc>FRUS example(s): “Khordad 29, 1306/June 20, 1927”;
+                                            “October 9, 1938 (Mehrmah, 17, 1317)”</desc>
+                                    </valItem>
+                                    <valItem ident="japanese-nengō">
+                                        <gloss>The Japanese nengō is a periodization system that,
+                                            during the FRUS timeframe, is based on the reign of
+                                            Japanese emperors.</gloss>
+                                        <desc>FRUS example(s): “the 10th day of the 2nd month of the
+                                            37th year of Meiji (1904)”; “October 15, 15th Year of
+                                            Showa”</desc>
+                                    </valItem>
+                                    <valItem ident="julian">
+                                        <gloss>Reforming the lunar-based Roman calendar, the Julian
+                                            calendar was solar-based and tied to the Earth's
+                                            rotation around the sun. Proposed by Julius Ceasar, the
+                                            Julian calendar was widely used throughout the Roman
+                                            Empire and in Christian churches and gained dominance in
+                                            Europe and European-sponsored settlements. While the
+                                            Gregorian calendar was first introduced in 1582, the
+                                            Julian calendar was maintained in some countries even
+                                            through the 1930s. The Julian calendar is still used by
+                                            the Russian Orthodox Church, the Berber people of North
+                                            Africa, and on Mount Athos.</gloss>
+                                        <desc>FRUS example(s): “Russian calendar, February 3, 1904”;
+                                            “October 30/17, 1904”</desc>
+                                    </valItem>
+                                    <valItem ident="korean-era">
+                                        <gloss>Korean dating systems often referred to the reign or
+                                            era of particular rulers of Korea.</gloss>
+                                        <desc>FRUS example(s): “Fifth year Kwang Mu, February 26”;
+                                            “Twenty-fourth day of the sixth month of the fourth year
+                                            of Lyung Heni”; “this 26th day of the seventh moon of
+                                            the five hundred and third year of Ta Chosen
+                                            [Korea]”</desc>
+                                    </valItem>
+                                    <valItem ident="korean-lunisolar">
+                                        <gloss>Derived from the Chinese calendar, the traditional
+                                            Korean calendar is a lunisolar calendar.</gloss>
+                                        <desc>FRUS example(s): “this 26th day of the seventh moon of
+                                            the five hundred and third year of Ta Chosen
+                                            [Korea]”</desc>
+                                    </valItem>
+                                    <valItem ident="liberian-republic">
+                                        <gloss>Official documents such as treaties may include a
+                                            parallel date phrase referencing the year of the
+                                            republic of Liberia.</gloss>
+                                        <desc>FRUS example(s): “this 7th day of April in the Year of
+                                            our Lord One Thousand Nine Hundred and Thirty and of the
+                                            Republic the Eighty-Third”</desc>
+                                    </valItem>
+                                    <valItem ident="masonic-anno-lucis">
+                                        <gloss>Among the different Masonic calendars, Anno Lucis
+                                            (A.L. or A:.L:. or the year of light) is used by
+                                            Freemasons in Scotland, England, Ireland, France,
+                                            Germany, and the United States. The “year of light”
+                                            refers to a particular Biblical interpretation of the
+                                            creation of the world (~4000 BCE).</gloss>
+                                        <desc>FRUS example(s): “24th day of the 3d month, in the
+                                            year of light 5865”</desc>
+                                    </valItem>
+                                    <valItem ident="papal-era">
+                                        <gloss>Papal era dates referred to the year in relation to
+                                            the term of the current Catholic pope.</gloss>
+                                        <desc>FRUS example(s): “die XX Maii MDCCCLXXIII Pontificatus
+                                            Nostri anno vicesimo septimo”; “the 29th day of July,
+                                            1853, in the eighth year of our pontificate”</desc>
+                                    </valItem>
+                                    <valItem ident="roman">
+                                        <gloss>The Roman calendar was used by the Roman Kingdom and
+                                            Roman Republic. Roman dates were referenced by their
+                                            duration from one of three key days: the nones (fifth or
+                                            seventh, depending on the length of the month), the ides
+                                            (the thirteenth or fifteenth of a month), and the
+                                            kalends (the first of the next month).</gloss>
+                                        <desc>FRUS example(s): “in the year of the incarnation of
+                                            our Lord, one thousand eight hundred and forty, on the
+                                            fifth day before the kalends of May (27th April,
+                                            1840)”</desc>
+                                    </valItem>
+                                    <valItem ident="rumi">
+                                        <gloss>The Rumi calendar (Rumi takvim), a hsolar calendar
+                                            based on the Julian calendar but with year one
+                                            corresponding to 622 A.D., This calendar was used by the
+                                            Ottoman Empire and its successor, the Republic of
+                                            Turkey, from 1839 to 1926. </gloss>
+                                        <desc>FRUS example(s): “Nissan, 21, 1325. (May 5,
+                                            1909.)”</desc>
+                                    </valItem>
+                                    <valItem ident="thai-era">
+                                        <gloss>Official documents such as treaties may include a
+                                            parallel date phrase referring to the year in relation
+                                            to the 1782 establishment of the Rattanakosin Kingdom
+                                            (Siam and, later, the Kingdom of Thailand).</gloss>
+                                        <desc>FRUS example(s): “the 31st day of March, Ratanakosindr
+                                            Sok, 123”</desc>
+                                    </valItem>
+                                    <valItem ident="tibetan-phugpa">
+                                        <gloss>Introduced in 1447, the lunisolar Tibetan phugpa
+                                            calendar is modified from Indian calendar systems and
+                                            based on the Kālacakra Tantra. In the phugpa calendar,
+                                            each year is associated with an element and an animal;
+                                            pairings recur in 60-year cycles.</gloss>
+                                        <desc>FRUS example(s): “13th Day of 1st month, Water Sheep
+                                            Year. (Corresponding to February 1943.)”; “25th of 8th
+                                            month Fire-Pig Tibetan Year [1947]”</desc>
+                                    </valItem>
+                                    <valItem ident="us-republic">
+                                        <gloss>Official documents such as treaties may include a
+                                            parallel date phrase referring to the year in relation
+                                            to the independence of the United States (1776).</gloss>
+                                        <desc>FRUS example(s): “this 16th day of January, in the
+                                            year of our Lord one thousand eight hundred and
+                                            eighty-eight, and of the independence of the United
+                                            States the one hundred and twelfth”; “this 28th day of
+                                            May, in the year of our Lord nineteen hundred and
+                                            forty-one, and of the Independence of the United States
+                                            of America the one hundred and sixty-fifth”</desc>
+                                    </valItem>
+                                </valList>
+                            </attDef>
                         </attList>
                     </elementSpec>
+
 
                     <!-- 
                     constrain tei:head/@ana
@@ -1247,11 +1797,24 @@
                         <attList>
                             <attDef ident="ana" usage="opt" mode="replace">
                                 <valList type="closed">
+                                    <valItem ident="#head_untitled-inferred-from-chapter-head">
+                                        <gloss>The author and recipient were not included by the
+                                            FRUS editor/compiler as they were determined to be the
+                                            same as those supplied in the parent chapter
+                                            heading.</gloss>
+                                    </valItem>
                                     <valItem
                                         ident="#head_untitled-inferred-from-preceding-sibling-head">
                                         <gloss>The author and recipient were not included by the
                                             FRUS editor/compiler as they were determined to be the
                                             same as those of the preceding document.</gloss>
+                                    </valItem>
+                                    <valItem ident="#head_untitled-missing-head-in-printed-volume">
+                                        <gloss>The printed volume did not include a header for the
+                                            particular document, and none could be inferred from the
+                                            parent chapter or preceding document. As a result,
+                                            "[Untitled]" has been added as the header in the encoded
+                                            version of the document.</gloss>
                                     </valItem>
                                 </valList>
                             </attDef>
